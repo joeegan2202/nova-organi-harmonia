@@ -1,0 +1,34 @@
+\documentclass[titlepage]{book}
+
+\usepackage{pdfpages}
+\includepdfset{pagecommand=\thispagestyle{plain}}
+
+\newcommand{\song}[2]
+{
+	\addcontentsline{toc}{section}{#1}
+	\includepdf[pages=-]{out/#2.pdf}
+}
+%
+%\newcommand{\booksong}[3]
+%{
+%	\addcontentsline{toc}{section}{#1}
+%	\includepdf[pages=#3]{#2}
+%}
+
+\title{Nova Organi Harmonia}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\pagenumbering{roman}
+
+\tableofcontents
+\clearpage
+
+\pagenumbering{arabic}
+
+\song{Kyrie II}{kyrie_II}
+
+\end{document}
