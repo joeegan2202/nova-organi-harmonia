@@ -16,20 +16,20 @@ textB = \lyricmode {
 }
 
 chantMusic = \relative c' {
-  e g a b a g fis e g e d e d e
-  g a g4 fis e \doubleBar
+  e4( g) a( b a g) fis( e) g( e d e) d( e)
+  g( a) g fis( e) \finalis
 }
 
 altoMusic = \relative c' {
-  e2*5/4 b2*1/2 d2*5/4 c2 b2*1/2
+  e2*3 b2 d2*3 c2*3/2 b2
 }
 
 tenorMusic = \relative c' {
-  g2*5/4~ g2*1/2~ g2*5/4~ g2~ g2*1/2
+  g2*3~ g2~ g2*3~ g2*3/2~ g2 \finalis
 }
 
 bassMusic = \relative c {
-  e2*5/4~ e2*1/2 b2*5/4 a2 e'2*1/2
+  e2*3~ e2 b2*3 a2*3/2 e'2
 }
 
 \score {

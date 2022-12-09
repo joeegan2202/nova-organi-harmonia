@@ -37,99 +37,99 @@ chantText = \lyricmode {
 
 chantMusic = \relative c' {
   %Measure 1
-  a'4 fis d g fis fis16( e d4) d \doubleBar
+  a'4 fis d g fis fis16( e d4) d \finalis
 
   %2
-  fis16( g16*3) fis4 a fis d e d \halfBar \forceBreak
-  d4 fis g a a a b a \halfBar
-  a a b b d cis16( a b4) b a \halfBar \forceBreak
-  a fis d g fis16( d e4) e d \doubleBar
+  fis16( g16*3) fis4 a fis d e d \divisioMaior \forceBreak
+  d4 fis g a a a b a \divisioMaior
+  a a b b d cis16( a b4) b a \divisioMaior \forceBreak
+  a fis d g fis16( d e4) e d \finalis
 
   %3
   a'4 a fis fis d d e \forceBreak
-  fis g e d \quarterBar
-  fis fis fis g e a a b b a \doubleBar \break
+  fis g e d \divisioMinima
+  fis fis fis g e a a b b a \finalis \forceBreak
 
   %4
-  fis4 e g g fis16( d e4) d \quarterBar
-  fis4 fis a b a fis16( d e4) e d \doubleBar \break
+  fis4 e g g fis16( d e4) d \divisioMinima
+  fis4 fis a b a fis16( d e4) e d \finalis \forceBreak
 
   %5
-  a' a a fis d \quarterBar
-  d e e fis e d \quarterBar
+  a' a a fis d \divisioMinima
+  d e e fis e d \divisioMinima
   a' a b a d \forceBreak
-  cis a b a \doubleBar
+  cis a b a \finalis
 
   %6
-  fis fis e g fis16( d e4) d \quarterBar
-  fis4 fis a a b a g a \halfBar \forceBreak
-  b d cis a a b g a \doubleBar
+  fis fis e g fis16( d e4) d \divisioMinima
+  fis4 fis a a b a g a \divisioMaior \forceBreak
+  b d cis a a b g a \finalis
 
   %7
-  a4 a fis fis a b a \quarterBar \forceBreak
-  d,4 d d d e fis g a \quarterBar
-  b cis d cis16( a16*3) b4 a \doubleBar \break
+  a4 a fis fis a b a \divisioMinima \forceBreak
+  d,4 d d d e fis g a \divisioMinima
+  b cis d cis16( a16*3) b4 a \finalis \forceBreak
 
   %8
-  a4 fis fis d e d fis fis e fis a16( b16*3) a4 \quarterBar
+  a4 fis fis d e d fis fis e fis a16( b16*3) a4 \divisioMinima
   b d cis a \forceBreak
-  b b a \halfBar
-  d, fis fis g g a \doubleBar
+  b b a \divisioMaior
+  d, fis fis g g a \finalis
 
   %9
   fis4 e16( g16*3) fis16( d e4) d d e fis g \forceBreak
-  a16( b16*3) a4 \quarterBar
-  a a a b g a fis \quarterBar
-  a fis d g fis16( d e4) e d \doubleBar \break
+  a16( b16*3) a4 \divisioMinima
+  a a a b g a fis \divisioMinima
+  a fis d g fis16( d e4) e d \finalis \forceBreak
 
   %10
-  a'4 a a b a a fis g a a \quarterBar
-  d, e fis g e d \doubleBar \break
+  a'4 a a b a a fis g a a \divisioMinima
+  d, e fis g e d \finalis \forceBreak
 
   %11
-  d4 fis a16( b16*3) cis4 d cis16( a b4) a \halfBar
-  a a a fis fis g fis16( d e4) d \doubleBar \break
+  d4 fis a16( b16*3) cis4 d cis16( a b4) a \divisioMaior
+  a a a fis fis g fis16( d e4) d \finalis \forceBreak
 
   %12
-  a'4 a a fis fis d d e e fis e d \quarterBar
+  a'4 a a fis fis d d e e fis e d \divisioMinima
   a' a b a \forceBreak
-  d cis a b b a \halfBar
-  a a fis d g fis fis e d \doubleBar \break
+  d cis a b b a \divisioMaior
+  a a fis d g fis fis e d \finalis \forceBreak
 
   %13
-  d'4 d b b d a a b b a \quarterBar
-  d, fis a a b a \halfBar \forceBreak
-  a g a fis g e fis g fis16( d16*3) e4 d \doubleBar
+  d'4 d b b d a a b b a \divisioMinima
+  d, fis a a b a \divisioMaior \forceBreak
+  a g a fis g e fis g fis16( d16*3) e4 d \finalis
 
   %14
   d4 fis a a fis \forceBreak
-  g fis a \quarterBar
-  b a d cis b a \quarterBar
-  d, fis fis a a b a \halfBar \forceBreak
-  a a fis fis d g fis16( d16*3) e4 d \doubleBar
+  g fis a \divisioMinima
+  b a d cis b a \divisioMinima
+  d, fis fis a a b a \divisioMaior \forceBreak
+  a a fis fis d g fis16( d16*3) e4 d \finalis
 
   %15
   a'4 a a fis fis \forceBreak
-  d e e d \quarterBar
-  a' a a a a b g a a fis \doubleBar \break
+  d e e d \divisioMinima
+  a' a a a a b g a a fis \finalis \forceBreak
 
   %16
-  a4 b cis d b d cis16( a16*3) b4 a \quarterBar
+  a4 b cis d b d cis16( a16*3) b4 a \divisioMinima
   fis e fis a g fis e fis \forceBreak
-  e d \doubleBar
+  e d \finalis
 
   %17
-  a'4 a fis d a' a a a b a g fis g fis \doubleBar \break
+  a'4 a fis d a' a a a b a g fis g fis \finalis \forceBreak
 
   %18
-  d'4 cis16( b16*3) a4 fis b a fis g a \doubleBar
+  d'4 cis16( b16*3) a4 fis b a fis g a \finalis
 
   %19
   a16(  fis d4) e16( e d4.)
   d'16( cis a4) b16( b a4.)
   fis16( g16*3)
   a16( d,16*3)
-  e16( e d4) d \doubleBar
+  e16( e d4) d \finalis
 }
 
 altoMusic = \relative c' {
@@ -227,89 +227,89 @@ altoMusic = \relative c' {
 
 tenorMusic = \relative c' {
   %1
-  s2*3 s2*3/4
+  s2*3 s2*3/4 \finalis
 
   %2
-  a2~ a2*3/2~ a2~ \halfBar
-  a4~ a2~ a2*3/2~ a2 \halfBar
-  d~ d2*3/2~ d2*5/4 cis4~ \halfBar
-  cis b2*3/2 a2*3/4 g4 fis
+  a2~ a2*3/2~ a2~ \divisioMaior
+  a4~ a2~ a2*3/2~ a2 \divisioMaior
+  d~ d2*3/2~ d2*5/4 cis4~ \divisioMaior
+  cis b2*3/2 a2*3/4 g4 fis \finalis
 
   %3
-  a2 b a2*3/2 g2 fis \quarterBar
-  b2*3/2~ b2~ b d cis4
+  a2 b a2*3/2 g2 fis \divisioMinima
+  b2*3/2~ b2~ b d cis4 \finalis
 
   %4
-  a2 g a2*5/4~ \quarterBar
-  a2~ a2*3/2~ a2*3/4 g4 fis4
+  a2 g a2*5/4~ \divisioMinima
+  a2~ a2*3/2~ a2*3/4 g4 fis4 \finalis
 
   %5
-  a2*3/2~ a2 \quarterBar
-  g2*3/2 fis2 b4 \quarterBar
-  a2~ a2*3/2 d2 cis
+  a2*3/2~ a2 \divisioMinima
+  g2*3/2 fis2 b4 \divisioMinima
+  a2~ a2*3/2 d2 cis \finalis
 
   %6
-  b2*2 a2*5/4~ \quarterBar
-  a2~ a fis e4 fis \halfBar
-  a2 d2*3/2~ d2 cis4
+  b2*2 a2*5/4~ \divisioMinima
+  a2~ a fis e4 fis \divisioMaior
+  a2 d2*3/2~ d2 cis4 \finalis
 
   %7
-  a4~ a2*3/2~ a~ \quarterBar
-  a4~ a2 b2*3/2~ b4 cis~ \quarterBar
-  cis d2 e2*1/2 d4 cis
+  a4~ a2*3/2~ a~ \divisioMinima
+  a4~ a2 b2*3/2~ b4 cis~ \divisioMinima
+  cis d2 e2*1/2 d4 cis \finalis
 
   %8
-  a4~ a2 b2*2 a2*3/2~ a2 \quarterBar
-  d~ d cis2*3/2 \halfBar
-  b4~ b2~ \shiftRightB b cis4
+  a4~ a2 b2*2 a2*3/2~ a2 \divisioMinima
+  d~ d cis2*3/2 \divisioMaior
+  b4~ b2~ \shiftRightB b cis4 \finalis
 
   %9
-  a2~ a2*5/4 b2*2 a2~ \quarterBar
-  a4 fis2 e fis~ \quarterBar
-  fis g a2*3/4 g4 fis
+  a2~ a2*5/4 b2*2 a2~ \divisioMinima
+  a4 fis2 e fis~ \divisioMinima
+  fis g a2*3/4 g4 fis \finalis
 
   %10
-  d'2*3/2 cis2 b2*3/2 cis2 \quarterBar
-  b4~ b2*3/2 g4 fis
+  d'2*3/2 cis2 b2*3/2 cis2 \divisioMinima
+  b4~ b2*3/2 g4 fis \finalis
 
   %11
-  d'2 e2*3/2 d2*3/4 cis4~ \halfBar
-  cis2*3/2 b a2*1/4 g4 fis
+  d'2 e2*3/2 d2*3/4 cis4~ \divisioMaior
+  cis2*3/2 b a2*1/4 g4 fis \finalis
 
   %12
-  a4~ a2~ a g2*2 fis2 b4 \quarterBar
-  a2 d~ d2*3/2 cis \halfBar
-  a2 b2*3/2 a2 g4 fis
+  a4~ a2~ a g2*2 fis2 b4 \divisioMinima
+  a2 d~ d2*3/2 cis \divisioMaior
+  a2 b2*3/2 a2 g4 fis \finalis
 
   %13
-  fis2 g2*3/2 fis2 a2*3/2~ \quarterBar
-  a2*2~ a2 \halfBar
-  b~ b2*2~ b2 a2*1/2 g4 fis
+  fis2 g2*3/2 fis2 a2*3/2~ \divisioMinima
+  a2*2~ a2 \divisioMaior
+  b~ b2*2~ b2 a2*1/2 g4 fis \finalis
 
   %14
-  a2~ a2*3/2~ a~ \quarterBar
-  a2~ a~ a~ \quarterBar
-  a4 b2*2 fis2 \halfBar
-  a~ a b a2*1/2 g4 fis
+  a2~ a2*3/2~ a~ \divisioMinima
+  a2~ a~ a~ \divisioMinima
+  a4 b2*2 fis2 \divisioMaior
+  a~ a b a2*1/2 g4 fis \finalis
 
   %15
-  a4~ a2~ a s4 g2 fis4 \quarterBar
-  e2*3/2 fis2 g e fis4
+  a4~ a2~ a s4 g2 fis4 \divisioMinima
+  e2*3/2 fis2 g e fis4 \finalis
 
   %16
-  a4~ a2*3/2 d2~ d2*1/2 cis2 \quarterBar
-  a~ a~ a g~ g4 fis
+  a4~ a2*3/2 d2~ d2*1/2 cis2 \divisioMinima
+  a~ a~ a g~ g4 fis \finalis
 
   %17
-  a2~ a~ a2*2 fis2 g b
+  a2~ a~ a2*2 fis2 g b \finalis
 
   %18
-  s4 d2*1/2~ d2~ d b cis4
+  s4 d2*1/2~ d2~ d b cis4 \finalis
 
   %19
   fis,2*3/4 g2*1/4 fis2*3/4~
   fis2*3/4 a2
-  b2*1/2 a g2*3/4 fis4
+  b2*1/2 a g2*3/4 fis4 \finalis
 }
 
 bassMusic = \relative c {

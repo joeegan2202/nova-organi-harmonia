@@ -89,7 +89,7 @@ d'4 e'2*4/2 ~ e'4 b2 ~ b2 -\tweak Glissando.Y-offset #-0.8 \glissando d'4 r2*4/2
 cis'4 ~ cis'2*3/2 b2 d'2 ~ \divisioMinima
 d'4 e'2*4/2 ~ e'4 b2 ~ b2 -\tweak Glissando.Y-offset #-0.8 \glissando d'4 cis'4 b2 ~ b4 \finalis
 e'2 fis'2 ~ fis'2*5/4 ~ fis'2*9/4 ~ fis'2 ~ fis'2 ~ fis'2*3/2 ~ \divisioMinima
-fis'4 e'2*3/2 -\tweak Glissando.Y-offset #-0.8 \glissando fis'4 r2*6/2 \finalis
+fis'4 e'2*3/2 -\tweak Glissando.Y-offset #-0.8 \glissando fis'4 s2*6/2 \finalis
 e'2 ~ e'2 fis'2*5/4 ~ fis'2*9/4 ~ fis'2*4/2 ~ fis'2*3/2 ~ \divisioMinima
 fis'4 e'2*3/2 ~ e'2 d'2*3/2 b2 \finalis
 e'2 ~ e'2 fis'2*5/4 ~ fis'2*9/4 ~ fis'2*4/2 d'2*3/2 ~ \divisioMinima

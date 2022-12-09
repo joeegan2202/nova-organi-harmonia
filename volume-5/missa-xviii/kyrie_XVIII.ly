@@ -56,8 +56,8 @@ chantMusic = {
  \forceBreak
  c''4 c''4 ( d''4) c''4 ( bes'4) c''4 c''4 a'4 \finalis
  c''4 c''4 ( d''4) c''4 ( bes'4) c''4 c''4 a'4 \finalis
- bes'4 ( bes'4 a'4) g'4 ( a'4) g'4 \forceBreak
- f'4 g'4 a'4 a'4 \finalis
+ bes'4 ( bes'4 a'4) g'4 ( a'4) g'4 f'4 \forceBreak
+ g'4 a'4 a'4 \finalis
  bes'4 ( bes'4 a'4) g'4 ( a'4) g'4 f'4 g'4 a'4 a'4 \finalis
  a'4 ( \quil bes' c''4) g'4 ( a'4) g'4 ( f'4) \forceBreak
   c''4 ( bes'4) c''4 ( d''4 c''4 bes'4) c''4 c''4 a'4 \finalis

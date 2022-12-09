@@ -100,7 +100,7 @@ d4 ~ d2 ees2*5/2 bes,2 c4 \finalis
 d'2 ~ d'2 c'2*5/2 ~ \divisioMinima
 c'2 bes2*4/2 a4 \finalis
 bes2 c'2 bes2*4/2 a4 ~ \divisioMinima
-a2 f2*3/2 g4-\tweak Glissando.Y-offset #-0.8 \glissando \change Staff = "up" a4 \change Staff = "down" \finalis
+a2 f2*3/2 g4-\tweak Glissando.Y-offset #-0.8 \glissando \once\voiceTwo \change Staff = "up" a4 \change Staff = "down" \finalis
 r2 g2 a2*4/2 bes2*3/2 g2*3/2 ees2 bes,2 c4 \finalis
 }
 

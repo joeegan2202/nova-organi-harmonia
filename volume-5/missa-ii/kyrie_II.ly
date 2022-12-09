@@ -170,7 +170,7 @@ voiceLines = {
 
 s2*3/2
 \allowVoiceLineBreak
-\voiceLine "down" "up" e'4. e'2*1/2
+\voiceLine "down" "up" e'4*3/2 e'2*1/2
 
 
 s2*9/4
@@ -185,7 +185,7 @@ s2*2/2
 
 s2*47/2
 \allowVoiceLineBreak
-\voiceLine "down" "up" e'4. e'2*1/2
+\voiceLine "down" "up" e'4*3/2 e'2*1/2
 
 
 s2*9/4

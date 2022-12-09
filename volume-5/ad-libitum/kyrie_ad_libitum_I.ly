@@ -9,6 +9,7 @@ global = {
  \key e \dorian
  \cadenzaOn 
  \override Glissando #'thickness = #2.0
+ \override Glissando #'breakable = ##t 
 }
 
 \header {
@@ -105,18 +106,23 @@ d'2*9/4 ~ d'2 ~ d'2*4/2 -\tweak Glissando.Y-offset #-0.8 \glissando e'4 fis'4 d'
 }
 
 tenorMusic = {
-e'2*5/2 ~ e'2*3/4 ~ e'2*4/2 d'2 ~ d'2*7/4 c'2*4/2 b2*4/2 fis2 g4 \finalis
+e'2*5/2 ~ e'2*3/4 ~ e'2*4/2 \divisioMinima
+d'2 ~ d'2*7/4 c'2*4/2 b2*4/2 fis2 g4 \finalis
 g2 ~ g2*3/2 ~ g2*3/2 ~ g2*5/4 a2*4/2 \divisioMinima
-g2*4/2 fis2*3/2 g4 d'2*5/2 ~ d'2*3/4 c'2*4/2 b2 a2*7/4 b2*4/2 a2 ~ a2 ~ a2 g4 \finalis
+g2*4/2 fis2*3/2 g4 \finalis
+d'2*5/2 ~ d'2*3/4 c'2*4/2 \divisioMinima
+b2 a2*7/4 b2*4/2 a2 ~ a2 ~ a2 g4 \finalis
 g2*3/2 fis2*4/2 g2*5/4 fis2*3/2 ~ fis2*3/2 \divisioMinima
 a2*4/2 ~ a2*3/2 ~ a2 g2 fis2 g4 \finalis
 fis2 ~ fis2*3/2 g2*3/2 ~ g2*5/4 a2 b2 ~ \divisioMinima
 b2*4/2 g2*3/2 ~ g4 \finalis
 g2*3/2 fis2*4/2 g2*5/4 fis2*3/2 ~ fis2*3/2 ~ \divisioMinima
-fis2*4/2 b2*3/2 ~ b2*4/2 fis2 g4 r2 b2 c'2*3/2 d'2*3/4 c'2 a2 b2*3/2 \divisioMinima a2 g2 a2*7/4 b2*9/4 a2*3/2 g2*7/2 ~ \divisioMinima
+fis2*4/2 b2*3/2 ~ b2*4/2 fis2 g4 \finalis
+r2 b2 c'2*3/2 d'2*3/4 c'2 a2 b2*3/2 \divisioMinima
+a2 g2 a2*7/4 b2*9/4 a2*3/2 g2*7/2 ~ \divisioMinima
 g2*9/4 ~ g2 ~ g2*4/2 ~ g2*4/2 fis2*3/2 g4 \finalis
-a2*6/2 g2 ~ g2*3/4 b2*5/4 ~ b2*4/2 ~ 
-b2*4/2 g2*3/2 ~ g4 g2 ~ g2*5/2 ~ g2*11/4 ~ g2*3/2 \divisioMinima fis2 \shiftRight e2 ~ e2*7/4 ~ e2*4/2 g2*3/2 \divisioMinima
+a2*6/2 g2 ~ g2*3/4 b2*5/4 ~ b2*4/2 ~ b2*4/2 g2*3/2 ~ g4 \finalis
+g2 ~ g2*5/2 ~ g2*11/4 ~ g2*3/2 \divisioMinima fis2 \shiftRight e2 ~ e2*7/4 ~ e2*4/2 g2*3/2 \divisioMinima
 fis2*3/2 g2*3/2 ~ g2*4/2 \divisioMinima
 fis2*3/2 g2*3/2 ~ g2 ~ g2 \divisioMinima
 a2*9/4 ~ a2 g2*4/2 ~ g2 fis2 g2*3/2 ~ g4 \finalis

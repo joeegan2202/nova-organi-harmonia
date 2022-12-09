@@ -52,22 +52,22 @@ et in sǽ -- cu -- la sæ -- cu -- ló -- rum. A -- men. }
 
 chantMusic = {
 \tieDown   d'4 ( e'4) g'4 ( fis'4 e'4) fis'4 ( g'4) a'4 \divisioMinima
- b'4 ( c''\prall d''4) d''4 ( c''4) b'4 ( a'4) \divisioMinima
+ b'4 ( \quil c'' d''4) d''4 ( c''4) b'4 ( a'4) \divisioMinima
  b'4 a'4 ( g'4) fis'4 ( g'4)
  a'4 ( g'4 e'4) fis'4 d'4 ( e'4 d'4) d'4 \divisioMaxima \forceBreak
  d'4 ( e'4) g'4 ( fis'4 e'4) fis'4 ( g'4) a'4 \divisioMaior
- a'4 ( b'\prall c''4 b'4 a'4) g'4 ( fis'4) e'4 g'4 fis'4 ( g'4)
+ a'4 ( \quil b' c''4 b'4 a'4) g'4 ( fis'4) e'4 g'4 fis'4 ( g'4)
  a'4 ( g'4 e'4) fis'4 d'4 ( e'4 d'4) d'4 \finalis \forceBreak
  d'4 ( g'4 fis'4) g'4 ( a'4) a'4 a'4 a'4 ( c''4) b'4 b'4 ( a'4) a'4 ( b'4) \divisioMaxima
  a'4 ( fis'4) g'4 ( \once \tweak #'font-size #-4 a' ) a'4 a'4 a'4 a'4 a'4 a'4 \forceBreak
- a'4 ( b'\prall c''4) a'4 g'4 g'4 ( g'4 g'4) e'4 ( d'4) \finalis
+ a'4 ( \quil b' c''4) a'4 g'4 g'4 ( g'4 g'4) e'4 ( d'4) \finalis
  d'4 ( g'4 fis'4) g'4 ( a'4) a'4 a'4 a'4 a'4 
  a'4 a'4 a'4 \divisioMinima \forceBreak
  a'4 a'4 a'4 ( c''4) b'4 b'4 b'4 ( \once \tweak #'font-size #-4 a' ) a'4 ( b'4) \divisioMaxima
  a'4 ( fis'4) g'4 ( a'4) a'4 a'4 a'4 a'4 a'4 a'4 a'4 \divisioMinima
  \forceBreak
  a'4 a'4 ( c''4) b'4 b'4 ( \once \tweak #'font-size #-4 a' ) a'4 ( b'4) \divisioMaxima
- a'4 ( fis'4) g'4 ( a'4) a'4 a'4 a'4 a'4 a'4 ( b'\prall c''4) a'4 g'4 g'4 ( g'4 g'4) e'4 ( d'4) \finalis
+ a'4 ( fis'4) g'4 ( a'4) a'4 a'4 a'4 a'4 a'4 ( \quil b' c''4) a'4 g'4 g'4 ( g'4 g'4) e'4 ( d'4) \finalis
 
 }
 

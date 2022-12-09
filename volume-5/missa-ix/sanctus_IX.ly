@@ -22,126 +22,124 @@ chantText = \lyricmode {
 
 chantMusic = \relative c' {
   %1
-  a'16( a \tieDown fis4)~  fis d  e fis e d4 \quarterBar
-   fis fis e d4 \quarterBar
-   d fis  a a  d cis b cis  b a \quarterBar \forceBreak
-  d4 cis  b cis  d cis b a4  fis d  g fis e fis  e d d4 \singleBar
+  a'4( a \tieDown fis)~ fis( d) e( fis e) d4 \divisioMinima
+  fis( fis e) d4 \divisioMinima
+  d( fis) a( a) d( cis b cis) b( a) \divisioMinima \forceBreak
+  d4 cis b( cis) d( cis b) a fis( d) g( fis e fis) e( d) d \divisioMaxima
 
   %2
-  fis4  fis e d4 e fis a \forceBreak
-  b16( cis \tieDown b4)~ b16( \once \teeny a16*3) a4 \quarterBar
-  d  cis b  a fis  g fis e  e d \noBreak \singleBar
+  fis4 fis( e) d e fis a \forceBreak
+  b( cis \tieDown b)~ b( \once \teeny a) a4 \divisioMinima
+  d cis( b) a( fis) g( fis e) e( d) \divisioMaxima
 
   %3
-  fis4  a b a  a a fis4 d  e fis e  e d \singleBar \break
+  fis4 a( b a) a( a) fis4 d e( fis e) e( d) \divisioMaxima \forceBreak
 
   %4
-   d' cis b cis a4  b cis cis4  b cis  d cis b a4 \quarterBar
-  d  cis b a  b cis  b a a4  fis d  g fis e fis \forceBreak
-   e d d4 \singleBar
+  d'( cis b cis) a b( cis) cis b( cis) d( cis b) a4 \divisioMinima
+  d cis( b a) b( cis) b( a) a fis( d) g( fis e fis) e( d) d4 \divisioMaxima \forceBreak
 
   %5
-   d e fis16( d4.*1/2) e16( fis g fis e4) fis4.  d fis  a a b a4 \quarterBar
-  d  cis b a fis16( e d4.*2/3)  fis a fis  d e d d4 \doubleBar
+  d( e) fis( d4.) e4( fis g fis e) fis4. d4( fis) a( a b) a4 \divisioMinima
+  d cis( b a) fis( e d4.) fis4( a fis) d( e d) d4 \finalis
 }
 
 altoMusic = \relative c' {
   %1
-  d2*1/4~
-  d2 -\tweak Glissando.Y-offset #-1.2 \glissando e4*3/2
-  s4
-  cis2*3/4 -\tweak Glissando.Y-offset #-0.5 \glissando d4~
-  d2*1/2 e fis2*1/4~ fis2*1/2~ fis
-  a2 g2*1/2 fis2*5/4 d2*1/2~ d2*3/4 a2*1/2~ a4
+  d2~
+  d2*3/2 -\tweak Glissando.Y-offset #-1.2 \glissando e4*4
+  cis2*3/2 -\tweak Glissando.Y-offset #-0.5 \glissando d4~
+  d2 e fis2~ fis2~ fis
+  a2 g2 fis2*2 d2~ d2*2 a2~ a4
 
   %2
-  s4 d2~ d2*3/2
-  fis2*1/4 e2*3/2
-  d2~ d2*1/2~
-  d2*3/4 -\tweak Glissando.Y-offset #-0.8 \glissando e4
+  s4 d2*3/2~ d2*3/2
+  fis2 e2*2
+  d2*3/2~ d2~
+  d2*3/2 -\tweak Glissando.Y-offset #-0.8 \glissando e4*2
 
   %3
-  s4 e2*3/4~ e2*1/2 d2 a2*3/4~ a2*1/2
+  s4 e2*3/2~ e2 d2 a2*3/2~ a2
 
   %4
-  fis'2*5/4~ fis2*3/2~ fis2*5/4~
-  fis4 g2*5/4 fis2 d2*1/2~ d2*1/4~ d2*1/2
-  b2
+  fis'2*5/2~ fis2*5/2~ fis2*2~
+  fis4 g2*5/2 fis2*3/2 d2~ d2~ d2
+  b2*3/2
 
   %5
-  a2 b~ b2*3/4 d2*1/2 e2*5/4
-  d4~ d2*3/4~ d2*3/4~ d2*3/4 a~ a4
+  a2*9/4 b2*5/2~ b2*3/4 d2 e2*2
+  d4~ d2*3/2~ d2*7/4~ d2*3/2 a2*3/2~ a4
 }
 
 tenorMusic = \relative c' {
   %1
-  fis,2*1/4 a2  g2*3/4 fis4~ \quarterBar
-  fis2*3/4~ fis4 \quarterBar
-  a2*1/2~ a2*1/2~ a2*1/4 b2*1/2 cis2*1/2 \quarterBar
-  d2~ d2*1/2~ d2*5/4 b2*1/2~ b2*3/4 g2*1/2 fis4
+  fis,2 a2*3/2 g2*3/2 fis4~ \divisioMinima
+  fis2*3/2~ fis4 \divisioMinima
+  a2~ a2~ a2 b2 cis2 \divisioMinima
+  d2~ d2~ d2*2 b2~ b2*2 g2 fis4 \divisioMaxima
 
   %2
-  s4 fis2 a2*3/2~ a2*1/4~ a2*3/2~ \quarterBar
-  a2 b2*1/2~ b2*3/4 a2*1/2
+  s4 fis2*3/2 a2*3/2~ a2~ a2*2~ \divisioMinima
+  a2*3/2 b2~ b2*3/2 a2 \divisioMaxima
 
   %3
-  s4 a2*3/4~ a2*1/2~ a2 g2*3/4 fis2*1/2
+  s4 a2*3/2~ a2~ a2 g2*3/2 fis2 \divisioMaxima
 
   %4
-  d'2*5/4 cis2*3/2 b2*5/4~ \quarterBar
-  b4 d2*5/4 cis2 b2*1/2 a2*1/4 g2*1/2 fis2
+  d'2*5/2 cis2*5/2 b2*2~ \divisioMinima
+  b4 d2*5/2 cis2*3/2 b2 a2 g2 fis2*3/2 \divisioMaxima
 
   %5
-  d2~ d2~ d2*3/4 a'2*1/2~ a2*5/4 \quarterBar
-  a4 fis2*3/4 a~ a g fis4
+  d2*9/4~ d2*5/2~ d2*3/4 a'2~ a2*2 \divisioMinima
+  a4 fis2*3/2 a2*7/4~ a2*3/2 g2*3/2 fis4 \finalis
 }
 
 bassMusic = \relative c {
   %1
-  d2*1/4~ d2~  d2*3/4~ d4
-  a2*3/4 b4~
-  b2*1/2 cis2*1/2 d2*1/4~ d2*1/2 fis2*1/2~
-  fis2 e2*1/2 b'2*5/4 a2*1/2 g2*3/4 d2*1/2 d4
+  d2~ d2*3/2~ d2*3/2~ d4
+  a2*3/2 b4~
+  b2 cis2 d2~ d2 fis2~
+  fis2 e2 b'2*2 a2 g2*2 d2 d4
 
   %2
-  b4~ b2~ b2*3/2 d2*1/4 cis2*3/2
-  b2 d2*1/2 e2*3/4 fis2*1/2
+  b4~ b2*3/2~ b2*3/2 d2 cis2*2
+  b2*3/2 d2 e2*3/2 fis2
 
   %3
-  d4~ d2*3/4 cis2*1/2 b2 d2*3/4~ d2*1/2
+  d4~ d2*3/2 cis2 b2 d2*3/2~ d2
 
   %4
-  b'2*5/4 fis2*3/2 d2*5/4~
-  d4 e2*5/4 fis2 d2*1/2 b2*1/4~ b2*1/2~ b2
+  b'2*5/2 fis2*5/2 d2*2~
+  d4 e2*5/2 fis2*3/2 d2 b2~ b2~ b2*3/2
 
   %5
-  fis2 g2 b2*3/4~ b2*1/2 cis2*5/4
-  b4~ b2*3/4~ b d~ d~ d4
+  fis2*9/4 g2*5/2 b2*3/4~ b2 cis2*2
+  b4~ b2*3/2~ b2*7/4 d2*3/2~ d2*3/2~ d4
 }
 
 voiceLines = \relative c' {
   \voiceLineStyle
 
   %1
-  s2*7 s4
-  \voiceLine "down" "up"   d2*5/4 d2*1/2
-  \voiceLine "down" "down" g,2*3/4 g2*1/2
+  s2*13 s4
+  \voiceLine "down" "up"   d2*2 d2
+  \voiceLine "down" "down" g,2*2 g2
 
   %3
-  s2*9 s4 s8
-  \voiceLine "down" "up" a2 a2*3/4
+  s2*15 
+  \voiceLine "down" "up" a2 a2*3/2
 
   %5
-  s2*16
-  \voiceLine "down" "up" a2*3/4 a
+  s2*29 s8
+  \voiceLine "down" "up" a2*3/2 a
 }
 
 voiceLinesDown = \relative c' {
   \voiceLineStyle
 
   %1
-  s2*7 s4
-  \voiceLine "down" "down" b2*5/4 b2*1/2
+  s2*13 s4
+  \voiceLine "down" "down" b2*2 b2
 }
 
 \score {

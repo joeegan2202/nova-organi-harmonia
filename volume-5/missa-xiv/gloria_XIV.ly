@@ -88,9 +88,9 @@ chantMusic = {
  a'4 a'4 ( c''4) a'4 g'4 bes'4 g'4 ( f'4) g'4 ( a'4) g'4 ( g'4) f'4 \divisioMinima
  a'4 a'4 ( g'4 f'4) a'4 ( g'4) \forceBreak
  bes'4 ( f'4) g'4 ( f'4 ees'4) c'4 ( d'4) d'4 \finalis
- bes'4 g'4 g'4 a'4 g'4 f'4 \forceBreak
- g'4 ( bes'4 g'4) a'4 \finalis
- a'4 ( c''4) a'4 g'4 bes'4 g'4 ( f'4) a'4 \finalis
+ bes'4 g'4 g'4 a'4 g'4 f'4 g'4 ( bes'4 g'4) a'4 \finalis
+ a'4 ( c''4) a'4 g'4 \forceBreak
+ bes'4 g'4 ( f'4) a'4 \finalis
  a'4 a'4 ( c''4) a'4 g'4 bes'4 g'4 ( f'4) a'4 \divisioMinima
  f'4 g'4 f'4 ( f'4) d'4 \finalis
  g'4 g'4 ( a'4) g'4 ( f'4) \forceBreak

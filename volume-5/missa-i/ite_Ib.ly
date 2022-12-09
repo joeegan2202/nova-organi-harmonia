@@ -40,7 +40,7 @@ chantTextB = \lyricmode {
 De -- o, _ _ grá -- ti -- as. }
 
 chantMusic = {
-\tieDown   f'4 ( a'4 bes'\prall c''4) bes'4 ( c''4) d''4 ( c''4) ~ c''4 ( a'4.) c''4 ( bes'4 a'4 g'4 f'4) g'4 ( a'4 g'4) g'4 f'4 \finalis
+\tieDown   f'4 ( a'4 \quil bes' c''4) bes'4 ( c''4) d''4 ( c''4) ~ c''4 ( a'4.) c''4 ( bes'4 a'4 g'4 f'4) g'4 ( a'4 g'4) g'4 f'4 \finalis
 
 }
 

@@ -52,8 +52,8 @@ chantMusic = {
  a'4 ( g'4) g'4 ( f'4) f'4 ( g'4) g'4 g'4 \divisioMaxima
  \forceBreak
  g'4 ( a'4 \quil bes' c''4 d''4) c''4 ( c''4) g'4 ( a'4 bes'4 a'4 g'4) g'4 g'4 ( f'4) a'4 ( bes'4 \once \tweak #'font-size #-4 g' ) g'4 \divisioMaxima
- f'4 f'4 ( g'4) g'4 ( a'4) g'4 \forceBreak
- bes'4 a'4 ( g'4) f'4 \divisioMinima
+ f'4 f'4 ( g'4) g'4 ( a'4) g'4 bes'4 \forceBreak
+ a'4 ( g'4) f'4 \divisioMinima
  a'4 c''4 a'4 bes'4 a'4 ( g'4) f'4 ( g'4) g'4 \divisioMaxima
  g'4 ( a'4 \quil bes' c''4 d''4) c''4 ( c''4) \forceBreak
  g'4 ( a'4 bes'4 a'4 g'4) g'4 g'4 ( f'4) a'4 ( bes'4 \once \tweak #'font-size #-4 g' ) g'4 \finalis
@@ -94,7 +94,7 @@ g2*3/2 ~ g2 ~ g2*4/2 ~ g4 \divisioMaxima
 bes,4 ~ bes,2 ~ bes,4 a,2*3/2 g,2 \shiftRight d2*3/2 ~ \divisioMinima
 d2 bes,2 a,2 g,2 \divisioMaxima
 bes,2*5/2 ees2 d2 c2*3/2 bes,4 a,2 g,2*3/2 ~ g,4 \divisioMaxima
-r2*10/2 \divisioMinima
+s2*10/2 \divisioMinima
 r4 c'2*3/2 \shiftRight bes2 a2 g4 \divisioMaxima
 bes,2*5/2 ees2 d2 c2*3/2 bes,4 a,2 g,2*3/2 ~ g,4 \finalis
 }

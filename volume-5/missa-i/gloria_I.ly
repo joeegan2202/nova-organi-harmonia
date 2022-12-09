@@ -55,7 +55,7 @@ Cum San -- cto Spí -- ri -- tu, in gló -- ri -- a De -- i Pa -- tris.
 A -- _ men. }
 
 chantMusic = {
-\tieDown   a'4 g'4 ( f'4) f'4 f'4 g'4 ( a'4) a'4 ( \once \tweak #'font-size #-4 g' ) g'4 ( a'\prall bes'4 a'4) g'4 ( f'4) f'4 \finalis
+\tieDown   a'4 g'4 ( f'4) f'4 f'4 g'4 ( a'4) a'4 ( \once \tweak #'font-size #-4 g' ) g'4 ( \quil a' bes'4 a'4) g'4 ( f'4) f'4 \finalis
  f'4 a'4 ( bes'4 \once \tweak #'font-size #-4 c'' ) c''4 ( bes'4 a'4) g'4 ( a'4) \forceBreak
  a'4 a'4 ( g'4) bes'4 g'4 f'4 \divisioMinima
  bes'4 g'4 ( f'4) g'4 g'4 ( a'4) g'4 ( g'4) f'4 \finalis
@@ -71,12 +71,12 @@ chantMusic = {
  g'4 ( d''4 ees''4) d''4 c''4 d''4 c''4 ( bes'4) \divisioMinima
  c''4 c''4 ( bes'4) a'4 a'4 \divisioMinima
  \forceBreak
- a'4 ( bes'\prall c''4) c''4 ( bes'4 a'4) g'4 (g'4) f'4 c''4 bes'4 ( a'4) g'4 ( a'4) a'4 \finalis
+ a'4 ( \quil bes' c''4) c''4 ( bes'4 a'4) g'4 (g'4) f'4 c''4 bes'4 ( a'4) g'4 ( a'4) a'4 \finalis
  f'4 g'4 ( a'4) a'4 bes'4 g'4 ( f'4) g'4 \forceBreak
  g'4 ( a'4) g'4 g'4 f'4 \divisioMinima
  c''4 ( bes'4) c''4 ( bes'4) a'4 a'4 \finalis
  d''4 ( c''4 bes'4) c''4 c''4 ( bes'4) a'4 a'4 \divisioMinima
- a'4 ( bes'\prall c''4) \forceBreak
+ a'4 ( \quil bes' c''4) \forceBreak
  c''4 ( bes'4 a'4) g'4 ( g'4) f'4 \divisioMinima
  c''4 ( bes'4 a'4) g'4 ( f'4) g'4 ( a'4) a'4 a'4 \finalis
  f'4 g'4 ( a'4) a'4 a'4 ( g'4) bes'4 g'4 ( f'4) \forceBreak
@@ -96,8 +96,8 @@ chantMusic = {
  c''4 ( bes'4) c''4 ( bes'4) a'4 a'4 \finalis
  g'4 ( d''4) d''4 c''4 ( bes'4) c''4 bes'4 ( a'4) a'4 \divisioMinima
  \forceBreak
- f'4 g'4 ( bes'4) bes'4 bes'4 a'4 ( bes'\prall c''4) c''4 ( bes'4 a'4) g'4 ( g'4) f'4 \finalis
- c''4 ( c''4 bes'4 )( c''\prall d''4 c''4 bes'4) c''4 ( bes'4 a'4) g'4 ( a'4) \finalis
+ f'4 g'4 ( bes'4) bes'4 bes'4 a'4 ( \quil bes' c''4) c''4 ( bes'4 a'4) g'4 ( g'4) f'4 \finalis
+ c''4 ( c''4 bes'4 )( \quil c'' d''4 c''4 bes'4) c''4 ( bes'4 a'4) g'4 ( a'4) \finalis
 
 }
 

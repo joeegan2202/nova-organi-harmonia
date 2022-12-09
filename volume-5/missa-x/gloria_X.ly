@@ -79,8 +79,8 @@ chantMusic = {
  g'4 f'4 ( e'4) d'4 e'4 d'4 \divisioMinima
  e'4 d'4 ( e'4) c'4 c'4 \divisioMinima
  f'4 e'4 f'4 a'4 g'4 \finalis
- g'4 d'4 ( \once \tweak #'font-size #-4 g' ) g'4 \forceBreak
- g'4 a'4 g'4 g'4 ( f'4 a'4) a'4 \divisioMinima
+ g'4 d'4 ( \once \tweak #'font-size #-4 g' ) g'4 g'4 \forceBreak
+ a'4 g'4 g'4 ( f'4 a'4) a'4 \divisioMinima
  a'4 a'4 ( g'4) f'4 ( e'4) f'4 ( g'4 f'4) g'4 g'4 \finalis
  g'4 d'4 ( \once \tweak #'font-size #-4 g' ) g'4 g'4 \forceBreak
  a'4 g'4 g'4 ( f'4 a'4) a'4 \divisioMinima
@@ -106,7 +106,7 @@ r2*12/2 \finalis
 e'2 ~ e'4 ~ e'2*4/2 c'2 d'2*3/2 ~ \divisioMinima
 d'2*4/2 ~ d'2 \finalis
 r4 e'2 ~ e'4 \finalis
-r2*6/2 \finalis
+s2*6/2 \finalis
 r2*3/2 d'2 ~ d'4 \finalis
 e'2 ~ e'4 c'2 d'4 \finalis
 c'2*4/2 b2*3/2 c'4 c'4 \divisioMinima

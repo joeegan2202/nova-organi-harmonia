@@ -9,6 +9,7 @@ global = {
  \key g \dorian
  \cadenzaOn 
  \override Glissando #'thickness = #2.0
+ \override Glissando #'breakable = ##t
 }
 
 \header {

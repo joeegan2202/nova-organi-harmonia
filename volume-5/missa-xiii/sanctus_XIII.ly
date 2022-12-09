@@ -88,7 +88,7 @@ r2*6/2 r2*3/2 \divisioMaxima
 f2*3/2 ~ f2*3/2 ~ f2 \divisioMinima
 g2*3/2 a2 \divisioMaxima
 bes,4 ~ bes,2*3/2 ~ bes,2 f,2*3/2 ~ f,2 \divisioMaxima
-r2*13/2 bes,2 ~ bes,4 \divisioMaxima
+s2*13/2 bes,2 ~ bes,4 \divisioMaxima
 a,4 g,2 ~ g,2*3/2 ~ g,2 f,2*3/2 ~ f,2 \finalis
 }
 

@@ -26,135 +26,131 @@ chantText = \lyricmode {
 
 chantMusic = \relative c' {
   %1
-   e g  a b  a g fis16( e4.*1/2)
-   g e d e  d e  g a g4  fis e \doubleBar
+  e4( g) a( b) a( g) fis( e4.)
+  g4( e d e) d( e) g( a) g fis( e) \finalis
 
   %2
-  b4  d e e4.*2/3  g e d e \forceBreak
-   d e  g a g4  fis e \doubleBar
+  b4 d( e) e4. g4( e d e) \forceBreak
+  d( e) g( a) g fis( e) \finalis
 
   %3
-   e g  a b  a g fis16( e4.*1/2)
-   g e d e  d e  g a g4  fis e \doubleBar
+  e4( g) a( b) a( g) fis( e4.)
+  g4( e d e) d( e) g( a) g fis( e) \finalis \forceBreak
 
   %4
-  b'4 b16( a4.*1/2)  c b a a \forceBreak
-  g4  a c a4 b \doubleBar
+  b'4 b( a4.) c4( b a a)
+  g a( c) a b \finalis
 
   %5
-   b a g  a g  fis e  g e d e  d e  g a g4  fis e \doubleBar
+  b( a g) a( g) fis( e) g( e d e) d( e) g( a) g fis( e) \finalis \forceBreak
 
   %6
-  b'4 b16( a4.*1/2)  c b a a \forceBreak
-  g4  a c a4 b \doubleBar
+  b'4 b( a4.) c4( b a a)
+  g a( c) a b \finalis
 
   %7
-  b4  d e e4.*2/3 d16( e b4.*2/3) a16( b c b a a16*3) g4  a c a4 b \doubleBar \break
+  b4 d( e) e4. d4( e b4.) a4( b c b a a) g a( c) a b \finalis \forceBreak
 
   %8
-   b a g  a g fis16( e4.*1/2)  g e d e  d e  g a g4  fis e \noBreak \doubleBar
+  b( a g) a( g) fis( e4.) g4( e d e) d( e) g( a) g fis( e) \finalis
 
   %9
-  b'4  d e e4.*2/3 d16( e b4.*2/3) a16( b c b a g16*3)  a b b \quarterBar \forceBreak
-  b16( d e4.*2/3) d16( e b4.*2/3) a16( b c b a g16*3)  a b b \quarterBar
-   b a g a16( g fis e4.*1/2)  g e d e  d e  g a g4  fis e \doubleBar
+  b'4 d( e) e4. d4( e b4.) a4( b c b a g) a( b b) \divisioMinima \forceBreak
+  b( d e4.) d4( e b4.) a4( b c b a g) a( b b) \divisioMinima
+  b( a g) a( g fis e4.) g4( e d e) d( e) g( a) g fis( e) \finalis
 }
 
 altoMusic = \relative c' {
   %1
-  e2*3/2 b2*1/2 d2*5/4 c2 b2*1/2
+  e2*3 b2*5/4 d2*3 c2*3/2 b2
 
   %2
-  b2~ b2*1/2~ b2*3/4~ b2*1/2 d2 b2*1/2
+  b2*3/2~ b2*3/4~ b2*2~ b2 d2*3/2 b2
 
   %3
-  e2*3/2 b2*1/2 d2*5/4 c2 b2*1/2
+  e2*3 b2*5/4 d2*3 c2*3/2 b2
 
   %4
-  e4~ e2*1/2~ e2*3/4~ \set tieWaitForNote = ##t
-  s4 e2~ \unset tieWaitForNote
-  e4
+  e4~ e2*5/4~ e2*5/2~ e2*3/2~ e4
 
   %5
-  e2*5/4 b2*1/2 d2*5/4 c2 b2*1/2
+  e2*5/2 b2 d2*3 c2*3/2 b2
 
   %6
-  e4~ e2*1/2~ e2*3/4~ \set tieWaitForNote = ##t
-  s4 e2~ \unset tieWaitForNote
-  e4
+  e4~ e2*5/4~ e2*5/2~ e2*3/2~ e4
 
   %7
-  s4 a2*1/2 g2*3/4 e2*1/2~ e~ e2~ e~ e4
+  s4 a2 g2*7/4 e2*3/4~ e2*2~ e2*3/2~ e~ e4
 
   %8
-  e2*5/4 b2*1/2 d2*5/4 c2 b2*1/2
+  e2*5/2 b2*5/4 d2*3 c2*3/2 b2
 
   %9
-  s4 b'2*1/2 a2*3/4 g2*1/2~ g2~ g2*3/4
-  e2*1/4 fis2*3/4 e2*1/2~ e~ e2*1/2 d2*3/4~
-  d b c2*5/4 d2 b2*1/2
+  s4 b'2 a2*7/4 g2*3/4~ g2*3~ g2*3/2
+  e2 fis2*7/4 e2*3/4~ e2*2~ e2 d2*3/2~
+  d b2*9/4 c2*3 d2*3/2 b2
 }
 
 tenorMusic = \relative c' {
   %1
-  g2*3/2~ g2*1/2~ g2*5/4~ g2~ g2*1/2
+  g2*3~ g2*5/4~ g2*3~ g2*3/2~ g2 \finalis
 
   %2
-  g2~ g2*1/2 a2*3/4 g2*1/2~ g2~ g2*1/2
+  g2*3/2~ g2*3/4 a2*2 g2~ g2*3/2~ g2 \finalis
 
   %3
-  g2*3/2~ g2*1/2~ g2*5/4~ g2~ g2*1/2
+  g2*3~ g2*5/4~ g2*3~ g2*3/2~ g2 \finalis
 
   %4
-  g4~ g2*1/2 a2*3/4 s4 fis2 g4
+  g4~ g2*5/4 a2*5/2 fis2*3/2 g4 \finalis
 
   %5
-  g2*5/4~ g2*1/2~ g2*5/4~ g2~ g2*1/2
+  g2*5/2~ g2~ g2*3~ g2*3/2~ g2 \finalis
 
   %6
-  g4~ g2*1/2 a2*3/4 s4 fis2 g4
+  g4~ g2*5/4 a2*5/2 fis2*3/2 g4 \finalis
 
   %7
-  g4 a2*1/2 b2*3/4 g2*1/2~ g a2 fis g4
+  g4 a2 b2*7/4 g2*3/4~ g2*2 a2*3/2 fis g4 \finalis
 
   %8
-  g2*5/4~ g2*1/2~ g2*5/4~ g2~ g2*1/2
+  g2*5/2~ g2*5/4~ g2*3~ g2*3/2~ g2 \finalis
 
   %9
-  s4 b2*1/2~ b2*3/4~ b2*1/2 c2 b2*3/4 \quarterBar
-  g2*1/4 a2*3/4 g2*1/2~ g fis2*1/2~ fis2*3/4 \quarterBar
-  g~ g~ g2*5/4~ g2~ g2*1/2
+  s4 b2~ b2*7/4~ b2*3/4 c2*3 b2*3/2 \divisioMinima
+  g2 a2*7/4 g2*3/4~ g2*2 fis2~ fis2*3/2 \divisioMinima
+  g~ g2*9/4~ g2*3~ g2*3/2~ g2 \finalis
 }
 
 bassMusic = \relative c {
   %1
-  e2*3/2~ e2*1/2 b2*5/4 a2 e'2*1/2
+  e2*3~ e2*5/4 b2*3 a2*3/2 e'2
 
   %2
-  s2 e2*1/2~ e2*3/4~ e2*1/2 b2 e2*1/2
+  s2*3/2 e2*3/4~ e2*2~ e2 b2*3/2 e2
 
   %3
-  e2*3/2~ e2*1/2 b2*5/4 a2 e'2*1/2
+  e2*3~ e2*5/4 b2*3 a2*3/2 e'2
 
   %4
-  e4 c2*1/2~ c2*3/4 s4 e2~ e4
+  e4 c2*5/4~ c2*5/2 e2*3/2~ e4
 
   %5
-  e2*5/4~ e2*1/2 b2*5/4 a2 e'2*1/2
+  e2*5/2~ e2 b2*3 a2*3/2 e'2
 
   %6
-  e4 c2*1/2~ c2*3/4 s4 e2~ e4
+  e4 c2*5/4~ c2*5/2 e2*3/2~ e4
 
   %7
-  s4 fis2*1/2 e2*3/4 d2*1/2 c~ c2 e~ e4
+  s4 fis2 e2*7/4 d2*3/4 c2*2~ c2*3/2 e~ e4
 
   %8
-  e2*5/4~ e2*1/2 b2*5/4 a2 e'2*1/2
+  e2*5/2~ e2*5/4 b2*3 a2*3/2 e'2
 
   %9
-  g4~ g2*1/2 fis2*3/4 e2*1/2~ e2~ e2*3/4~
-  e2*1/4~ e2*3/4 d2*1/2 c~ c2*1/2 b2*3/4~
-  b g a2*5/4 b2 e2*1/2
+  g4~ g2 fis2*7/4 e2*3/4~ e2*3~ e2*3/2
+  e2~ e2*7/4 d2*3/4 c2*2~ c2 b2*3/2~
+  b g2*9/4 a2*3 b2*3/2 e2
 }
 
 \score {

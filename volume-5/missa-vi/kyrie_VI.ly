@@ -138,7 +138,7 @@ r2*3/2 b2*3/4 a2*4/2 ~ a2*4/2 \divisioMinima
 r2 fis2*3/2 r2 e2 ~ e2 \finalis
 r4 gis2 fis2*3/2 b,2 ~ \divisioMinima
 b,2 cis2*5/2 d2 e2 \finalis
-r2*25/4 \divisioMinima
+s2*25/4 \divisioMinima
 fis2 ~ fis2*5/2 b,2 e2 \finalis
 cis2*4/2 ~ cis2*3/4 fis2*4/2 \divisioMinima
 b,2 cis2*5/2 d2 e2 \finalis
@@ -150,7 +150,7 @@ r2*9/4 cis'2 b2*5/2 ~ \divisioMinima
 b2 ~ b2 ~ b2 ~ b2 \finalis
 d2 cis2*5/2 b,4 ~ b,2*3/4 cis2 ~ cis2 \divisioMinima
 d2 b,2*5/2 ~ b,2 e2 \finalis
-r2*13/4 b2*5/2 ~ \divisioMinima
+s2*13/4 b2*5/2 ~ \divisioMinima
 b2 ~ b2 ~ b2*3/2 \divisioMaior
 d2*7/4 ~ d2 ~ d2*5/2 ~ \divisioMinima
 d2*4/2 b,2*3/2 \divisioMaior

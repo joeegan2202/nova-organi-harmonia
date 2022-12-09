@@ -49,13 +49,13 @@ chantMusic = {
  c''4 c''4 ( bes'4) c''4 ( d''4) c''4 ( bes'4 a'4) a'4 \divisioMaxima
  g'4 ( d''4 ees''4) d''4 d''4 c''4 ( c''4 bes'4) c''4 c''4 ( d''4 c''4) a'4 a'4 \divisioMinima
  \forceBreak
- a'4 ( bes'\prall c''4 bes'4 a'4) g'4 g'4 ( a'4) g'4 ( f'4) f'4 \divisioMaxima
+ a'4 ( \quil bes' c''4 bes'4 a'4) g'4 g'4 ( a'4) g'4 ( f'4) f'4 \divisioMaxima
  f'4 f'4 ( \once \tweak #'font-size #-4 c'' ) c''4 ( c''4 bes'4) c''4 c''4 ( d''4 c''4) a'4 a'4 \divisioMaxima
  \forceBreak
  g'4 ( d''4) d''4 ( c''4) d''4 ( ees''4) d''4 d''4 c''4 ( bes'4) c''4 \divisioMinima
  c''4 c''4 ( c''4 bes'4) c''4 c''4 ( d''4 c''4) bes'4 ( a'4) g'4 ( a'4) a'4 \divisioMaxima
  \forceBreak
- a'4 ( bes'\prall c''4 bes'4 a'4) g'4 ( a'4) g'4 ( f'4) f'4 ( c''4) c''4 ( bes'4) c''4 ( d''4 c''4 c''4) a'4 \finalis
+ a'4 ( \quil bes' c''4 bes'4 a'4) g'4 ( a'4) g'4 ( f'4) f'4 ( c''4) c''4 ( bes'4) c''4 ( d''4 c''4 c''4) a'4 \finalis
 
 }
 

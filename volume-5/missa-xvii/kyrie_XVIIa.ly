@@ -40,7 +40,7 @@ Ký -- ri -- e,
 Ký -- ri -- e, e -- _ lé -- i -- son. 
 Ký -- ri -- e, e -- _ lé -- i -- son. 
 Chri -- ste, _ e -- _ lé -- i -- son. 
-Chri -- ste, _ e -- lé -- _ i -- son. 
+Chri -- ste, _ e -- _ lé -- i -- son. 
 Chri -- ste, _ e -- _ lé -- i -- son. 
 Ký -- ri -- e, e -- _ lé -- i -- son. 
 Ký -- ri -- e, e -- _ lé -- i -- son. 
@@ -70,7 +70,10 @@ chantMusic = {
 altoMusic = {
 r4 e'2*3/2 f'4 ~ f'2*4/2 e'2 ~ e'4 c'2*3/2 ~ c'2 \finalis
 r4 e'2*3/2 f'4 d'2*4/2 ~ d'2*3/2 ~ d'2*3/2 c'2 \finalis
-r4 e'2*3/2 f'4 ~ f'2*4/2 e'2 ~ e'4 c'2*3/2 ~ c'2 \finalis f'4 g'2*3/4 f'2*3/2 d'2*4/2 ~ d'2*3/2 ~ d'2*3/2 c'2 f'4 ~ f'2*3/4 ~ f'2*3/2 ~ f'2*5/2 ~ f'4 e'4 c'2*3/2 ~ c'2 f'4 g'2*3/4 f'2*3/2 d'2*4/2 ~ d'2*3/2 ~ d'2*3/2 c'2 \finalis
+r4 e'2*3/2 f'4 ~ f'2*4/2 e'2 ~ e'4 c'2*3/2 ~ c'2 \finalis
+f'4 g'2*3/4 f'2*3/2 d'2*4/2 ~ d'2*3/2 ~ d'2*3/2 c'2
+f'4 ~ f'2*3/4 ~ f'2*3/2 ~ \set tieWaitForNote = ##t f'2*2 ~ s4 f'4 \set tieWaitForNote = ##f e'4 c'2*3/2 ~ c'2
+f'4 g'2*3/4 f'2*3/2 d'2*4/2 ~ d'2*3/2 ~ d'2*3/2 c'2 \finalis
 r4 g'2 f'2*5/2 ~ f'2*4/2 d'2*3/2 c'2*3/2 ~ c'2 \finalis
 r4 g'2 f'2 ~ f'2*3/2 c'2*4/2 d'2*3/2 ~ d'2*3/2 c'2 \finalis
 r4 e'2 f'2*5/2 f'4 ~ f'4 ~ f'2 ~ f'2*3/2 c'2*4/2 d'2*3/2 ~ d'2*3/2 c'2 \finalis
@@ -79,7 +82,10 @@ r4 e'2 f'2*5/2 f'4 ~ f'4 ~ f'2 ~ f'2*3/2 c'2*4/2 d'2*3/2 ~ d'2*3/2 c'2 \finalis
 tenorMusic = {
 r4 bes2*3/2 c'4 ~ c'2*4/2 ~ c'2*3/2 bes2*3/2 a2 \finalis
 a4 ~ a2*3/2 ~ a4 ~ a2*4/2 g2*3/2 bes2*3/2 ~ bes4 a4 \finalis
-r4 bes2*3/2 c'4 ~ c'2*4/2 ~ c'2*3/2 bes2*3/2 a2 \finalis a4 ~ a2*3/4 ~ a2*3/2 ~ a2*4/2 g2*3/2 bes2*3/2 ~ bes4 a4 c'4 d'2*3/4 ~ d'2*3/2 c'2*4/2 d'2*3/2 bes2*3/2 a2 a4 ~ a2*3/4 ~ a2*3/2 ~ a2*4/2 g2*3/2 bes2*3/2 ~ bes4 a4 \finalis
+r4 bes2*3/2 c'4 ~ c'2*4/2 ~ c'2*3/2 bes2*3/2 a2 \finalis
+a4 ~ a2*3/4 ~ a2*3/2 ~ a2*4/2 g2*3/2 bes2*3/2 ~ bes4 a4 \finalis
+c'4 d'2*3/4 ~ d'2*3/2 c'2*4/2 d'2*3/2 bes2*3/2 a2 \finalis
+a4 ~ a2*3/4 ~ a2*3/2 ~ a2*4/2 g2*3/2 bes2*3/2 ~ bes4 a4 \finalis
 f'4 e'2 d'2*5/2 a2*4/2 bes2*3/2 ~ bes2*3/2 a2 \finalis
 a4 ~ a2 ~ a2 f2*3/2 ~ f2*4/2 ~ f2*3/2 bes2*3/2 ~ bes4 a4 \finalis
 d'4 c'2 a2*5/2 ~ \divisioMinima a2 ~ a2 f2*3/2 ~ f2*4/2 ~ f2*3/2 bes2*3/2 ~ bes4 a4 \finalis

@@ -227,43 +227,43 @@ g2*3/2 ~ g2*3/2 a2 b2 \finalis
 bassMusic = {
 r2*7/2 \finalis
 r2*7/2 \divisioMinima
-r2*8/2 \divisioMinima
-r2*16/2 \finalis
+s2*8/2 \divisioMinima
+s2*16/2 \finalis
 b,2 ~ b,2 c2*3/2 ~ c2 b,2 ~ \divisioMinima
 b,2*3/2 ~ b,2*4/2 ~ b,2*3/2 ~ b,4 \finalis
 r2*4/2 b2*11/2 \finalis
 d2*3/2 ~ d2 \divisioMinima
 b,2*3/2 ~ b,2*3/2 ~ \divisioMinima
 b,2 ~ b,2*3/2 ~ b,2 e2 \finalis
-r2*6/2 \divisioMinima
-r2*8/2 \divisioMaior
-r2*9/2 \finalis
+s2*6/2 \divisioMinima
+s2*8/2 \divisioMaior
+s2*9/2 \finalis
 b,4 ~ b,2*3/2 ~ b,2*3/2 ~ \divisioMinima
 b,2*3/2 ~ b,2*3/2 a,2 ~ \divisioMinima
 a,4 b,2*3/2 d2 \finalis
-r2*12/2 \divisioMinima
-r2*8/2 \divisioMaior
-r2*3/2 a2*4/2 \finalis
+s2*12/2 \divisioMinima
+s2*8/2 \divisioMaior
+s2*3/2 a2*4/2 \finalis
 b,2 ~ b,2 ~ b,2*4/2 ~ b,2 ~ \divisioMinima
 b,4 a,2*4/2 e2 \divisioMinima
 c2*3/2 b,4 ~ b,2*3/2 ~ b,4 \finalis
-r2*8/2 g2 ~ \divisioMinima
+s2*8/2 g2 ~ \divisioMinima
 g4 ~ g2*3/2 ~ g2 \finalis
 b,2 ~ b,2*3/2 e2 \divisioMaior
 d2*3/2 c2*3/2 b,2 \finalis
-r2*12/2 \divisioMinima
-r2*4/2 b,2*3/2 d2*3/2 ~ d4 \divisioMaior
+s2*12/2 \divisioMinima
+s2*4/2 b,2*3/2 d2*3/2 ~ d4 \divisioMaior
 a2 ~ a2*3/2 ~ a2 b2 \finalis
 b,2 ~ b,2*3/2 c2 b,2*3/2 ~ \divisioMinima
 b,2 ~ b,2 ~ b,2 \divisioMaxima
 b,2 c2 e2 ~ e2*3/2 a2 \finalis
-r2*8/2 \divisioMinima
-r2*4/2 g2 ~ \divisioMinima
+s2*8/2 \divisioMinima
+s2*4/2 g2 ~ \divisioMinima
 g2 ~ g2*3/2 ~ g2 \divisioMaxima
 b2 a2 ~ a2*3/2 d2 \finalis
 d4 ~ d2 ~ d2*3/2 ~ d2 ~ d4 \divisioMinima
 b,2*3/2 ~ b,2*3/2 ~ b,4 ~ b,2 ~ b,2 \finalis
-r2*9/2 \divisioMinima
+s2*9/2 \divisioMinima
 a2*4/2 g2 ~ g2 ~ g2 \finalis
 b,2 ~ b,2 ~ b,2*4/2 ~ b,2 ~ b,2 g,2 \finalis
 r2 r2*3/2 g2 e2 ~ e2 \finalis

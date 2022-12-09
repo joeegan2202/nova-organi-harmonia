@@ -63,6 +63,7 @@ chantMusic = {
  \forceBreak
  fis'4 fis'4 ( e'4 d'4 cis'4 d'4.)  d'4 fis'4 ( g'4 a'4.) b'4 ( a'4 g'4 a'4) \divisioMinima
   a'4 ( fis'4 e'4 d'4) g'4 ( fis'4) e'4 e'4 d'4 \finalis
+  \forceBreak
  fis'4 fis'4 ( e'4 d'4 cis'4 d'4.)  d'4 fis'4 ( g'4 a'4.) b'4 ( a'4 g'4 a'4) \divisioMinima
   a'4 ( fis'4 e'4 d'4) g'4 ( fis'4) e'4 e'4 d'4 \finalis
  \forceBreak

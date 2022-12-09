@@ -121,8 +121,8 @@ chantMusic = {
  d''4 c''4 b'4 a'4 g'4 f'4 ( g'4) e'4 \divisioMaior
  \forceBreak
  d'4 c'4 d'4 e'4 f'4 g'4 e'4 f'4 ( e'4) d'4 \finalis
- d''4 d''4 c''4 b'4 a'4 \forceBreak
- a'4 b'4 c''4 d''4 \divisioMinima
+ d''4 d''4 c''4 b'4 a'4 a'4 \forceBreak
+ b'4 c''4 d''4 \divisioMinima
  d''4 c''4 b'4 a'4 g'4 a'4 g'4 f'4 g'4 e'4 \finalis
  \forceBreak
  d'4 a'4 g'4 a'4 c''4 b'4 a'4 g'4 f'4 \divisioMinima
@@ -234,7 +234,7 @@ d4 c2 ~ c2*3/2 e2*3/2 a4 ~ \divisioMinima
 a2 g2*3/2 ~ g2*4/2 a2*3/2 ~ a2*3/2 ~ a4 \finalis
 d2 ~ d2 e2*3/2 f2 ~ f2*3/2 c4 \divisioMaior
 b,2*3/2 a,2*4/2 ~ a,2*3/2 ~ a,4 \finalis
-r2*14/2 \finalis
+s2*14/2 \finalis
 c2*3/2 b,2 \divisioMinima
 a,2*3/2 ~ a,2 ~ a,4 \divisioMinima
 b,2 c2*3/2 d2 ~ d2 ~ d4 \finalis
@@ -244,29 +244,29 @@ c2 ~ c2*3/2 d2*3/2 ~ d4 \finalis
 c4 b,2*3/2 a,2*3/2 ~ \divisioMinima
 a,4 ~ a,2 ~ a,2*3/2 ~ a,2 ~ \divisioMinima
 a,4 ~ a,2*3/2 ~ a,2*3/2 d4 \finalis
-r2*7/2 a2*3/2 ~ a2 \divisioMaior
+s2*7/2 a2*3/2 ~ a2 \divisioMaior
 c2 b,2 a,2*3/2 ~ \divisioMaior
 a,4 ~ a,2 d2*3/2 ~ d4 \finalis
 d2 ~ d2*4/2 a,2 ~ a,2 ~ a,2*3/2 ~ a,4 ~ \divisioMaior
 a,4 ~ a,2*4/2 ~ a,2*3/2 ~ a,4 \divisioMinima
 \shiftRight d2*4/2 d,2*3/2 ~ d,4 \finalis
-r2*5/2 a2*3/2 ~ a2 ~ \divisioMinima
+s2*5/2 a2*3/2 ~ a2 ~ \divisioMinima
 a4 d2*3/2 ~ d2*3/2 ~ d4 \finalis
 d2 a,2*3/2 ~ a,2 ~ a,4 \divisioMaior
 c2*3/2 e2*3/2 ~ e2 a,4 \finalis
-r2*9/2 a2 ~ a4 ~ \divisioMinima
+s2*9/2 a2 ~ a4 ~ \divisioMinima
 a2 ~ a2*4/2 g2*3/2 f2 c4 ~ \divisioMaior
 c2 ~ c2*3/2 d2 e4 a4 \finalis
 a,2 ~ a,2*3/2 ~ a,2 ~ a,2*4/2 ~ a,2*3/2 d2 \divisioMaior
 f,2 ~ f,2*4/2 ~ f,2*3/2 a,2 d4 \finalis
-r2*8/2 \divisioMinima
+s2*8/2 \divisioMinima
 b2 a2 ~ a2 ~ \divisioMinima
 a4 g2 ~ g2 \shiftRight a2*3/2 \divisioMaior
 g2 f2*3/2 e2 d2 ~ d4 \finalis
 r4 a2 ~ a2*3/2 ~ a2 g4 ~ \divisioMinima
 g4 e2 ~ e2 ~ e2 f2 c4 \finalis
-r2*9/2 \divisioMinima
-r2*6/2 d2 ~ d2*3/2 ~ d4 \finalis
+s2*9/2 \divisioMinima
+s2*6/2 d2 ~ d2*3/2 ~ d4 \finalis
 a2 g2 f2*4/2 d2 e2 ~ e2*3/2 a,4 \finalis
 r4 d2*4/2 ~ d2 ~ d2*3/2 ~ d4 \finalis
 d2 ~ d2*5/4 a,2 ~ a,2*3/2 ~ a,2*3/4 ~ a,2*4/2 ~ a,2*3/2 d4 \finalis

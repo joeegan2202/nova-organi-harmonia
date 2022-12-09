@@ -9,6 +9,7 @@ global = {
  \key f \mixolydian
  \cadenzaOn 
  \override Glissando #'thickness = #2.0
+ \override Glissando #'breakable = ##t
 }
 
 \header {
@@ -94,8 +95,8 @@ d2 ~ d2*3/2 g2 ~ g2 ees2 f2*3/2 ~ f4 \finalis
 d2 ~ d2 ~ d2*3/2 ~ d2 f2*3/2 ~ f4 ~ \divisioMinima
 f2*3/2 c2 bes,2*4/2 d2*3/2 ~ d2 ~ d4 ~ d2*3/2 ~ \divisioMaior
 d2 a,2*3/2 bes,2*4/2 f,2 ~ f,2*3/2 ~ f,4 \finalis
-r2*9/2 bes2*3/2 a4 \divisioMinima
-r2*3/2 a2 g2*4/2 d2*3/2 ~ d2 ~ d4 ~ d2*3/2 ~ \divisioMaior
+s2*9/2 bes2*3/2 a4 \divisioMinima
+s2*3/2 a2 g2*4/2 d2*3/2 ~ d2 ~ d4 ~ d2*3/2 ~ \divisioMaior
 d2 ~ d2*3/2 g2 ~ g2 ees2 f2*3/2 ~ f4 \finalis
 }
 

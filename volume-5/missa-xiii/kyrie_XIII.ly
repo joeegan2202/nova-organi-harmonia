@@ -74,7 +74,7 @@ a4 g2 a2*4/2 ~ a2 ~ a2*3/2 ~ a2 ~ a4 \finalis
 r4 a2 ~ a2*4/2 ~ a2 ~ a2*3/2 g2 f4 \finalis
 a4 ~ a2 ~ a2*4/2 ~ a2 ~ a2*3/2 ~ a2 ~ a4 \finalis
 c'4 a2*9/4 c'2*4/2 a2 ~ a2*3/2 ~ a2 ~ a4 \finalis
-r2*29/4 a2 ~ a4 \finalis
+s2*29/4 a2 ~ a4 \finalis
 c'4 ~ c'2*9/4 ~ c'2*4/2 ~ c'2 ~ c'2*3/2 a2 ~ a4 \finalis
 r2*9/2 e'2 ~ e'2*3/2 ~ e'2 ~ e'4 \finalis
 d'2 ~ d'2 ~ d'2*3/2 ~ d'2 e'2 ~ e'2*3/2 ~ e'2 ~ e'4 \finalis

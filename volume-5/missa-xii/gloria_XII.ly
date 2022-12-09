@@ -132,9 +132,9 @@ c'2*3/2 ~ c'2*3/2 b2*3/2 ~ b4 c'4 \finalis
 }
 
 tenorMusic = {
-r2*15/2 \finalis
-r2*9/2 \divisioMinima
-r2*7/2 \finalis
+s2*15/2 \finalis
+s2*9/2 \divisioMinima
+s2*7/2 \finalis
 r4 a2*3/2 ~ a4 \finalis
 r4 a2 g2 a2 g4 \finalis
 e2*3/2 d2 e4 \finalis
@@ -164,7 +164,7 @@ f2*3/2 e2*3/2 d2*3/2 a2 \finalis
 }
 
 bassMusic = {
-r2*15/2 \finalis
+s2*15/2 \finalis
 d2 e2 f2 e2*3/2 ~ \divisioMinima
 e2 ~ e2*3/2 a2 \finalis
 d4 ~ d2*3/2 a,4 \finalis

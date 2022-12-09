@@ -68,7 +68,7 @@ g'4 ~ g'4 ees'4 ~ ees'2 bes2*3/2 ~ bes4 \finalis
 bes2*3/2 ~ bes2*3/2 ~ bes4 \divisioMinima
 ees'2 f'2*4/2 ees'2 ~ ees'2 ~ ees'2 ~ ees'4 ~ ees'4 \divisioMaior
 c'2 ~ c'4 ~ c'2 bes2*3/2 ~ bes4 \finalis
-ees'2*3/2 ~ ees'4 r2*5/2 f'2*3/2 ~ f'4 g'2 ~ g'2 ~ g'2 ~ g'2 \divisioMaior
+ees'2*3/2 ~ ees'4 s2*5/2 f'2*3/2 ~ f'4 g'2 ~ g'2 ~ g'2 ~ g'2 \divisioMaior
 ees'2 ~ ees'4 ~ ees'2 bes2*3/2 ~ bes4 \finalis
 }
 

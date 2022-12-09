@@ -61,7 +61,7 @@ chantMusic = {
 altoMusic = {
 d'2 ~ d'2 ~ d'4 ~ \divisioMinima
 d'4 c'2*3/2 ees'2 f'2 ~ \divisioMinima
-f'2*3/2 ~ f'4 c'2 ~ c'4 \finalis
+\set tieWaitForNote = ##t f'2 ~ s4 f'4 \set tieWaitForNote = ##f c'2 ~ c'4 \finalis
 d'2 c'2 bes4 ~ \divisioMinima
 bes4 ~ bes2*3/2 ~ bes2 ~ bes2 \divisioMinima
 c'2 ~ c'2 bes2 a4 \finalis

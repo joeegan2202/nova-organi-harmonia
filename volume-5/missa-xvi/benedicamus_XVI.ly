@@ -2,17 +2,17 @@
 \include "gregorian.ly"
 \include "noh2.ily"
 
-%Page reference: page v.72
+%Page reference: page v.90
 %(volume.page)
 
 global = {
- \key f \mixolydian
+ \key e \phrygian
  \cadenzaOn 
  \override Glissando #'thickness = #2.0
 }
 
 \header {
-  title = \markup \center-column {"Ite XII." \vspace #1 }
+  title = \markup \center-column {"Benedicamus Domino XVI." \vspace #1 }
   tagline = ""
   composer = ""
 }
@@ -34,47 +34,43 @@ global = {
   }
 }
 
-chantTextA = \lyricmode {
-I -- te, _ _ mis -- sa est. }
-chantTextB = \lyricmode {
-De -- o, _ _ grá -- ti -- as. }
+chantText = \lyricmode {
+Be -- ne -- di -- cá -- mus Dó -- mi -- no -- 
+De -- o grá -- ti -- as }
 
 chantMusic = {
-\tieDown   f'4 ( g'4) a'4 ( f'4) c''4 ( bes'4 a'4 g'4 f'4.) g'4 ( f'4) g'4 ( a'4 g'4) g'4 f'4 \finalis
+\tieDown    a'4 a'4 a'4 f'4 ( a'4)
+ a'4 g'4 ( a'4) g'4 g'4 ( f'4 e'4) \finalis
+ a'4 a'4 g'4 ( a'4) g'4 g'4 ( f'4 e'4) \finalis
 
 }
 
 altoMusic = {
-f'2 ~ f'2 ~ f'2*4/2 c'2*7/4 d'2*3/2 ~ d'4 c'4 \finalis
+s2*12/2 \finalis
+c'2 ~ c'2*3/2 ~ c'2*3/2 \finalis
 }
 
 tenorMusic = {
-r2 g2 a2*4/2 ~ a2*7/4 f2*3/2 g4 -\tweak Glissando.Y-offset #-0.8 \glissando \voiceTwo \change Staff = "up" a4 \finalis
+s2*12/2 \finalis
+e2 f2*3/2 a2*3/2 \finalis
 }
 
 bassMusic = {
-f2 ~ f2 ~ f2*4/2 f2*7/4 bes,2*3/2 ~ bes,4 f,4 \finalis
+s2*12/2 \finalis
+a,2 ~ a,2*3/2 ~ a,2*3/2 \finalis
 }
 
 voiceLines = {
 \voiceLineStyle
-
-
-s2*8/2
-\allowVoiceLineBreak
-\voiceLine "down" "down" f2*7/4 f2*1/2
-
-
 }
 
 \score{
   <<
-    \new Lyrics = "chanta"
-    \new Lyrics = "chantb"
+    \new Lyrics
     \new GrandStaff <<
       \set GrandStaff.autoBeaming = ##f
       \set GrandStaff.instrumentName = \markup \center-column {
-        "VIII"
+        "I"
       }
       \new Staff = up <<
         \new Voice = "chant" {
@@ -98,14 +94,9 @@ s2*8/2
         }
       >>
     >>
-    \context Lyrics = "chanta" {
+    \context Lyrics {
       \lyricsto chant {
-      \chantTextA
-    }
-    }
-    \context Lyrics = "chantb" {
-      \lyricsto chant {
-      \chantTextB
+      \chantText
     }
     }
   >>

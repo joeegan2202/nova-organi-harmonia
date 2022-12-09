@@ -182,9 +182,9 @@ d2*4/2 ~ d4 ~ d2 c2*3/2 ~ c2*3/2 b,4 ~ \divisioMinima
 b,2*4/2 d2 ~ d2 ~ d2 g2*3/2 \finalis
 g2*3/2 fis2 \shiftRight g2 c2*3/2 b,2*3/2 ~ \divisioMinima
 b,2 ~ b,2 e2 ~ e4 \finalis
-r2*7/2 a2*3/2 e4 \finalis
+s2*7/2 a2*3/2 e4 \finalis
 b,4 ~ b,2 ~ b,2 ~ b,4 \finalis
-r2*7/2 e4 ~ \divisioMinima
+s2*7/2 e4 ~ \divisioMinima
 e2 ~ e2*3/2 ~ e4 \finalis
 b,2*3/2 c2*5/2 a,2*3/2 ~ a,2 b,4 ~ \divisioMinima
 b,4 c2 ~ c2 b,2 ~ b,2 ~ b,2 e2 ~ e2 \finalis

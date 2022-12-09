@@ -88,9 +88,9 @@ chantMusic = {
  g'4 f'4 ( g'4) ees'4  g'4 ( aes'4 bes'4) bes'4  aes'4 ( g'4) f'4 g'4 ( f'4 g'4) c'4 \divisioMinima
  ees'4 f'4 ( ees'4) d'4 ( c'4) \forceBreak
  bes4 ( c'4 d'4 ees'4) c'4 c'4 \finalis
- g'4 f'4 ees'4  g'4 ( aes'4 bes'4)  bes'4 ( aes'4 g'4) f'4 \forceBreak
+ g'4 f'4 ees'4  g'4 ( aes'4 bes'4)  bes'4 ( aes'4 g'4) f'4
   aes'4 g'4 \finalis
- c''4 bes'4 c''4  aes'4 ( g'4) f'4 ( g'4) g'4 \finalis
+ c''4 bes'4 c''4  aes'4 ( g'4) f'4 ( g'4) g'4 \finalis \forceBreak
  g'4 bes'4 c''4 ees''4 ( d''4 c''4) c''4 bes'4 ( c''4) c''4 \divisioMinima
  c''4 ( bes'4 g'4)  aes'4 ( f'4) ees'4 ( d'4 ees'4) c'4 \finalis
  ees'4 f'4 c'4 \forceBreak
@@ -166,8 +166,8 @@ ees2 f2*3/4 g2 ~ g2 ees2 d4 ees4 \finalis
 }
 
 bassMusic = {
-r2*11/2 \finalis
-r2*9/2 f2*3/2 ~ f2*3/2 ees4 \divisioMinima
+s2*11/2 \finalis
+s2*9/2 f2*3/2 ~ f2*3/2 ees4 \divisioMinima
 d4 c2 ~ c2 ~ c2 ~ c2 \finalis
 c4 aes,4 ~ aes,2*3/2 ees2 \finalis
 d2 c2*3/2 ~ c4 \finalis

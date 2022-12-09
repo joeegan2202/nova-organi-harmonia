@@ -44,8 +44,7 @@ mi -- se -- ré -- re no -- bis.
 A -- gnus De -- i, 
 \set stanza = " * " qui tol -- lis pec -- cá -- ta mun -- di: 
 do -- na nó -- bis pa -- cem. 
-Be -- ne -- di -- cá -- mus Dó -- mi -- no -- 
-De -- o grá -- ti -- as }
+}
 
 chantMusic = {
 \tieDown   fis'4 ( a'4) g'4 g'4 ( fis'4) d'4 ( e'4 fis'4) ~ fis'4 ( e'4) \divisioMinima
@@ -61,10 +60,6 @@ chantMusic = {
  fis'4 a'4 a'4 ( b'4) b'4 b'4 b'4 ( a'4) b'4 ( cis''4 a'4 a'4) fis'4 \divisioMaior
  \forceBreak
  a'4 g'4 g'4 ( fis'4) e'4 ( d'4) fis'4 ( g'4 e'4) e'4 \finalis
- \key e \phrygian a'4 a'4 a'4 f'4 ( a'4) \forceBreak
- a'4 g'4 ( a'4) g'4 g'4 ( f'4 e'4) \finalis
- a'4 a'4 g'4 ( a'4) g'4 g'4 ( f'4 e'4) \finalis
-
 }
 
 altoMusic = {
@@ -76,8 +71,7 @@ fis'4 ~ fis'2 e'2 ~ e'2*3/2 fis'2 ~ fis'4 ~ \divisioMaior
 fis'4 e'2 d'4 cis'2*3/2 ~ cis'2 d'4 \finalis
 d'2*3/2 ~ d'2 ~ d'2 b2 ~ b4 \divisioMinima
 d'4 e'4 ~ e'2*3/2 d'4 ~ d'2 cis'2*4/2 d'4 ~ \divisioMaior
-d'2 ~ d'2 b2 ~ b2*3/2 ~ b4 r2*12/2 \finalis
-c'2 ~ c'2*3/2 ~ c'2*3/2 \finalis
+d'2 ~ d'2 b2 ~ b2*3/2 ~ b4 \finalis
 }
 
 tenorMusic = {
@@ -89,8 +83,7 @@ d'4 b2 fis2 a2*3/2 ~ a2 b4 \divisioMaior
 fis4 ~ fis2 ~ fis4 g2*3/2 e2 b4 \finalis
 a2*3/2 ~ a2 ~ a2 ~ a2 g4 \divisioMinima
 a4 ~ a4 ~ a2*3/2 ~ a4 g2 e2*4/2 fis4 \divisioMaior
-g2 a2 fis2 a2*3/2 g4 r2*12/2 \finalis
-e2 f2*3/2 a2*3/2 \finalis
+g2 a2 fis2 a2*3/2 g4 \finalis
 }
 
 bassMusic = {
@@ -102,8 +95,7 @@ b4 d2 cis2 ~ cis2*3/2 d2 ~ d4 ~ \divisioMaior
 d4 cis2 b,4 ~ b,2*3/2 ~ b,2 ~ b,4 \finalis
 d2*3/2 b,2 ~ b,2 e2 ~ e4 \divisioMinima
 d4 ~ d4 cis2*3/2 b,4 ~ b,2 ~ b,2*4/2 ~ b,4 ~ \divisioMaior
-b,2 ~ b,2 ~ b,2 e2*3/2 ~ e4 \key e \phrygian r2*12/2 \finalis
-a,2 ~ a,2*3/2 ~ a,2*3/2 \finalis
+b,2 ~ b,2 ~ b,2 e2*3/2 ~ e4 \finalis
 }
 
 voiceLines = {

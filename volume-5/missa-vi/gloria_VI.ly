@@ -164,14 +164,14 @@ r2 ees2*4/2 ~ ees2*3/2 c2 \finalis
 }
 
 bassMusic = {
-r2*14/2 \finalis
-r2*19/2 g2 f2 \finalis
+s2*14/2 \finalis
+s2*19/2 g2 f2 \finalis
 bes,2 ~ bes,2 a,2*3/2 \finalis
 r4 bes2 ~ bes2*3/2 a2*3/2 \finalis
 bes,4 a,2 f,2 ~ f,2 ~ f,4 \finalis
-r2*10/2 f2*4/2 ~ f2*3/2 \finalis bes,4 ~ bes,2*3/2 ~ bes,2*4/2 a,2 \divisioMinima
+s2*10/2 f2*4/2 ~ f2*3/2 \finalis bes,4 ~ bes,2*3/2 ~ bes,2*4/2 a,2 \divisioMinima
 bes,4 a,2 g,2*3/2 ~ g,4 ~ g,2 ~ g,2 ~ g,2 f,2 \finalis
-r2*15/2 \divisioMinima
+s2*15/2 \divisioMinima
 r2*4/2 d2*4/2 ees2 g2 ~ g2 f4 \finalis
 bes,2*3/2 ~ bes,2*4/2 ~ bes,4 ~ bes,2 g,2 ~ g,2*3/2 \divisioMinima
 bes,2 ~ bes,2 g,2 f,4 \finalis

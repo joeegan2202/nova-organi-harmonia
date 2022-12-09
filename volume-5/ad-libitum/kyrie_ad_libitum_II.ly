@@ -23,13 +23,13 @@ global = {
     \line {}
     \center-column {
       \on-the-fly #first-page     " "
-      \on-the-fly #not-first-page "II.\\(Summe Deus)"
+      \on-the-fly #not-first-page "II. (Summe Deus)"
     }
     \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
   }
   evenHeaderMarkup = \markup \fill-line {
     \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
-    \center-column { "II.\\(Summe Deus)" }
+    \center-column { "II. (Summe Deus)" }
     \line {}
   }
 }

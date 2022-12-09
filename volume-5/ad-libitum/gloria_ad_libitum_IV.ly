@@ -9,6 +9,7 @@ global = {
  \key e \phrygian
  \cadenzaOn 
  \override Glissando #'thickness = #2.0
+ \override Glissando #'breakable = ##t
 }
 
 \header {
@@ -145,8 +146,8 @@ c'4 b2*3/2 a2*9/4 f2 g2 f2 e2 d2 e2 \finalis
 }
 
 bassMusic = {
-r2*9/2 \finalis
-r2*15/2 \finalis
+s2*9/2 \finalis
+s2*15/2 \finalis
 f4 g2 ~ g4 \finalis
 r2 c'2*3/2 b4 \finalis
 a2 e2*3/2 \finalis

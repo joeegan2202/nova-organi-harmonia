@@ -90,12 +90,11 @@ chantMusic = {
  a'4 a'4 ( b'4 d''4) b'4 a'4 b'4 a'4 g'4 a'4 ( b'4) b'4 \divisioMinima
  b'4 a'4 ( g'4) \forceBreak
  a'4 ( b'4) a'4 ( g'4) fis'4 fis'4 \finalis
- g'4 fis'4 ( e'4) e'4 ( fis'4) e'4 ( d'4) e'4 e'4 ( fis'4) \forceBreak
- fis'4 fis'4 \finalis
+ g'4 fis'4 ( e'4) e'4 ( fis'4) e'4 ( d'4) e'4 e'4 ( fis'4) fis'4 fis'4 \finalis \forceBreak
  a'4 ( g'4) a'4 ( b'4) a'4 g'4 ( fis'4) e'4 ( fis'4) fis'4 \finalis
  fis'4 g'4 e'4 d'4 e'4 e'4 ( fis'4) fis'4 \divisioMinima
- a'4 ( g'4 e'4) e'4 e'4 ( g'4 \quil a' b'4 a'4 g'4) a'4 ( a'4) fis'4 \finalis
- \forceBreak
+ a'4 ( g'4 e'4) e'4 e'4 ( g'4 \quil a' b'4 a'4 g'4) \forceBreak
+ a'4 ( a'4) fis'4 \finalis 
  a'4 a'4 ( g'4 e'4) e'4 e'4 ( g'4 \quil a' b'4 a'4 g'4) a'4 ( g'4 fis'4) fis'4 \divisioMinima
  d'4 e'4 ( g'4) g'4 g'4 g'4 fis'4 ( e'4) \forceBreak
  fis'4 ( e'4 d'4) e'4 ( fis'4) e'4 \finalis
@@ -172,8 +171,8 @@ r4 fis2 d2 g2*3/2 e2*3/2 b2 \finalis
 }
 
 bassMusic = {
-r2*27/4 \finalis
-r2*12/2 b2 ~ b4 \divisioMinima
+s2*27/4 \finalis
+s2*12/2 b2 ~ b4 \divisioMinima
 g2*3/2 r2 d2 \finalis
 e2 ~ e4 b,2 ~ b,4 \finalis
 e4 ~ e2 ~ e2 cis2 d4 \finalis

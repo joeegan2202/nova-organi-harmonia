@@ -49,13 +49,13 @@ chantMusic = {
  g'4 ( g'4 f'4 e'4) f'4 ( d'4) d'4 \divisioMinima
  d'4 d'4 d'4 ( a'4) a'4 ( g'4 f'4) e'4 ( d'4) g'4 g'4 ( a'4) a'4 \divisioMaior
  c'4 e'4 ( d'4) d'4 ( g'4) g'4 ( a'4) \forceBreak
- a'4 a'4 ( \once \tweak #'font-size #-4 g' ) a'4 ( b'\prall c''4 a'4) a'4 \divisioMinima
- d''4 ( c''4 b'4 a'4) g'4 g'4 ( a'4) d'4 d'4 ( e'\prall f'4 e'4 d'4 c'4) \divisioMaior
- c'4 e'4 ( \once \tweak #'font-size #-4 d' ) \forceBreak
+ a'4 a'4 ( \once \tweak #'font-size #-4 g' ) a'4 ( \quil b' c''4 a'4) a'4 \divisioMinima
+ d''4 ( c''4 b'4 a'4) g'4 g'4 ( a'4) d'4 d'4 ( \quil e' f'4 e'4 d'4 c'4) \divisioMaior \forceBreak
+ c'4 e'4 ( \once \tweak #'font-size #-4 d' )
  d'4 ( g'4) ~ g'4 ( f'4 e'4 d'4) f'4 e'4 ( f'4 e'4) d'4 d'4 \divisioMaxima
- c'4 e'4 ( d'4) d'4 ( g'4) g'4 ( a'4) a'4 ( g'4) a'4 ( b'\prall c''4 a'4) a'4 \divisioMinima
+ c'4 e'4 ( d'4) d'4 ( g'4) g'4 ( a'4) a'4 ( g'4) a'4 ( \quil b' c''4 a'4) a'4 \divisioMinima
  d''4 \forceBreak
- c''4 ( b'4 a'4) g'4 g'4 ( a'4) d'4 d'4 d'4 ( e'\prall f'4 e'4 d'4 c'4) \divisioMaior
+ c''4 ( b'4 a'4) g'4 g'4 ( a'4) d'4 d'4 d'4 ( \quil e' f'4 e'4 d'4 c'4) \divisioMaior
  c'4 e'4 ( \once \tweak #'font-size #-4 d' ) d'4 ( g'4) ~ g'4 ( f'4 e'4 d'4) f'4 e'4 ( f'4 e'4) d'4 d'4 \finalis
 
 }

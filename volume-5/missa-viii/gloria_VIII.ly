@@ -96,8 +96,8 @@ chantMusic = {
  \forceBreak
  d''4 cis''4 b'4 a'4 b'4 cis''4 b'4 a'4 \finalis
  d''4 cis''4 b'4 ( a'4) b'4 ( cis''4) b'4 ( a'4) a'4 \finalis
- a'4 a'4 fis'4 \forceBreak
- e'4 ( d'4) e'4 ( fis'4) a'4 b'4 ( a'4) \divisioMinima
+ a'4 a'4 fis'4 e'4 ( d'4) \forceBreak
+ e'4 ( fis'4) a'4 b'4 ( a'4) \divisioMinima
  b'4 ( cis''4) d''4 ( cis''4) b'4 a'4 \finalis
  a'4 a'4 fis'4 ( e'4 d'4) e'4 ( fis'4) e'4 d'4 \divisioMaior
  \forceBreak

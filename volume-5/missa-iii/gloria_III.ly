@@ -71,7 +71,7 @@ chantMusic = {
  c''4 b'4 a'4 c''4 g'4 \divisioMinima
  c''4 b'4 ( a'4) c''4 a'4 \divisioMinima
  \forceBreak
- a'4 g'4 f'4 ( g'\prall a'4) a'4 a'4 ( c''4) ~ c''4 ( b'4) a'4 ( g'4) f'4 ( g'4) g'4 \finalis
+ a'4 g'4 f'4 ( \quil g' a'4) a'4 a'4 ( c''4) ~ c''4 ( b'4) a'4 ( g'4) f'4 ( g'4) g'4 \finalis
  c''4 b'4 a'4 c''4 g'4 \divisioMinima
  \forceBreak
  c''4 b'4 ( a'4) c''4 a'4 a'4 \divisioMinima

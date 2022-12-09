@@ -46,9 +46,8 @@ Ho -- _ sán -- na in ex -- cél -- _ sis. }
 chantMusic = {
 \tieDown   d'4 ( a'4) ~ a'4 ( g'4) ~ g'4 ( d'4) g'4 ( \once \tweak #'font-size #-4 f' ) e'4 \divisioMinima
  d'4 ( e'4 \quil f' g'4 f'4 g'4) g'4 \divisioMaior
- a'4 ( a'4 g'4) ~ g'4 ( d'4) g'4 ( \once \tweak #'font-size #-4 f' ) e'4 \divisioMinima
- f'4 d'4 e'4 \forceBreak
- g'4 a'4 c''4 ( a'4 g'4) f'4 ( f'4 e'4) e'4 \divisioMaxima
+ a'4 ( a'4 g'4) ~ g'4 ( d'4) g'4 ( \once \tweak #'font-size #-4 f' ) e'4 \divisioMinima \forceBreak
+ f'4 d'4 e'4 g'4 a'4 c''4 ( a'4 g'4) f'4 ( f'4 e'4) e'4 \divisioMaxima
  d'4 e'4 g'4 a'4 a'4 g'4 ( \once \tweak #'font-size #-4 a' ) f'4 ( e'4) e'4 \divisioMinima
  f'4 ( g'4) e'4 ( f'4 g'4) g'4 ( f'4) \forceBreak
  e'4 ( d'4) f'4 ( f'4 e'4) e'4 \divisioMaxima

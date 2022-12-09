@@ -122,8 +122,8 @@ chantMusic = {
  fis'4 g'4 a'4 a'4 a'4 a'4 b'4 a'4 ( g'4) fis'4 ( e'4) \finalis
  \forceBreak
  g'4 fis'4 g'4 a'4 a'4 a'4 ( b'4) a'4 g'4 fis'4 \divisioMinima
-  b'4 ( c''4) b'4 b'4 b'4 b'4 a'4 \forceBreak
- g'4 a'4 a'4 ( g'4) fis'4 ( e'4) \finalis
+  b'4 ( c''4) b'4 b'4 b'4 b'4 \forceBreak
+ a'4 g'4 a'4 a'4 ( g'4) fis'4 ( e'4) \finalis
  g'4 g'4 fis'4 g'4 a'4 a'4 a'4 ( b'4) a'4 fis'4 \divisioMinima
  g'4 g'4 fis'4 g'4 \forceBreak
  a'4 b'4 a'4 g'4 a'4 ( g'4) fis'4 ( e'4) \finalis
@@ -135,7 +135,8 @@ chantMusic = {
 }
 
 altoMusic = {
-r2*15/2 r2*7/2 \divisioMinima
+r2*15/2 \finalis
+r2*7/2 \divisioMinima
 g'2*3/2 e'2*3/2 d'2 ~ \divisioMaior
 d'4 e'2 ~ e'2 fis'2 d'2 ~ \divisioMinima
 d'2 e'2*3/2 ~ e'2*4/2 ~ \divisioMinima
@@ -182,7 +183,8 @@ d'2*3/2 ~ d'2*3/2 ~ d'2 c'2 ~ c'4 b4 \finalis
 }
 
 tenorMusic = {
-r2*15/2 r2*7/2 \divisioMinima
+r2*15/2
+r2*7/2 \divisioMinima
 e'2*3/2 c'2*3/2 b2 ~ \divisioMaior
 b4 d'2 c'2 d'2 b2 ~ \divisioMinima
 b2 c'2*3/2 b2*4/2 ~ \divisioMinima

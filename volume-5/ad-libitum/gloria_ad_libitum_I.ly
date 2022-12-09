@@ -9,6 +9,7 @@ global = {
  \key ees \mixolydian
  \cadenzaOn 
  \override Glissando #'thickness = #2.0
+ \override Glissando #'breakable = ##t
 }
 
 \header {

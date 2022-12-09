@@ -82,8 +82,8 @@ chantMusic = {
  d'4 ( a'4 g'4) \forceBreak
   a'4 ( bes'4) a'4 a'4 g'4 f'4 g'4 ( \once \tweak #'font-size #-4 a' ) a'4 \divisioMinima
  f'4 g'4 ( a'4) a'4 ( g'4 f'4) g'4 g'4 ( f'4) d'4 \finalis
- d'4 ( a'4 g'4)  a'4 ( bes'4) a'4 \forceBreak
- a'4 g'4 f'4 g'4 ( \once \tweak #'font-size #-4 a' ) a'4 \divisioMinima
+ d'4 ( a'4 g'4)  a'4 ( bes'4) a'4 a'4 \forceBreak
+ g'4 f'4 g'4 ( \once \tweak #'font-size #-4 a' ) a'4 \divisioMinima
  f'4 g'4 ( a'4) a'4 a'4 f'4 g'4 e'4 f'4 ( g'4) f'4 ( e'4) d'4 d'4 \finalis
  \forceBreak
  c'4 c'4 ( d'4) d'4 d'4 f'4 f'4 ( e'4) d'4 ( e'4) d'4 ( d'4) c'4 \divisioMinima
@@ -136,8 +136,8 @@ c'2*3/2 a2 ~ a4 \finalis
 }
 
 tenorMusic = {
-r2*14/2 \finalis
-r4 r2*9/2 b2 c'4 ~ \divisioMinima
+s2*14/2 \finalis
+s4 s2*9/2 b2 c'4 ~ \divisioMinima
 c'2*3/2 ~ c'2 ~ c'2 \finalis
 a2 ~ a4 g2 f4 \finalis
 f4 ~ f2 ~ f2 e2 f4 \finalis
@@ -190,8 +190,8 @@ r2*6/2 \divisioMinima
 r2*6/2 \finalis
 d2*3/2 ~ d2*4/2 ~ d2 ~ d2 ~ d4 ~ \divisioMinima
 d4 a,2 ~ a,2*4/2 d2 ~ d4 \finalis
-r2*12/2 \divisioMinima
-r4 g2*3/2 f2 e2 d2 ~ d2 ~ d2 \finalis
+s2*12/2 \divisioMinima
+s4 g2*3/2 f2 e2 d2 ~ d2 ~ d2 \finalis
 r2*3/2 d2 c4 ~ c2 ~ c2 ~ c2 ~ c4 ~ \divisioMinima
 c2*3/2 d2 ~ d2 ~ d2 ~ d4 \finalis
 r4 e2 d2*3/2 ~ d2 ~ d2 ~ d4 \finalis

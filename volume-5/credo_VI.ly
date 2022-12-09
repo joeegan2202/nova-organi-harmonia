@@ -179,7 +179,8 @@ b2*3/2 d'2 ~ d'2*3/2 cis'!2*3/2 d'4 \finalis
 }
 
 tenorMusic = {
-r2*13/2 r2*7/2 \divisioMinima
+r2*13/2 \finalis
+r2*7/2 \divisioMinima
 g2 fis4 ~ fis2*3/2 g2*4/2 ~ g2*4/2 \divisioMaior
 fis2 e2*4/2 d2 g2 ~ g2 a2*4/2 ~ a2*4/2 \divisioMinima
 g4 fis2 e2 a2 ~ a2 b2 ~ \divisioMinima
@@ -239,13 +240,13 @@ g2*3/2 a2*3/2 ~ a2*4/2 b2 g2 \finalis
 e2*3/2 d2*3/2 ~ d2 ~ d4 \divisioMinima
 r2*3/2 e2*4/2 ~ e2*4/2 ~ \divisioMinima
 e2 d2*3/2 c2 ~ c2 e2*3/2 ~ e4 \finalis
-r2*13/2 b2*4/2 ~ \divisioMinima
+s2*13/2 b2*4/2 ~ \divisioMinima
 b2*3/2 ~ b2 e2 ~ e2 a2*4/2 ~ \divisioMaior
 a2 g2 ~ g2 a2 b2 g2 \finalis
 e4 ~ e2 ~ e2*4/2 b,2*4/2 ~ b,2*3/2 \divisioMinima
 e4 ~ e2*4/2 ~ e2*4/2 \divisioMinima
 d2*3/2 c2 ~ c2*4/2 e2*3/2 ~ e4 \finalis
-r2*3/2 a2 ~ a2*4/2 ~ a2*4/2 g2 ~ \divisioMinima
+s2*3/2 a2 ~ a2*4/2 ~ a2*4/2 g2 ~ \divisioMinima
 g4 d2*3/2 e2*4/2 ~ e2*3/2 ~ e4 \finalis
 r4 r2 d2 ~ d2 e2 ~ e2 ~ \divisioMinima
 e2*4/2 d2*3/2 c2 ~ c2 e2*3/2 ~ e4 \finalis
@@ -255,13 +256,13 @@ e4 ~ e2 fis2 g2 ~ g2 ~ g2 a2 ~ a2 b2 g2 \finalis
 e4 ~ e2 ~ e2 d2 c2*4/2 b,2 ~ b,2 \divisioMinima
 c2 d4 ~ d2 ~ d2*4/2 ~ d2 e2 ~ \divisioMaior
 e4 ~ e2 d2 ~ d2*3/2 b,2 ~ b,2*4/2 c2 ~ c2*4/2 e2*3/2 ~ e4 \finalis
-r2*7/2 a2*3/2 e2 ~ e2 ~ e2*4/2 ~ \divisioMinima
+s2*7/2 a2*3/2 e2 ~ e2 ~ e2*4/2 ~ \divisioMinima
 e2 d2*4/2 c2*4/2 ~ c2 e2 ~ \divisioMaior
 e4 ~ e2 d2 ~ d2 ~ d2*3/2 c2*4/2 e2*3/2 ~ e4 \finalis
 d2 ~ d2*4/2 a,2*4/2 ~ a,2 ~ a,2 \divisioMinima
 e2 ~ e2 b,2 ~ b,2 d2*4/2 ~ d2 e2 \finalis
-r2*21/2 d2*3/2 c2*4/2 d2 e2 \finalis
-r2*10/2 d2 ~ d2 e2*3/2 c2 ~ c2 e2*3/2 ~ e4 \finalis
+s2*21/2 d2*3/2 c2*4/2 d2 e2 \finalis
+s2*10/2 d2 ~ d2 e2*3/2 c2 ~ c2 e2*3/2 ~ e4 \finalis
 d2 ~ d2*4/2 b,2 e2*3/2 ~ \divisioMinima
 e2*3/2 b,2 ~ b,2*3/2 ~ b,2*3/2 ~ b,4 \finalis
 }

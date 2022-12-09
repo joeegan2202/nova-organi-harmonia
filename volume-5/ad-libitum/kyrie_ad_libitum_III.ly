@@ -78,7 +78,7 @@ chantMusic = {
 altoMusic = {
 r2*3/2 d'2*7/4 f'2*5/2 ~ \divisioMinima
 f'2*3/2 -\tweak Glissando.Y-offset #-0.8 \glissando g'4 f'4 d'2 ~ d'4 \finalis
-r4 bes2*3/2 ~ bes2*3/2 ~ bes2 ~ bes2*3/2 a2 d'4 \finalis
+r4 \set tieWaitForNote = ##t bes2 ~ s4 bes2*3/2 ~ bes2 ~ bes2*3/2 a2 d'4 \finalis
 ees'4 d'2 ees'2*7/4 d'2*5/2 ~ \divisioMinima
 d'2*5/2 ~ d'2 ~ d'4 \finalis
 d'2*3/2 ees'2 f'2*3/2 ~ f'2*3/2 ~ \divisioMinima
@@ -98,7 +98,7 @@ f'2*3/2 d'2*3/2 f'2 d'2 \finalis
 tenorMusic = {
 r4 a2 bes2*7/4 ~ bes2*5/2 \divisioMinima
 c'2*5/2 ~ c'2 bes4 \finalis
-g4 ~ g2*3/2 ~ g2*3/2 ~ g2 f2*3/2 d2 ~ d4 \finalis
+g4 ~ \set tieWaitForNote = ##t g2 ~ s4 g2*3/2 ~ g2 f2*3/2 d2 ~ d4 \finalis
 c'4 ~ c'2 ~ c'2*7/4 bes2*5/2 \divisioMinima
 a2*5/2 c'2 bes4 \finalis
 g2*3/2 ~ g2 f2*3/2 bes2*3/2 \divisioMinima
@@ -118,7 +118,7 @@ a2*3/2 bes2*3/2 c'2 ~ c'4 bes4 \finalis
 bassMusic = {
 g4 ~ g2 ~ g2*7/4 d2*5/2 ~ \divisioMinima
 d2*5/2 g2 ~ g4 \finalis
-r2*4/2 f2*3/2 ees2 d2*3/2 ~ d2 bes,4 \finalis
+s2*4/2 f2*3/2 ees2 d2*3/2 ~ d2 bes,4 \finalis
 r2*23/4 \divisioMinima
 f2*5/2 g2 ~ g4 \finalis
 bes,2*3/2 c2 d2*3/2 ~ d2*3/2 ~ \divisioMinima

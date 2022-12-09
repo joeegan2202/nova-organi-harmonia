@@ -47,7 +47,7 @@ do -- na nó -- _ bis pa -- _ cem. }
 
 chantMusic = {
 \tieDown   g'4 ( a'4) f'4 a'4 ( bes'4 a'4) ~ a'4 ( \once \tweak #'font-size #-4 g' ) g'4 ( a'4 g'4) g'4 \divisioMinima
- a'4 ( c''4) c''4 ( bes'4 g'4) a'4 ( g'4 a'4) g'4 ( f'4) a'4 ( bes'\prall c''4) \forceBreak
+ a'4 ( c''4) c''4 ( bes'4 g'4) a'4 ( g'4 a'4) g'4 ( f'4) a'4 ( \quil bes' c''4) \forceBreak
  c''4 ( d''4) g'4 ( a'4 bes'4 a'4 g'4 g'4) f'4 a'4 ( bes'4 \once \tweak #'font-size #-4 g' ) g'4 \divisioMaior
  g'4 g'4 ( a'4) a'4 c''4 ( d''4 c''4) bes'4 ( a'4) a'4 ( c''4) ~ c''4 ( bes'4 g'4 f'4) a'4 ( bes'4 g'4) g'4 \finalis
  \forceBreak
@@ -55,9 +55,9 @@ chantMusic = {
  g'4 bes'4 ( a'4) bes'4 ( c''4) c''4 ( bes'4) g'4 ( a'4) a'4 ( g'4) bes'4 ( bes'4 a'4) a'4 ( g'4 f'4) a'4 ( bes'4 \once \tweak #'font-size #-4 g' ) g'4 \divisioMaior
  \forceBreak
  g'4 g'4 ( a'4) a'4 c''4 ( d''4 c''4) bes'4 ( a'4) a'4 ( c''4) ~ c''4 ( bes'4 g'4) f'4 a'4 ( bes'4 g'4) g'4 \finalis
- g'4 ( a'4) f'4 a'4 ( bes'4 a'4) ~ a'4 ( \once \tweak #'font-size #-4 g' ) \forceBreak
- g'4 ( a'4 g'4) g'4 \divisioMinima
- a'4 ( c''4) c''4 ( bes'4 g'4) a'4 ( g'4 a'4) g'4 ( f'4) a'4 ( bes'\prall c''4) c''4 ( d''4) g'4 ( a'4 bes'4 a'4 g'4 g'4) f'4 a'4 ( bes'4 \once \tweak #'font-size #-4 g' ) g'4 \divisioMaior
+ g'4 ( a'4) f'4 a'4 ( bes'4 a'4) ~ a'4 ( \once \tweak #'font-size #-4 g' )
+ g'4 ( a'4 g'4) g'4 \divisioMinima \forceBreak
+ a'4 ( c''4) c''4 ( bes'4 g'4) a'4 ( g'4 a'4) g'4 ( f'4) a'4 ( \quil bes' c''4) c''4 ( d''4) g'4 ( a'4 bes'4 a'4 g'4 g'4) f'4 a'4 ( bes'4 \once \tweak #'font-size #-4 g' ) g'4 \divisioMaior
  \forceBreak
  g'4 g'4 ( a'4) a'4 c''4 ( d''4 c''4) bes'4 ( a'4) a'4 ( c''4) ~ c''4 ( bes'4 g'4 f'4) a'4 ( bes'4 g'4) g'4 \finalis
 
