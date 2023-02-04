@@ -12,7 +12,6 @@ global = {
 }
 
 \header {
-  title = \markup \center-column {"Agnus Dei I." \vspace #1 }
   tagline = ""
   composer = ""
 }

@@ -61,7 +61,7 @@ chantMusic = {
  bes'4 g'4 ( f'4) g'4 g'4 ( a'4) g'4 ( g'4) f'4 \finalis
  f'4 ( g'4) a'4 g'4 f'4 ( g'4) \finalis
  \forceBreak
- bes'4 a'4 ( bes'4) c''4 c''4 ( bes'4 a'4) a'4 ( bes'4) bes'4 \finalis
+ bes'4 a'4 ( bes'4) c''4 c''4 ( bes'4 a'4) g'4 ( a'4) a'4 \finalis
  f'4 g'4 g'4 ( a'4) g'4 f'4 \finalis
  a'4 f'4 a'4 c''4 ( bes'4) \forceBreak
  c''4 ( bes'4) a'4 ( c''4) ~ c''4 ( bes'4 g'4 g'4) \finalis
