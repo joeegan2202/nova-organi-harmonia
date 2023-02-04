@@ -83,7 +83,7 @@ doubleBar = { \finalis }
 forceBreak  = { \bar "" \break }
 shiftRight  = { \once \override NoteColumn #'force-hshift = #0.9 }
 shiftRightB = { \once \override NoteColumn #'force-hshift = #1.6 }
-
+glisDown = { \once \override Glissando #'Y-offset = #-0.8 }
 
 % Engraver built to automatically space slurred note groups:
 % still very work in progress.
