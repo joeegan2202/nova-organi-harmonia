@@ -632,7 +632,8 @@ voiceLines = {
     \new GrandStaff <<
       \set GrandStaff.autoBeaming = ##f
       \set GrandStaff.instrumentName = \markup \center-column {
-        ""
+        "Offert."
+        "II."
       }
       \new Staff = up <<
         \new Voice = "chant" {
