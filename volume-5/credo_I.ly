@@ -413,6 +413,28 @@ voiceLines = \relative c' {
   \voiceLine "down" "down" g2 g4
 }
 
+\paper {
+  oddHeaderMarkup = \markup \fill-line {
+    \line {}
+    \center-column {
+      \on-the-fly #first-page     " "
+      \on-the-fly #not-first-page "CREDO I."
+    }
+    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
+  }
+  evenHeaderMarkup = \markup \fill-line {
+    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
+    \center-column { "CREDO I." }
+    \line {}
+  }
+}
+
+\header {
+  title = "CREDO."
+  subtitle = "I."
+  tagline = ""
+}
+
 \score {
   <<
   \new Lyrics

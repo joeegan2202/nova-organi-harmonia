@@ -10,6 +10,29 @@ global = {
  \cadenzaOn 
 }
 
+\header {
+  title = \markup \center-column {"Réquiem ætérnam" \vspace #1 }
+  tagline = ""
+  composer = ""
+}
+
+\paper {
+ #(include-special-characters)
+  oddHeaderMarkup = \markup \fill-line {
+    \line {}
+    \center-column {
+      \on-the-fly #first-page     " "
+      \on-the-fly #not-first-page "Réquiem ætérnam"
+    }
+    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
+  }
+  evenHeaderMarkup = \markup \fill-line {
+    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
+    \center-column { "Réquiem ætérnam" }
+    \line {}
+  }
+}
+
 chantText = \lyricmode {
   Ré -- qui -- em
   \set stanza = "*"
@@ -72,7 +95,7 @@ tenorMusic = \relative a {
   f2*2~ f4 bes2~ bes a4 \finalis
   f2*5/2~ f2*3/2~ f4 bes2*2 a2~ \divisioMaior
   a2*3/2 e2 f4~ f2*3/2~ f2 g2*3/2~ g4 a2~ a2*2~ a2 \divisioMaxima
-  f2~ f2*2~ f2~ f a4~ \divisioMaior
+  f2~ f2*2~ f2~ f~ a4~ \divisioMaior
   a2*3/2~ a~ a2 g2*3/2 d2 e2*2 c2 \finalis
 }
 
@@ -105,7 +128,7 @@ s4*177
     \new GrandStaff <<
       \set GrandStaff.autoBeaming = ##f
       \set GrandStaff.instrumentName = \markup \center-column {
-        "Intr."
+        "Introit"
         "VI."
       }
       \new Staff = up <<

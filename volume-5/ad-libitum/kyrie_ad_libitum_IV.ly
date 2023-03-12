@@ -11,6 +11,29 @@ global = {
  \override Glissando #'thickness = #2.0
 }
 
+\header {
+  title = \markup \center-column {"Kyrie ad libitum IV.\\(Kyrie altissime)" \vspace #1 }
+  tagline = ""
+  composer = ""
+}
+
+\paper {
+ #(include-special-characters)
+  oddHeaderMarkup = \markup \fill-line {
+    \line {}
+    \center-column {
+      \on-the-fly #first-page     " "
+      \on-the-fly #not-first-page "IV.\\(Kyrie altissime)"
+    }
+    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
+  }
+  evenHeaderMarkup = \markup \fill-line {
+    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
+    \center-column { "IV.\\(Kyrie altissime)" }
+    \line {}
+  }
+}
+
 chantText = \lyricmode {
 Ký -- ri -- e _ 
 \set stanza = " * " _ _ e -- _ lé -- i -- son. 
@@ -120,7 +143,7 @@ s2*89/4
     \new GrandStaff <<
       \set GrandStaff.autoBeaming = ##f
       \set GrandStaff.instrumentName = \markup \center-column {
-        "V."
+        "V"
       }
       \new Staff = up <<
         \new Voice = "chant" {

@@ -67,6 +67,7 @@ g'4 a'4 b'4 g'4
 a'4 g'4 g'4 
 \finalis
 \bar "" \break
+z
 g'4 g'4 
 g'4( a'4) a'4 
 \divisioMinima

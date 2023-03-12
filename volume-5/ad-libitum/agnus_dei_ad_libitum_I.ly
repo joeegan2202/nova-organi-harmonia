@@ -12,6 +12,29 @@ global = {
  \override Glissando #'breakable = ##t
 }
 
+\header {
+  title = \markup \center-column {"Cantus ad libitum - Agnus I" \vspace #1 }
+  tagline = ""
+  composer = ""
+}
+
+\paper {
+ #(include-special-characters)
+  oddHeaderMarkup = \markup \fill-line {
+    \line {}
+    \center-column {
+      \on-the-fly #first-page     " "
+      \on-the-fly #not-first-page "I"
+    }
+    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
+  }
+  evenHeaderMarkup = \markup \fill-line {
+    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
+    \center-column { "I" }
+    \line {}
+  }
+}
+
 chantText = \lyricmode {
 A -- _ gnus De -- _ i, 
 \set stanza = " * " qui _ tol -- lis pec -- cá -- ta mun -- di: 

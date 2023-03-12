@@ -11,6 +11,29 @@ global = {
  \override Glissando #'thickness = #2.0
 }
 
+\header {
+  title = \markup \center-column {"Credo V." \vspace #1 }
+  tagline = ""
+  composer = ""
+}
+
+\paper {
+ #(include-special-characters)
+  oddHeaderMarkup = \markup \fill-line {
+    \line {}
+    \center-column {
+      \on-the-fly #first-page     " "
+      \on-the-fly #not-first-page ""
+    }
+    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
+  }
+  evenHeaderMarkup = \markup \fill-line {
+    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
+    \center-column { "" }
+    \line {}
+  }
+}
+
 chantText = \lyricmode {
 Cre -- do in u -- num De -- um, 
 \set stanza = "* vel" 
@@ -313,7 +336,8 @@ s2*6/2
     \new GrandStaff <<
       \set GrandStaff.autoBeaming = ##f
       \set GrandStaff.instrumentName = \markup \center-column {
-        "IV."
+        ""
+        "V."
       }
       \new Staff = up <<
         \new Voice = "chant" {

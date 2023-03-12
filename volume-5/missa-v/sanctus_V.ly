@@ -11,6 +11,29 @@ global = {
  \override Glissando #'thickness = #2.0
 }
 
+\header {
+  title = \markup \center-column {"Sanctus V." \vspace #1 }
+  tagline = ""
+  composer = ""
+}
+
+\paper {
+ #(include-special-characters)
+  oddHeaderMarkup = \markup \fill-line {
+    \line {}
+    \center-column {
+      \on-the-fly #first-page     " "
+      \on-the-fly #not-first-page ""
+    }
+    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
+  }
+  evenHeaderMarkup = \markup \fill-line {
+    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
+    \center-column { "" }
+    \line {}
+  }
+}
+
 chantText = \lyricmode {
 San -- _ ctus, 
 \set stanza = " * " San -- ctus, 
@@ -88,7 +111,7 @@ voiceLines = {
     \new GrandStaff <<
       \set GrandStaff.autoBeaming = ##f
       \set GrandStaff.instrumentName = \markup \center-column {
-        "IV."
+        "IV"
       }
       \new Staff = up <<
         \new Voice = "chant" {

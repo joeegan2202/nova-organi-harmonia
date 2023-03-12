@@ -13,6 +13,29 @@ global = {
  \override Glissando #'thickness = #2.0
 }
 
+\header {
+  title = \markup \center-column {"Benedicamus Domino II." \vspace #1 }
+  tagline = ""
+  composer = ""
+}
+
+\paper {
+ #(include-special-characters)
+  oddHeaderMarkup = \markup \fill-line {
+    \line {}
+    \center-column {
+      \on-the-fly #first-page     " "
+      \on-the-fly #not-first-page "Benedicamus Domino"
+    }
+    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
+  }
+  evenHeaderMarkup = \markup \fill-line {
+    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
+    \center-column { "Benedicamus Domino" }
+    \line {}
+  }
+}
+
 chantText = \lyricmode {
 Be -- ne -- di -- cá -- mus Dó -- _ _ _ _ _ _ _ mi -- no. }
 
@@ -58,7 +81,7 @@ s2*7/2
     \new GrandStaff <<
       \set GrandStaff.autoBeaming = ##f
       \set GrandStaff.instrumentName = \markup \center-column {
-        "V."
+        "V"
       }
       \new Staff = up <<
         \new Voice = "chant" {
