@@ -5,6 +5,8 @@
 %Page reference: page v.15
 %(volume.page)
 
+% Proofed 2/18
+
 global = {
  \key d \dorian
  \cadenzaOn 
@@ -42,7 +44,7 @@ r2 d'4 ~ d'2 ~ d'2 a2 ~ a4 \divisioMinima
 d'2 c'2*4/2 ~ c'2 ~ c'2 ~ c'2 a4 \divisioMinima
 g2*3/2 a2*4/2 ~ a2 ~ a4 \divisioMinima
 r2 d'2 c'2*3/2 -\tweak Glissando.Y-offset #-0.8 \glissando e'4 d'4 ~ d'4 ~ d'2 c'4 \divisioMaior
-c'4 ~ c'4 -\tweak Glissando.Y-offset #-0.8 \glissando d'4 ~ d'2 ~ d'2 c'4 ~ c'2 ~ c'2 e'2 ~ e'4 \divisioMinima
+c'4 ~ c'4 -\tweak Glissando.Y-offset #-0.8 \glissando d'4 d'2 ~ d'2 c'4 ~ c'2 ~ c'2 e'2 ~ e'4 \divisioMinima
 d'2 ~ d'2 ~ d'4 c'2 -\tweak Glissando.Y-offset #-0.8 \glissando d'4 a2 c'2*3/2 ~ c'4 \divisioMaior
 r4 b2*3/2 c'2 ~ c'2 a2 c'2*3/2 a2 \divisioMaxima
 r2*3/2 d'2 c'2 d'2 e'2 ~ e'2 ~ e'4 ~ \divisioMinima
@@ -82,7 +84,8 @@ voiceLines = {
 
 s2*32/2
 \allowVoiceLineBreak
-\voiceLine "down" "down" f2*1/2 f2*0
+\offsetVoiceLineY
+\voiceLine "down" "down" f4 f2
 
 
 }

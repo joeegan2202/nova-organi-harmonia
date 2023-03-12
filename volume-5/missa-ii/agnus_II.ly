@@ -5,6 +5,8 @@
 %Page reference: page v.16
 %(volume.page)
 
+% Proofed 2/18
+
 global = {
  \key g \dorian
  \cadenzaOn 
@@ -82,16 +84,19 @@ voiceLines = {
 
 s2*22/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" f2*3/2 f2*1/2
 
 
 s2*73/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" d2*2/2 d2*1/2
 
 
 s2*25/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" f2*3/2 f2*1/2
 
 

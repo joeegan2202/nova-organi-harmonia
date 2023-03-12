@@ -18,7 +18,7 @@ Lau -- dá -- mus te.
 Be -- ne -- dí -- ci -- mus te. 
 Ad -- o -- rá -- mus te. 
 Glo -- ri -- fi -- cá -- mus te. 
-Grá -- ti -- as á -- gi -- mus ti -- bi pro -- pter ma -- gnam gló -- ri -- am tu -- am. 
+Grá -- ti -- as á -- gi -- mus ti -- _ bi pro -- pter ma -- gnam gló -- ri -- am tu -- am. 
 Dó -- mi -- ne De -- us, Rex cœ -- lé -- stis, De -- us Pa __ ter o -- mní -- po -- tens. 
 Dó -- mi -- ne Fi -- li u -- ni -- gé -- ni -- te Je -- su Chri -- ste. 
 Dó -- mi -- ne De -- us, A -- gnus De -- i, Fí -- li -- us Pa -- tris. 
@@ -42,7 +42,7 @@ chantMusic = {
  f'4 g'4 g'4 ( a'4) g'4 f'4 \finalis
  a'4 f'4 a'4 c''4 ( bes'4) \forceBreak
  c''4 ( bes'4) a'4 ( c''4) ~ c''4 ( bes'4 g'4 g'4) \finalis
- f'4 g'4 ( a'4) a'4 a'4 g'4 g'4 ( a'4) g'4 ~ g'4 f'4 \divisioMinima
+ f'4 g'4 ( a'4) a'4 a'4 g'4 g'4 ( a'4) g'4 g'4 f'4 \divisioMinima
  f'4 g'4 ( \once \tweak #'font-size #-4 bes' ) bes'4 a'4 ( bes'4) \forceBreak
  c''4 ( bes'4) c''4 ( d''4) c''4 ( \once \tweak #'font-size #-4 bes' ) a'4 a'4 \finalis
  g'4 ( d''4 ees''4) d''4 c''4 d''4 c''4 ( bes'4) \divisioMinima

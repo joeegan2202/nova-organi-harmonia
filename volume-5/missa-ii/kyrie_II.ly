@@ -5,6 +5,8 @@
 %Page reference: page v.11
 %(volume.page)
 
+% Proofed 2/13/23
+
 global = {
  \key e \phrygian
  \cadenzaOn 
@@ -63,27 +65,27 @@ chantMusic = {
 altoMusic = {
 g'4 ~ g'2 ~ g'2*3/4 e'2*4/2 ~ e'2*3/4 ~ e'2*3/2 c'2 -\tweak Glissando.Y-offset #-0.8 \glissando d'4 ~ \divisioMinima
 d'4 ~ d'2*3/2 e'2*4/2 d'2 ~ d'2*4/2 b4 \finalis
-r4 e'2 ~ e'2*3/4 ~ e'2*4/2 d'2*3/4 c'2*3/2 ~ c'2 a4 \divisioMinima
+r4 e'2 ~ e'2*3/4 ~ e'2*4/2 d'2*3/4 c'2*3/2 ~ c'2 a4 \glissando \divisioMinima
 d'4 f'2*3/2 e'2*4/2 d'2 ~ d'2*4/2 b4 \finalis
 g'4 ~ g'2 ~ g'2*3/4 e'2*4/2 ~ e'2*3/4 ~ e'2*3/2 c'2 -\tweak Glissando.Y-offset #-0.8 \glissando d'4 ~ \divisioMinima
 d'4 ~ d'2*3/2 e'2*4/2 d'2 ~ d'2*4/2 b4 \finalis
 r4 d'4 ~ d'2 c'2*3/4 e'2 ~ e'2*3/2 ~ e'2*3/2 ~ \divisioMinima
-e'4 d'2 c'2*3/4 e'2 ~ e'2 ~ e'2*3/4 c'2*3/2 ~ c'2 a4
-%-\tweak Glissando.Y-offset #-0.8 \glissando
+e'4 d'2 c'2*3/4 e'2 ~ e'2 ~ e'2*3/4 c'2*3/2 ~ c'2 \allowVoiceLineBreak a4
+-\tweak Glissando.Y-offset #-0.8 \glissando
 \divisioMinima
 d'4 ~ d'2*3/2 c'2*4/2 ~ c'2 ~ c'2 b2 c'4 \finalis
 r4 d'4 ~ d'2 e'2*3/4 g'2*5/2 ~ g'2*3/2 \divisioMinima
 e'4 ~ e'2 ~ e'2*3/4 g'2 d'2 ~ d'2*3/4 e'2*3/2 c'2 -\tweak Glissando.Y-offset #-0.8 \glissando d'4 ~ \divisioMinima
 d'4 e'2*3/2 ~ e'2*4/2 d'2 ~ d'2*4/2 c'4 \finalis
 r4 d'4 ~ d'2 c'2*3/4 e'2 ~ e'2*3/2 ~ e'2*3/2 ~ \divisioMinima
-e'4 d'2 c'2*3/4 e'2 ~ e'2 ~ e'2*3/4 c'2*3/2 ~ c'2 a4
-%-\tweak Glissando.Y-offset #-0.8 \glissando
+e'4 d'2 c'2*3/4 e'2 ~ e'2 ~ e'2*3/4 c'2*3/2 ~ c'2 \allowVoiceLineBreak a4
+-\tweak Glissando.Y-offset #-0.8 \glissando
 \divisioMinima
 d'4 ~ d'2*3/2 c'2*4/2 ~ c'2 ~ c'2 b2 c'4 \finalis
 g'2*4/2 ~ g'2*3/4 e'2*3/2 ~ e'2 ~ e'2*3/4 c'2*3/2 c'2 -\tweak Glissando.Y-offset #-0.8 \glissando d'4 \divisioMinima
 r4 f'2*3/2 e'2 ~ e'2 d'2 ~ d'2 ~ d'2 c'4 \finalis
-g'2*4/2 d'2*3/4 e'2*3/2 ~ e'2 ~ e'2*3/4 c'2*3/2 ~ c'2 a4
-%-\tweak Glissando.Y-offset #-0.8 \glissando
+g'2*4/2 d'2*3/4 e'2*3/2 ~ e'2 ~ e'2*3/4 c'2*3/2 ~ c'2 \allowVoiceLineBreak a4
+-\tweak Glissando.Y-offset #-0.8 \glissando
 \divisioMinima
 d'4 ~ d'2*3/2 c'2*4/2 ~ c'2 ~ c'2 b2 c'4 \finalis
 e'2*4/2 g'2*3/4 ~ g'2*3/2 ~ g'2 ~ g'4 ~ \divisioMinima
@@ -157,6 +159,7 @@ s2*9/4
 
 s2*2/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" f2*1/2 f2*1/2
 
 
@@ -172,11 +175,13 @@ s2*9/4
 
 s2*2/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" f2*1/2 f2*1/2
 
 
 s2*240/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" f2*1/2 f2*1/2
 
 
