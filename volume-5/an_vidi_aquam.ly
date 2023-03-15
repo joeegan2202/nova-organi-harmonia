@@ -18,7 +18,7 @@ Vi -- di _ a -- quam
 \set stanza = " * " e -- gre -- _ di -- én -- tem de tem -- _ _ plo, _ 
 a lá -- _ te -- re dex -- _ tro, 
 al -- le -- lú -- _ ia: 
-et o -- mnes, ad quos per -- vé -- nit a _ -- qua i -- sta, _ _ 
+et o -- mnes, ad quos per -- vé -- nit a -- _ qua i -- sta, _ _ 
 sal -- _ _ vi fa -- cti sunt, et di -- _ cent, 
 al -- le -- lú -- ia, al -- le -- _ lú -- ia. 
 \set stanza = " Ps. 117 " 
