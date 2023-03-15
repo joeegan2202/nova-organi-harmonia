@@ -5,6 +5,8 @@
 %Page reference: page v.52
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key f \major
  \cadenzaOn 
@@ -24,7 +26,7 @@ do -- na nó -- bis pa -- cem. }
 
 chantMusic = {
 \tieDown   f'4 ( g'4) ~ g'4 ( f'4) g'4 ( a'4) f'4 ( g'4 f'4) f'4 \divisioMinima
- f'4 f'4 ( \once \tweak #'font-size #-4 d' ) d'4 ( c'4) d'4 c'4 d'4 ( f'4) g'4 ( a'4 g'4) f'4 \divisioMaior
+ f'4 f'4 ( \once \tweak #'font-size #-4 d' ) d'4 ( c'4) d'4 c'4 d'4 ( f'4) f'4 ( g'4 f'4) f'4 \divisioMaior
  \forceBreak
  f'4 g'4 ( a'4) a'4  g'4 ( bes'4 a'4 g'4 a'4) f'4 ( g'4 f'4) f'4 \finalis
  f'4 a'4 ( c''4) c''4 ( a'4 g'4 c''4) c''4 \divisioMinima

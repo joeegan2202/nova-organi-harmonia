@@ -2,6 +2,8 @@
 \include "gregorian.ly"
 \include "noh2.ily"
 
+%Proofed 3/14
+
 global = {
   \key g \major
   \cadenzaOn
@@ -38,7 +40,7 @@ chantText = \lyricmode {
 chantMusic = \relative c' {
   %1
   d4( e d) c( d) d d e( fis)
-  g( \once \teeny fis) e( d) b( c d) d \finalis
+  g( \once \tweak #'font-size #-4 fis) e( d) b( c d) d \finalis
 
   %2
   a'4 b fis( g a) a \forceBreak
@@ -102,8 +104,8 @@ chantMusic = \relative c' {
   g4 c b( a g) a4 \finalis
 
   %17
-  a( b) g( \once \teeny fis) e( d) g4 a a \divisioMinima \forceBreak
-  a( \once \teeny d) d4 c d a c b( a g) a( b) a4 \finalis
+  a( b) g( \once \tweak #'font-size #-4 fis) e( d) g4 a a \divisioMinima \forceBreak
+  a( \once \tweak #'font-size #-4 d) d4 c d a c b( a g) a( b) a4 \finalis
 
   %18
   a( fis) g( fis e d4.) c4( e) g( fis e) e( d) \finalis

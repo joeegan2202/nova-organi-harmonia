@@ -5,6 +5,8 @@
 %Page reference: page v.10
 %(volume.page)
 
+%Proofed 2/13
+
 global = {
  \key f \mixolydian
  \cadenzaOn 
@@ -17,20 +19,20 @@ chantTextB = \lyricmode {
 De -- o, _ _ grá -- ti -- as. }
 
 chantMusic = {
-\tieDown   f'4 ( a'4 \quil bes' c''4) bes'4 ( c''4) d''4 ( c''4) ~ c''4 ( a'4.) c''4 ( bes'4 a'4 g'4 f'4) g'4 ( a'4 g'4) g'4 f'4 \finalis
+\tieDown   f'4 ( a'4 \quil bes' c''4) bes'4 ( c''4) d''4 ( c''4) ~ c''4 ( a'4) c''4 ( bes'4 a'4 g'4 f'4) g'4 ( a'4 g'4) g'4 f'4 \finalis
 
 }
 
 altoMusic = {
-c'2*4/2 d'2*3/2 ~ d'2*7/4 ~ d'2*3/2 c'2 bes2*3/2 a2 \finalis
+c'2*4/2 d'2*3/2 ~ d'2*3/2 ~ d'2*3/2 c'2 bes2*3/2 a2 \finalis
 }
 
 tenorMusic = {
-f2*4/2 ~ f2*3/2 ~ f2*7/4 ~ f2*3/2 ~ f2 ees2*3/2 f2 \finalis
+f2*4/2 ~ f2*3/2 ~ f2*3/2 ~ f2*3/2 ~ f2 ees2*3/2 f2 \finalis
 }
 
 bassMusic = {
-a,2*4/2 bes,2*3/2 d2*7/4 g,2*3/2 a,2 c2*3/2 \shiftRight f2 \finalis
+a,2*4/2 bes,2*3/2 d2*3/2 g,2*3/2 a,2 c2*3/2 \shiftRight f2 \finalis
 }
 
 voiceLines = {

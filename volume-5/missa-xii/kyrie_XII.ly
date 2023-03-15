@@ -5,6 +5,8 @@
 %Page reference: page v.68
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key f \mixolydian
  \cadenzaOn 
@@ -61,7 +63,7 @@ f'2 ~ f'2 ~ f'2*4/2 ~ f'4 \divisioMinima
 r2 d'2*4/2 c'4 \finalis
 d'2 c'2 ~ c'2*4/2 ~ c'4 ~ \divisioMinima
 c'2 d'2*3/2 ~ d'4 c'4 \finalis
-f'2 ~ f'2 ~ f'2*4/2 ~ f'4 f'4 ees'4 c'2*3/2 g2 bes2 a4 \finalis
+f'2 ~ f'2 ~ f'2*4/2 ~ f'4 f'4 d'4 c'2*3/2 g2 bes2 a4 \finalis
 }
 
 tenorMusic = {
@@ -109,6 +111,7 @@ s2*62/2
 
 s2*38/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" f2*2/2 f2*1/2
 
 

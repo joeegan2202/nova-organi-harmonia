@@ -5,6 +5,8 @@
 %Page reference: page v.59
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key g \mixolydian
  \cadenzaOn 
@@ -30,7 +32,7 @@ Quó -- ni -- am tu so -- lus san -- ctus.
 Tu so -- lus Dó -- mi -- nus. 
 Tu so -- lus Al -- tís -- si -- mus, Je -- su Chri -- ste. 
 Cum San -- cto Spí -- ri -- tu, in gló -- ri -- a De -- i Pa -- tris. 
-A -- _ _ men. }
+A -- _ _ _ men. }
 
 chantMusic = {
 \tieDown   c''4 a'4 ( g'4) g'4 e'4 f'4 g'4 a'4 ( b'4) a'4 ( g'4) g'4 \finalis
@@ -61,7 +63,7 @@ chantMusic = {
  a'4 a'4 ( g'4) f'4 ( e'4) f'4 ( g'4 f'4) g'4 g'4 \finalis
  g'4 d'4 ( \once \tweak #'font-size #-4 g' ) g'4 g'4 \forceBreak
  a'4 g'4 g'4 ( f'4 a'4) a'4 \divisioMinima
- a'4 ( b'4) c''4 ( b'4) a'4 a'4 a'4 a'4 a'4 a'4 a'4 g'4 ( \once \tweak #'font-size #-4 a' ) g'4 g'4 \finalis
+ a'4 ( b'4) c''4 ( b'4) a'4 a'4 a'4 a'4 a'4 a'4 a'4 f'4 ( \once \tweak #'font-size #-4 g' ) g'4 g'4 \finalis
  \forceBreak
  g'4 ( c''4 b'4) c''4 ( d''4) d''4 b'4 d''4 c''4 b'4 a'4 g'4 \divisioMinima
  g'4 a'4 e'4 f'4 g'4 g'4 \finalis

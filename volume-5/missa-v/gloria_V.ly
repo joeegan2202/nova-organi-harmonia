@@ -5,6 +5,8 @@
 %Page reference: page v.30
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key g \mixolydian
  \cadenzaOn 
@@ -30,7 +32,7 @@ Quó -- ni -- am tu so -- lus san -- ctus.
 Tu so -- lus Dó -- mi -- nus. 
 Tu so -- lus Al -- tís -- si -- mus, Je -- su Chri -- ste. 
 Cum San -- cto Spí -- ri -- tu, in gló -- ri -- a De -- i Pa -- tris. 
-A -- _ _ _ men. }
+A -- _ _ _ _ men. }
 
 chantMusic = {
 \tieDown   g'4 f'4 ( e'4 d'4) d'4 d'4 e'4 ( f'4 g'4) g'4 ( \once \tweak #'font-size #-4 f' ) a'4 g'4 g'4 \finalis
@@ -203,11 +205,13 @@ voiceLines = {
 
 s2*84/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" d2*4/2 d2*1/2
 
 
 s2*181/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" d2*3/2 d2*1/2
 
 

@@ -5,6 +5,8 @@
 %Page reference: page v.43
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key e \minor
  \cadenzaOn 
@@ -35,7 +37,7 @@ chantMusic = {
 \tieDown   b'4 a'4 ( b'4 a'4) g'4 g'4 a'4 ( b'4) b'4 ( \once \tweak #'font-size #-4 a' ) a'4 ( b'4) a'4 ( g'4) g'4 \finalis
  g'4 a'4 ( b'4) b'4 ( a'4) g'4 ( a'4) e'4 e'4 ( d'4) e'4 \forceBreak
  d'4 ( g'4) g'4 \divisioMinima
- g'4 a'4 ( b'4) b'4 a'4 ( \once \tweak #'font-size #-4 g' ) g'4 ( g'4) fis'4 \finalis
+ g'4 a'4 ( b'4) b'4 a'4 ( \once \tweak #'font-size #-4 g' ) a'4 ( a'4) g'4 \finalis
  b'4 ( \once \tweak #'font-size #-4 a' ) b'4 a'4 ( b'4) g'4 \finalis
  b'4 b'4 b'4 ( a'4) g'4 a'4 ( g'4) e'4 \finalis \forceBreak
 
@@ -71,7 +73,7 @@ chantMusic = {
  g'4 ( a'4 b'4) b'4 ( a'4 g'4 a'4) e'4 fis'4 ( e'4 d'4) e'4 ( g'4) g'4 \divisioMinima \forceBreak
 
  g'4 g'4 ( a'4) a'4 ( g'4) a'4 ( b'4) b'4 ( a'4) g'4 ( a'4) a'4 ( g'4) fis'4 ( e'4) \finalis
- e'4 ( a'4) a'4 ( g'4) a'4 ( b'4) a'4 ( g'4) \finalis
+ e'4 ( a'4) ~ a'4 ( g'4) a'4 ( b'4) a'4 ( g'4) \finalis
 
 }
 
@@ -117,7 +119,8 @@ fis2 e2 ~ e4 ~ e2 ~ e4 \finalis
 d4 e2 fis4 e2*4/2 d2 \divisioMinima
 e4 ~ e2 ~ e2 ~ e4 ~ e2 g2 ~ g2 fis4 \finalis
 r2*4/2 c'2 d'4 c'2 b2*3/2 ~ \divisioMinima
-b2 a2 g2 fis2 ~ fis2 e2 a2 b4 g2*4/2 ~ g2*3/2 ~ g4 a2 g2*3/2 ~ g4 ~ \divisioMinima
+b2 a2 g2 fis2 ~ fis2 e2 a2 b4 \finalis
+g2*4/2 ~ g2*3/2 ~ g4 a2 g2*3/2 ~ g4 ~ \divisioMinima
 g2*3/2 ~ g2*3/2 \finalis
 r2*4/2 c'2*3/2 b4 ~ \divisioMinima
 b4 ~ b2 ~ b2*3/2 ~ b4 \divisioMinima

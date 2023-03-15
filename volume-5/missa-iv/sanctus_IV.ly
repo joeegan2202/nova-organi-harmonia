@@ -5,6 +5,8 @@
 %Page reference: page v.27
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key g \mixolydian
  \cadenzaOn 
@@ -95,11 +97,13 @@ s2*82/2
 
 s2*16/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" d2*3/2 d2*1/2
 
 
 s2*39/4
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" d2*2/2 d2*1/2
 
 

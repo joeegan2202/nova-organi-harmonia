@@ -5,6 +5,8 @@
 %Page reference: page v.131
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key cis \phrygian
  \cadenzaOn 
@@ -117,7 +119,7 @@ voiceLines = {
 s2*25/4
 \allowVoiceLineBreak
 \voiceLine "down" "up" a2*3/2 a2*0
-\voiceLine "up" "down" a2*4/2 a2*1/2
+\voiceLine "up" "down" cis'2*4/2 a2*1/2
 
 s2*3/2
 

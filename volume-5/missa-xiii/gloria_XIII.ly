@@ -5,6 +5,8 @@
 %Page reference: page v.74
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key d \dorian
  \cadenzaOn 
@@ -87,7 +89,7 @@ a4 ~ a2 ~ a2 ~ a2 ~ a4 \finalis
 e'2*3/2 ~ e'4 d'2 c'4 \finalis
 a'2 ~ a'2 e'4 ~ e'2 ~ e'4 \finalis
 c'2*3/2 a2*4/2 ~ a2 ~ \divisioMinima
-a4 ~ a2 ~ a2*3/2 g2 a2 ~ a2*3/2 \finalis
+a4 ~ a2 ~ a2*3/2 g2*3/2 a2 ~ a2 \finalis
 f'2*3/2 e'2 f'4 \divisioMinima
 e'2*3/2 d'2*3/2 \divisioMinima
 c'2*3/2 bes2*3/2 a2*3/2 ~ a2 ~ a4 \finalis
@@ -121,7 +123,7 @@ f4 ~ f2 ~ f2 e2 f4 \finalis
 a4 e2 ~ e2*3/2 ~ e4 \finalis
 r2 e'2*3/2 d'2 c'4 \finalis
 f2*3/2 ~ f2*4/2 ~ f2 \divisioMinima
-e4 \shiftRight d2 ~ d2*3/2 ~ d2 e2 f2*3/2 \finalis
+e4 \shiftRight d2 ~ d2*3/2 ~ d2*3/2 e2 f2 \finalis
 d'2*3/2 ~ d'2 ~ d'4 \divisioMinima
 c'2*3/2 bes2*3/2 \divisioMinima
 a2*3/2 g2*3/2 a2*3/2 g2 f4 \finalis
@@ -155,7 +157,7 @@ r4 e2 d2 ~ d2 ~ d4 \finalis
 c4 ~ c2 b,2*3/2 a,4 \finalis
 a2 ~ a2*3/2 ~ a2 ~ a4 \finalis
 r2*3/2 e2*4/2 d2 ~ \divisioMinima
-d4 ~ d2 c2*3/2 bes,2 a,2 d2*3/2 \finalis
+d4 ~ d2 c2*3/2 bes,2*3/2 a,2 d2 \finalis
 r2*6/2 \divisioMinima
 r2*6/2 \divisioMinima
 r2*6/2 d2*3/2 ~ d2 ~ d4 \finalis

@@ -5,6 +5,8 @@
 %Page reference: page v.73
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key d \dorian
  \cadenzaOn 
@@ -71,7 +73,7 @@ d'2 e'2 d'2*5/2 ~ d'2 ~ d'2*3/2 b2 c'4 \finalis
 a2 ~ a2 ~ a2*3/2 \shiftRight g2 r2*5/2 b2 c'4 \finalis
 d'2 e'2 d'2*11/4 ~ d'2 ~ d'2*4/2 c'2 \divisioMinima
 a2*3/2 ~ a2*3/2 g2*5/4 ~ g2 e2 ~ e2 ~ e2 \divisioMinima
-f2*5/2 g2*3/2 ~ g2*3/2 -\tweak Glissando.Y-offset #-0.8 \glissando \change Staff = "up" f4 \finalis
+f2*5/2 g2*3/2 ~ g2*3/2 -\tweak Glissando.Y-offset #-0.8 \glissando \change Staff = "up" \voiceTwo f4 \finalis
 }
 
 bassMusic = {
@@ -99,6 +101,7 @@ s2*74/2
 
 s2*69/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" a2*2/2 a2*1/2
 
 

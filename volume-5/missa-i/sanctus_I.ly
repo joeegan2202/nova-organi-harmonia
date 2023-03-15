@@ -5,6 +5,8 @@
 %Page reference: page v.8
 %(volume.page)
 
+%Proofed 2/13
+
 global = {
  \key a \locrian
  \cadenzaOn 

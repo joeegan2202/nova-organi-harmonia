@@ -5,6 +5,8 @@
 %Page reference: page v.21
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key fis \phrygian
  \cadenzaOn 
@@ -38,7 +40,7 @@ chantMusic = {
 }
 
 altoMusic = {
-fis'2 ~ fis'2*3/4 g'2*4/2 -\tweak Glissando.Y-offset #-0.8 \glissando a'4 a'4 fis'4 \divisioMinima
+fis'2 ~ fis'2*3/4 g'2*4/2 -\tweak Glissando.Y-offset #-1.2 \glissando a'4 a'4 fis'4 \divisioMinima
 e'2*3/2 d'2 ~ \divisioMinima
 d'2 fis'2*3/4 g'2*4/2 e'2 d'4 ~ \divisioMinima
 d'2*4/2 ~ d'4 b4 ~ b2*4/2 d'2 ~ d'2 ~ d'4 \divisioMaxima

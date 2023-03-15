@@ -5,6 +5,8 @@
 %Page reference: page v.102
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  %\key fis \locrian
  \key b \phrygian
@@ -253,6 +255,7 @@ voiceLines = {
 
 s2*244/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" a2*1/2 a2*1/2
 
 

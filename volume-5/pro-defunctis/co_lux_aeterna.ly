@@ -2,34 +2,13 @@
 \include "gregorian.ly"
 \include "noh2.ily"
 
+%Proofed 3/14
+
 global = {
   \cadenzaOn
   \override Glissando #'thickness = #2.0
   \set tieWaitForNote = ##t
 }
-
-%\header {
-%  title = \markup \center-column {"Agnus Dei I." \vspace #1 }
-%  tagline = ""
-%  composer = ""
-%}
-
-%\paper {
-%  #(include-special-characters)
-%  oddHeaderMarkup = \markup \fill-line {
-%    \line {}
-%    \center-column {
-%      \on-the-fly #first-page     " "
-%      \on-the-fly #not-first-page ""
-%    }
-%    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
-%  }
-%  evenHeaderMarkup = \markup \fill-line {
-%    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
-%    \center-column { "" }
-%    \line {}
-%  }
-%}
 
 chantText = \lyricmode {
 	Lux ae -- tér -- na \set stanza = "*"
@@ -147,7 +126,7 @@ a2*4/4~
 a2*4/4 
 c'2*4/4 
 b2*6/4 
-e4~ 
+\shiftRight e4~ 
 \divisioMinima
 e2*4/4 
 f2*4/4 
@@ -171,7 +150,7 @@ a2*4/4~
 a2*4/4 
 c'2*4/4 
 b2*6/4 
-e4~ 
+\shiftRight e4~ 
 \divisioMinima
 e2*4/4 
 f2*4/4 
@@ -183,7 +162,7 @@ d4
 bassMusic = {
 	f4 
 a2*4/4 
-c'2*4/4 
+\shiftRight c'2*4/4 
 s4 
 d2*6/4 
 e2*4/4 

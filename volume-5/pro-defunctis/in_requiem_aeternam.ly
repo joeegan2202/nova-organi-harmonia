@@ -5,6 +5,8 @@
 %Page reference: page v.163
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key f \major
  \cadenzaOn 
@@ -88,7 +90,7 @@ bassMusic = \relative f {
   f,2*5/2 a2*3/2 bes4~ bes2*2 d2
   a2*3/2~ a2~ a4 d2*3/2 bes2~ bes2*3/2 d4~ d2 c2*2 f2
   f,2 a2*2 bes2 a~ a4
-  c2*3/2 d a2 bes2*3/2~ bes2 c2*2 f,2
+  c2*3/2 d bes2 ~ bes2*3/2~ bes2 c2*2 f,2
 }
 
 voiceLines = {

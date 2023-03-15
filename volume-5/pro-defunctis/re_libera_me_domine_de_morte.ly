@@ -2,34 +2,13 @@
 \include "gregorian.ly"
 \include "noh2.ily"
 
+%Proofed 3/15
+
 global = {
   \cadenzaOn
   \override Glissando #'thickness = #2.0
   \set tieWaitForNote = ##t
 }
-
-%\header {
-%  title = \markup \center-column {"Agnus Dei I." \vspace #1 }
-%  tagline = ""
-%  composer = ""
-%}
-
-%\paper {
-%  #(include-special-characters)
-%  oddHeaderMarkup = \markup \fill-line {
-%    \line {}
-%    \center-column {
-%      \on-the-fly #first-page     " "
-%      \on-the-fly #not-first-page ""
-%    }
-%    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
-%  }
-%  evenHeaderMarkup = \markup \fill-line {
-%    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
-%    \center-column { "" }
-%    \line {}
-%  }
-%}
 
 chantText = \lyricmode {
 	Lí -- be -- ra me, Dó -- _ mi -- ne, \set stanza = "*"
@@ -51,17 +30,17 @@ f'4
 e'4( d'4) e'4( f'4 d'4) c'4( d'4) d'4 
 \divisioMinima
 e'4( f'4 g'4) 
-g'4( f'4) d'4 
+g'4( \once \tweak #'font-size #-4 f'4) d'4 
 f'4 e'4( d'4) f'4( f'4 d'4) d'4 
 \bar "" \break
 
 \divisioMaior
-d'4( e'4 c'4) 
+d'4( e'4 \once \tweak #'font-size #-4 c'4) 
 d'4 d'4( g'4) 
 g'4 g'4( f'4)~ f'4( e'4) 
-d'4( c'4) d'4( e'4) f'4( e'4 c'4) d'4( c'4) 
+d'4( c'4) d'4( e'4) f'4( \once \tweak #'font-size #-4 e'4 \once \tweak #'font-size #-4 c'4) d'4( c'4) 
 \divisioMaxima
-c'4( d'4) d'4 
+c'4( \once \tweak #'font-size #-4 d'4) d'4 
 e'4( f'4 g'4) g'4( f'4 e'4) 
 \bar "" \break
 
@@ -91,7 +70,7 @@ e'4 d'4
 \divisioMinima
 d'4( c'4) 
 d'4( \quil e'4 f'4 e'4) d'4( c'4) c'4 
-\divisioMaior
+\divisioMinima
 \bar "" \break
 
 e'4 
@@ -99,10 +78,10 @@ f'4 g'4 f'4 e'4
 f'4 e'4( d'4) d'4 
 \divisioMinima
 d'4( e'4 d'4 d'4) c'4 
-e'4( g'4) g'4( e'4) f'4( e'4) 
+e'4( \once \tweak #'font-size #-4 g'4) g'4( e'4) f'4( e'4) 
 c'4( d'4) d'4 
 \finalis
-c'4( d'4) d'4 
+c'4( \once \tweak #'font-size #-4 d'4) d'4 
 e'4( f'4 g'4) g'4( f'4 e'4) 
 \bar "" \break
 
@@ -120,7 +99,7 @@ e'4 d'4( c'4)
 d'4( e'4) d'4 
 \divisioMinima
 d'4 e'4 f'4 g'4 g'4( a'4) 
-g'4( f'4) 
+g'4( \once \tweak #'font-size #-4 f'4) 
 d'4 f'4 g'4( f'4) f'4 
 \divisioMaior
 e'4 f'4 
@@ -130,7 +109,7 @@ f'4( e'4)
 d'4( c'4) d'4 f'4 
 \bar "" \break
 
-e'4( d'4 c'4) d'4 
+e'4( \once \tweak #'font-size #-4 d'4 \once \tweak #'font-size #-4 c'4) d'4 
 \finalis
 a'4 
 a'4( g'4 a'4 f'4.) g'4 a'4( bes'4 g'4) f'4( e'4 d'4) e'4( d'4) d'4 
@@ -279,7 +258,7 @@ bes2*6/4
 a2*4/4 
 c'2*8/4~ 
 c'2*4/4 
-s2*8/4 
+d'2*8/4~
 d'2*4/4~ 
 d'4 
 s4 
@@ -290,8 +269,7 @@ a2*6/4~
 a4 
 g2*6/4 
 a2*4/4~ 
-a4~ 
-a4 
+a2
 }
 
 tenorMusic = {
@@ -304,7 +282,7 @@ e2*4/4
 f4 
 \divisioMinima
 e2*6/4 
-d2*8/4 
+\shiftRight d2*8/4 
 g2*4/4~ 
 g2*6/4 
 f4 
@@ -324,11 +302,11 @@ d2*6/4
 e2*6/4 
 g2*4/4 
 e2*6/4 
-d4 
+\shiftRight d4 
 g2*6/4 
 \divisioMinima
 f2*4/4 
-e2*4/4 
+\shiftRightB e2*4/4 
 d2*6/4~ 
 d2*4/4 
 \divisioMaxima
@@ -364,9 +342,9 @@ f2*4/4~
 f2*8/4 
 e2*4/4~ 
 e4~ 
-\divisioMaior
+\divisioMinima
 e2*4/4 
-d2*6/4 
+\shiftRight d2*6/4 
 e4 
 g2*4/4 
 f4~ 
@@ -384,13 +362,13 @@ d2*6/4
 e2*6/4 
 g2*4/4 
 e2*6/4 
-d4 
+\shiftRight d4 
 g2*4/4 
 s4 
 \divisioMinima
 f2*4/4 
 e2*4/4 
-d2*6/4~ 
+\shiftRight d2*6/4~ 
 d2*4/4 
 \finalis
 a2*8/4~ 
@@ -411,7 +389,7 @@ a2*4/4
 \divisioMinima
 g2*4/4~ 
 g2*4/4 
-f2*4/4 
+\shiftRight f2*4/4 
 g2*6/4 
 f4 
 \finalis
@@ -489,7 +467,7 @@ d4~
 d2*6/4~ 
 d2*4/4~ 
 d2*4/4~ 
-d2*6/4 
+\shiftRight d2*6/4 
 d,2*4/4 
 a,4~ 
 a,2*9/4 
@@ -499,14 +477,14 @@ d2*6/4~
 d2*4/4~ 
 d4~ 
 d4 
-b,2*4/4 
+b,!2*4/4 
 a,2*8/4~ 
 a,2*6/4~ 
 a,2*6/4 
 c2*8/4~ 
 c2*4/4 
 e2*4/4 
-f4 
+\shiftRight f4 
 a,2*10/4~ 
 a,2*4/4 
 g,2*6/4 
@@ -516,7 +494,7 @@ g2*6/4
 f2*4/4 
 e2*4/4 
 d2*8/4 
-e2*4/4 
+\shiftRight e2*4/4 
 s4 
 c2*4/4 
 d2*6/4~ 
@@ -566,14 +544,14 @@ d2*6/4~
 d2*4/4~ 
 d4~ 
 d4 
-b,2*4/4 
+b,!2*4/4 
 a,2*8/4~ 
 a,2*6/4~ 
 a,2*6/4 
 c2*4/4 
 d2*8/4 
 e2*4/4 
-f4 
+\shiftRight f4 
 a,2*10/4~ 
 a,2*4/4 
 g,2*6/4 
@@ -597,10 +575,16 @@ d2*4/4
 voiceLines = {
   \voiceLineStyle
 
-  % Manually add line break
-  %s2
-  %\allowVoiceLineBreak
-  %\voiceLine "down" "down" a2*3/2 a2*1/2
+  s2*63 s4 s8
+  \allowVoiceLineBreak
+  \offsetVoiceLineY
+  \voiceLine "down" "down" f2 f2*1/2
+
+  s2*31
+  s4
+  \allowVoiceLineBreak
+  \offsetVoiceLineY
+  \voiceLine "down" "down" f2 f2*1/2
 }
 
 \score{

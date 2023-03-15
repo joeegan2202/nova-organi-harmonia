@@ -5,6 +5,8 @@
 %Page reference: page v.151
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key g \lydian
  \cadenzaOn 
@@ -51,9 +53,11 @@ d'2 c'2 b2 \finalis
 tenorMusic = {
 e'4 d'2 ~ d'2 ~ \divisioMinima
 d'4 b2*3/2 c'2 \shiftRight d'2 \divisioMaior
-b2 ~ b2 c'4 b4 g2*3/2 ~ g2 \divisioMinima
+b2 ~ b2 c'4 b4 \finalis
+g2*3/2 ~ g2 \divisioMinima
 d4 e2*3/2 ~ e2 d2 ~ \divisioMaior
-d2 ~ d2 ~ d2 g4 fis2 g4 b4 ~ \divisioMinima
+d2 ~ d2 ~ d2 \finalis
+g4 fis2 g4 b4 ~ \divisioMinima
 b4 ~ b2*3/2 ~ b2 a2 \divisioMaior
 d2 ~ d2 ~ d2 \finalis
 }
@@ -78,6 +82,18 @@ s2*5/2
 
 
 }
+
+voiceLinesTwo = {
+\voiceLineStyle
+
+
+s2*5/2
+\allowVoiceLineBreak
+\voiceLine "down" "down" b2*1/2 b2*1/2
+
+
+}
+
 
 \score{
   <<
@@ -106,6 +122,9 @@ s2*5/2
         }
 	\new Voice {
         \voiceThree \global \voiceLines
+        }
+	\new Voice {
+        \voiceThree \global \voiceLinesTwo
         }
       >>
     >>

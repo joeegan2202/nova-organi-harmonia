@@ -5,6 +5,8 @@
 %Page reference: page v.66
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key e \dorian
  \cadenzaOn 
@@ -29,7 +31,7 @@ chantMusic = {
  fis'4 a'4 ( b'4) a'4 ( e'4) g'4 ( fis'4 e'4) d'4 ( e'4) e'4 \finalis
  e'4 ( fis'4) a'4 ( b'4)  b'4 ( c''4) b'4 \divisioMinima
  a'4 ( b'4 a'4 g'4) fis'4 ( e'4 fis'4) fis'4 g'4 \forceBreak
- a'4 e'4 g'4 ( fis'4 e'4) d'4 \divisioMaior
+ a'4 e'4 g'4 ( \once \tweak #'font-size #-4 fis'4 \once \tweak #'font-size #-4 e'4) d'4 \divisioMaior
  fis'4 a'4 ( b'4) a'4 ( g'4) fis'4 ( e'4) d'4 ( e'4) e'4 \finalis
  e'4 ( fis'4) a'4 ( g'4 fis'4) a'4 b'4 \divisioMinima
  \forceBreak

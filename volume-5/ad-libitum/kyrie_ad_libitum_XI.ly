@@ -5,6 +5,8 @@
 %Page reference: page v.138
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key e \dorian
  \cadenzaOn 
@@ -77,8 +79,10 @@ g'2 -\tweak Glissando.Y-offset #-0.8 \glissando g'4 r2 b2*3/2 ~ b4 \finalis
 
 tenorMusic = {
 fis4 g2 a2*3/2 b2*3/2 ~ \divisioMinima
-b2*5/2 a2 ~ a4 g4 fis4 g2 a2*3/2 b2*3/2 \divisioMinima
-g2*5/2 a2*3/2 g4 fis4 g2 a2*3/2 b2*3/2 ~ \divisioMinima
+b2*5/2 a2 ~ a4 g4 \finalis
+fis4 g2 a2*3/2 b2*3/2 \divisioMinima
+g2*5/2 a2*3/2 g4 \finalis
+fis4 g2 a2*3/2 b2*3/2 ~ \divisioMinima
 b2*5/2 a2*3/2 g4 \finalis
 g2*3/2 a2*3/2 g4 ~ \divisioMinima
 g2*5/2 a2*3/2 ~ a2*3/2 g4 \finalis
@@ -131,6 +135,7 @@ s2*47/4
 
 s2*53/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" a2*3/2 a2*1/2
 
 

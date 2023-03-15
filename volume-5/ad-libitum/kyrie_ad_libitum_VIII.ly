@@ -5,6 +5,8 @@
 %Page reference: page v.134
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key ees \major
  \cadenzaOn 
@@ -55,13 +57,16 @@ ees'2*3/2 g'2*5/4 ~ g'2*4/2 ees'2*3/2 f'2 -\tweak Glissando.Y-offset #-0.8 \glis
 }
 
 tenorMusic = {
-g2*3/2 ~ g2*3/4 aes2 bes2 aes2*3/2 g2*3/2 ees2*3/2 ~ ees2*3/4 ~ ees2 ~ ees2*5/2 bes,2 ~ bes,4 \finalis r4 aes2 ~ aes2*7/4 ~ aes2*5/2 f2 g4 \finalis
+g2*3/2 ~ g2*3/4 aes2 bes2 aes2*3/2 g2*3/2 \finalis
+ees2*3/2 ~ ees2*3/4 ~ ees2 ~ ees2*5/2 bes,2 ~ bes,4 \finalis
+r4 aes2 ~ aes2*7/4 ~ aes2*5/2 f2 g4 \finalis
 g2 ~ g2*3/2 ~ g2*3/2 c'2*3/2 bes2 aes2*3/2 g2 ~ g4 \finalis
 r2 bes2*3/2 c'2*3/2 d'2*3/2 c'2 aes2*3/2 g2*3/2 \finalis
 ees2 ~ ees2*3/2 aes2*3/2 g2*3/2 bes2*5/2 f2 g4 \finalis
 g2*3/2 ~ g2*5/4 ~ g2*4/2 aes2*3/2 g2*3/2 bes2 aes2*3/2 g2 ~ g4 \finalis
 ees'2*3/2 d'2*5/4 ~ d'2 ees'2 ~ ees'2*3/2 d'2*3/2 ees'2 aes2*3/2 g2*3/2 \finalis
-r2*3/2 d'2*5/4 \shiftRight c'2*4/2 r2*3/2 d'2 ees'4 c'2 ~ c'2 d'2*3/2 ees'2 aes2*3/2 f2 g4 \finalis
+r2*3/2 d'2*5/4 \shiftRight c'2*4/2 r2*3/2 d'2 ees'4 \divisioMinima
+c'2 ~ c'2 d'2*3/2 ees'2 aes2*3/2 f2 g4 \finalis
 }
 
 bassMusic = {
@@ -95,6 +100,23 @@ s2*8/2
 
 }
 
+voiceLinesTwo = {
+\voiceLineStyle
+
+
+s2*71/4
+\allowVoiceLineBreak
+\offsetVoiceLineY
+\voiceLine "down" "down" f2*5/2 f2*1/2
+
+
+s2*241/4
+\allowVoiceLineBreak
+\voiceLine "down" "down" c'2*1/2 c'2*1/2
+
+}
+
+
 \score{
   <<
     \new Lyrics
@@ -122,6 +144,9 @@ s2*8/2
         }
 	\new Voice {
         \voiceThree \global \voiceLines
+        }
+	\new Voice {
+        \voiceThree \global \voiceLinesTwo
         }
       >>
     >>

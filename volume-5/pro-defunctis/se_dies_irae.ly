@@ -2,34 +2,13 @@
 \include "gregorian.ly"
 \include "noh2.ily"
 
+%Proofed 3/14
+
 global = {
   \cadenzaOn
   \override Glissando #'thickness = #2.0
   \set tieWaitForNote = ##t
 }
-
-%\header {
-%  title = \markup \center-column {"Agnus Dei I." \vspace #1 }
-%  tagline = ""
-%  composer = ""
-%}
-
-%\paper {
-%  #(include-special-characters)
-%  oddHeaderMarkup = \markup \fill-line {
-%    \line {}
-%    \center-column {
-%      \on-the-fly #first-page     " "
-%      \on-the-fly #not-first-page ""
-%    }
-%    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
-%  }
-%  evenHeaderMarkup = \markup \fill-line {
-%    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
-%    \center-column { "" }
-%    \line {}
-%  }
-%}
 
 chantText = \lyricmode {
 	Di -- es i -- rae, di -- es il -- la,
@@ -378,10 +357,10 @@ b'4 b'4( e'4)
 g'4 fis'4 
 a'4 b'4 
 e'4( g'4 fis'4 e'4 d'4) g'4 
-\bar "" \break
-
 fis'4 e'4 
 \finalis
+\bar "" \break
+
 b'4 a'4 
 g'4 fis'4 
 a'4 a'4 b'4 
@@ -421,8 +400,8 @@ d'2*4/4~
 d'2*4/4~ 
 d'2*4/4 
 b2*4/4~ 
-b2*4/4 
-s4 
+b2*4/4~
+b4 ~
 b2*6/4~ 
 b2*4/4 
 c'2*4/4 
@@ -434,8 +413,9 @@ g'2*4/4
 fis'4 
 e'2*4/4~ 
 e'2*4/4~ 
-e'2*4/4 
-s2*4/4 
+e'2*4/4 -\tweak Glissando.Y-offset #-1.2 \glissando
+fis'4
+s4 
 b2*4/4~ 
 b2*6/4~ 
 b2*6/4~ 
@@ -450,8 +430,9 @@ fis'4
 e'2*4/4 
 c'2*4/4 
 d'2*4/4~ 
-d'2*4/4 
-s2*4/4 
+d'2*4/4 -\tweak Glissando.Y-offset #-1.2 \glissando
+e'4
+s4 
 e'4 
 d'2*4/4~ 
 d'2*6/4~ 
@@ -460,8 +441,10 @@ b2*4/4~
 b2*4/4 
 s4 
 d'2*6/4 
-e'2*4/4 
-s2*6/4 
+e'2*4/4~
+e'4
+s4 
+b4~
 b2*4/4~ 
 b4 
 d'2*6/4 
@@ -475,8 +458,8 @@ b2*6/4~
 b4 
 d'2*8/4~ 
 d'2*4/4 
-b2*4/4 
-s4 
+b2*4/4~
+b4~
 b2*4/4~ 
 b4 
 c'2*6/4 
@@ -493,7 +476,7 @@ b4
 s2*4/4 
 d'2*4/4~ 
 d'2*6/4 
-s4 
+e'4~
 e'4 
 b2*4/4~ 
 b2*4/4 
@@ -509,11 +492,12 @@ d'2*4/4
 c'2*4/4 
 d'4~ 
 d'2*4/4 
-c'2*4/4 
-s2*4/4 
+c'2*4/4 -\tweak Glissando.Y-offset #-0.8 \glissando
+e'4 
+d'4~
 d'2*6/4 
 b2*4/4 
-s4 
+b4 ~
 b2*4/4 
 c'4 
 b2*8/4~ 
@@ -551,8 +535,10 @@ b2*4/4
 s4 
 d'2*4/4~ 
 d'4 
-e'2*4/4 
-s2*6/4 
+e'2*4/4~
+e'4
+s4 
+b4~
 b2*4/4~ 
 b4 
 d'2*6/4 
@@ -616,8 +602,9 @@ g'2*4/4
 fis'4 
 e'2*4/4~ 
 e'2*4/4~ 
-e'2*4/4 
-s2*4/4 
+e'2*4/4 -\tweak Glissando.Y-offset #-1.2 \glissando
+fis'4
+s4 
 b2*4/4~ 
 b2*6/4~ 
 b2*6/4~ 
@@ -632,7 +619,7 @@ fis'4
 e'2*4/4 
 c'2*4/4 
 d'2*4/4~ 
-d'2*4/4 
+d'2*4/4 -\tweak Glissando.Y-offset #-1.2 \glissando
 e'4
 e'4~
 e'4 
@@ -668,8 +655,7 @@ d'2*4/4~
 d'2*4/4~ 
 d'2*4/4 
 b2*4/4~ 
-b2*4/4 
-s4 
+b2*6/4~
 b2*6/4~ 
 b2*4/4 
 fis'2*6/4~ 
@@ -677,8 +663,9 @@ fis'2*6/4~
 fis'2*4/4~ 
 fis'2*4/4~ 
 fis'4 
-e'2*4/4 
-s2*4/4 
+e'2*4/4 -\tweak Glissando.Y-offset #-1.2 \glissando
+g'4
+s4 
 b2*4/4 
 d'2*6/4~ 
 d'2*6/4 
@@ -806,7 +793,7 @@ g4~
 g2*6/4 
 fis2*4/4~ 
 fis2*4/4 
-e4 
+\shiftRight e4 
 a2*4/4 
 g4 
 \divisioMaior
@@ -872,8 +859,8 @@ a2*4/4
 g4~ 
 g2*4/4 
 fis2*6/4 
-a2*6/4 
-g2*4/4~ 
+b2*6/4 
+a2*4/4
 g2*4/4 
 \finalis
 fis2*4/4 
@@ -927,7 +914,7 @@ g4~
 g2*6/4 
 fis2*4/4~ 
 fis2*4/4 
-e4 
+\shiftRight e4 
 a2*4/4 
 g4 
 \divisioMaior
@@ -984,7 +971,7 @@ b2*4/4~
 \divisioMaior
 b2*4/4~ 
 b2*4/4 
-a2*4/4~ 
+a2*4/4
 a2*4/4 
 \divisioMaior
 g4 
@@ -1143,7 +1130,7 @@ fis2*4/4
 e4 
 s2*22/4 
 d2*4/4 
-e2*4/4 
+\shiftRight e2*4/4 
 s2*4/4 
 e4~ 
 e2*4/4~ 
@@ -1215,7 +1202,7 @@ e2*4/4
 d2*4/4~ 
 d4 
 fis2*6/4 
-g2*8/4 
+\shiftRight g2*8/4 
 fis4 
 e2*4/4 
 d2*4/4 
@@ -1362,10 +1349,25 @@ e,2
 voiceLines = {
   \voiceLineStyle
 
-  % Manually add line break
-  %s2
-  %\allowVoiceLineBreak
-  %\voiceLine "down" "down" a2*3/2 a2*1/2
+  s2*18 s4
+  \allowVoiceLineBreak
+  \voiceLine "down" "down" e2*1/2 e2*1/2
+
+  s4*7
+  \allowVoiceLineBreak
+  \voiceLine "down" "down" g2 g2*1/2
+
+  s2*123 s4
+  \allowVoiceLineBreak
+  \voiceLine "down" "down" e2 e2*1/2
+
+  s2*8
+  \allowVoiceLineBreak
+  \voiceLine "down" "down" e2 e2*1/2
+
+  s2*56 s4
+  \allowVoiceLineBreak
+  \voiceLine "down" "down" g2 g2*1/2
 }
 
 \score{

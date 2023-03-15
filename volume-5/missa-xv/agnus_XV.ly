@@ -2,8 +2,17 @@
 \include "gregorian.ly"
 \include "noh2.ily"
 
+% The second Agnus is incorrect according to Solemnes books.
+% It should be re-la(Ag) la-sol(nus) la(De) re(i),
+% but the NOH puts mi-la(Ag) la-sol(nus) la(De) re(i).
+% The harmony does not at all match, so I have put in my own accompaniment for that measure.
+% Help is sought to determine what should happen here.
+% - Joseph Egan
+
 %Page reference: page v.88
 %(volume.page)
+
+%Proofed 3/14
 
 global = {
  \key e \dorian
@@ -43,7 +52,7 @@ altoMusic = {
 b2 -\tweak Glissando.Y-offset #-0.8 \glissando e'4 d'4 fis'4 d'4 ~ \divisioMinima
 d'4 cis'2*4/2 b4 cis'2*3/2 d'2*3/2 \divisioMaior
 e'2 d'2 ~ d'2 b2*4/2 ~ b4 \finalis
-\shiftRight fis'2 ~ fis'2 ~ fis'4 -\tweak Glissando.Y-offset #-0.8 \glissando e'4 ~ \divisioMinima
+e'2 fis'2 ~ fis'4 -\tweak Glissando.Y-offset #-0.8 \glissando e'4 ~ \divisioMinima
 e'4 d'2*4/2 ~ d'2 ~ d'2 ~ d'2 b2*3/2 ~ b4 \divisioMaior
 fis'4 e'2 d'2*4/2 e'2*3/2 d'4 cis'2*3/2 d'2*3/2 b2 ~ b4 \finalis
 b2 ~ b2*3/2 d'4 \divisioMinima
@@ -55,7 +64,7 @@ tenorMusic = {
 g2 a2*3/2 ~ a4 ~ \divisioMinima
 a4 g2*4/2 d4 e2*3/2 b2*3/2 ~ \divisioMaior
 b2 a2 ~ a2 ~ a2*4/2 g4 \finalis
-b2 cis'2 b2 ~ \divisioMinima
+cis'2 ~ cis'2 b2 ~ \divisioMinima
 b4 ~ b2*4/2 a2 fis2 g2 a2*3/2 g4 \divisioMaior
 fis4 ~ fis2 ~ fis2*4/2 g2*3/2 ~ g4 ~ g2*3/2 fis2*3/2 a2 g4 \finalis
 g2 fis2*3/2 b4 \divisioMinima
@@ -67,7 +76,7 @@ bassMusic = {
 r2 fis2*3/2 d4 \divisioMinima
 b,4 ~ b,2*4/2 ~ b,4 ~ b,2*3/2 ~ b,2*3/2 \divisioMaior
 cis2 d2 fis2 e2*4/2 ~ e4 \finalis
-d2 fis2 g2 ~ \divisioMinima
+b2 fis2 g2 ~ \divisioMinima
 g4 b,2*4/2 ~ b,2 ~ b,2 ~ b,2 e2*3/2 ~ e4 \divisioMaior
 d4 cis2 b,2*4/2 ~ b,2*3/2 ~ b,4 ~ b,2*3/2 ~ b,2*3/2 e2 ~ e4 \finalis
 e2 b,2*3/2 ~ b,4 ~ \divisioMinima

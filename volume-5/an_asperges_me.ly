@@ -2,10 +2,10 @@
 \include "gregorian.ly"
 \include "noh2.ily"
 
-%\include "lilypond-book-preamble.ly"
-
 %Page reference: page v.1
 %(volume.page)
+
+%Proofed 3/14
 
 global = {
  \key d \mixolydian

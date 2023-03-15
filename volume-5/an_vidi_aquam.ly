@@ -5,6 +5,8 @@
 %Page reference: page v.2
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key f \mixolydian
  \cadenzaOn 
@@ -16,7 +18,7 @@ Vi -- di _ a -- quam
 \set stanza = " * " e -- gre -- _ di -- én -- tem de tem -- _ _ plo, _ 
 a lá -- _ te -- re dex -- _ tro, 
 al -- le -- lú -- _ ia: 
-et o -- mnes, ad quos per -- vé -- nit a -- qua i -- sta, _ _ 
+et o -- mnes, ad quos per -- vé -- nit a _ -- qua i -- sta, _ _ 
 sal -- _ _ vi fa -- cti sunt, et di -- _ cent, 
 al -- le -- lú -- ia, al -- le -- _ lú -- ia. 
 \set stanza = " Ps. 117 " 
@@ -36,7 +38,7 @@ chantMusic = {
  f'4 f'4 ( g'4 ees'4 f'4) \forceBreak
  f'4 ( g'4) bes'4 ( g'4 a'4) g'4 ( f'4) \divisioMaxima
  f'4 ( g'4) f'4 ( \quil g' a'4 bes'4) bes'4 bes'4 bes'4 a'4 ( \once \tweak #'font-size #-4 g' ) a'4 ( bes'4) a'4 \divisioMinima
- bes'4 ( bes'4) ~ bes'4 ( a'4) \forceBreak
+ bes'4 ( bes'4) bes'4 ( a'4) \forceBreak
  g'4 ( c''4) bes'4 ( a'4) bes'4 ( c''4 bes'4 a'4) bes'4 ( a'4 g'4 f'4) g'4 ( f'4) \divisioMaior
  f'4 bes'4 ( bes'4) bes'4 ( c''4) bes'4 bes'4 ( \quil c'' d''4 c''4) bes'4 ( a'4 g'4) g'4 \divisioMinima
  \forceBreak

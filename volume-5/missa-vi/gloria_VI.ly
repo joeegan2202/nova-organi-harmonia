@@ -5,6 +5,8 @@
 %Page reference: page v.36
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key f \mixolydian
  \cadenzaOn 
@@ -46,7 +48,7 @@ chantMusic = {
  \forceBreak
  f'4 f'4 ( \once \tweak #'font-size #-4 g' ) g'4 ( f'4 f'4) ees'4 g'4 ( f'4) ees'4 ( d'4) ees'4 ( \once \tweak #'font-size #-4 f' ) f'4 f'4 \finalis
  f'4 ees'4 ( d'4) c'4 ( \quil d' ees'4 f'4) f'4 f'4 ( g'4)  \forceBreak
- f'4 f'4 f'4 ( f'4) ees'4 \divisioMinima
+ g'4 f'4 f'4 ( f'4) ees'4 \divisioMinima
  g'4 ( f'4) f'4 f'4 ( bes'4) ~ bes'4 ( a'4) g'4 g'4 ( f'4) ees'4 ( d'4) ees'4 ( f'4) f'4 \finalis
  \forceBreak
  f'4 ees'4 ( d'4) c'4 ( \quil d' ees'4 f'4) f'4 f'4 ( g'4) g'4 f'4 f'4 ees'4 ees'4 \divisioMinima

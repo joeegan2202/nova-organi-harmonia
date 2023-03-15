@@ -2,34 +2,13 @@
 \include "gregorian.ly"
 \include "noh2.ily"
 
+%Proofed 3/15
+
 global = {
   \cadenzaOn
   \override Glissando #'thickness = #2.0
   \set tieWaitForNote = ##t
 }
-
-%\header {
-%  title = \markup \center-column {"Agnus Dei I." \vspace #1 }
-%  tagline = ""
-%  composer = ""
-%}
-
-%\paper {
-%  #(include-special-characters)
-%  oddHeaderMarkup = \markup \fill-line {
-%    \line {}
-%    \center-column {
-%      \on-the-fly #first-page     " "
-%      \on-the-fly #not-first-page ""
-%    }
-%    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
-%  }
-%  evenHeaderMarkup = \markup \fill-line {
-%    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
-%    \center-column { "" }
-%    \line {}
-%  }
-%}
 
 chantText = \lyricmode {
 	E -- go sum \set stanza = "*"
@@ -146,7 +125,7 @@ bassMusic = {
 fis2*6/4~ 
 fis2*4/4~ 
 fis2*6/4~ 
-fis4 
+\shiftRight fis4 
 s2*12/4 
 d2*6/4 
 cis2*6/4 

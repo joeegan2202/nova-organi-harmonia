@@ -5,6 +5,8 @@
 %Page reference: page v.69
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key e \phrygian
  \cadenzaOn 
@@ -92,7 +94,7 @@ a2*3/2 c'2 ~ c'2 ~ c'2 ~ c'4 ~ \divisioMinima
 c'2 ~ c'2 ~ c'4 \finalis
 e'2*3/2 ~ e'2 ~ e'4 \divisioMinima
 c'2 ~ c'2 ~ c'4 ~ \divisioMinima
-c'4 ~ c'2 -\tweak Glissando.Y-offset #-0.8 \glissando d'4 ~ d'2 \finalis
+c'4 ~ c'2 -\tweak Glissando.Y-offset #-0.8 \glissando d'4 ~ d'4 c'4 \finalis
 r4 c'2*3/2 ~ c'2 ~ c'2 ~ \divisioMinima
 c'2 ~ c'2 ~ c'2 ~ c'2 \finalis
 c'4 ~ c'2*3/2 ~ c'2 ~ c'2 ~ \divisioMinima
@@ -178,6 +180,7 @@ voiceLines = {
 
 s2*202/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "up" "up" e'2*1/2 e'2*1/2
 
 

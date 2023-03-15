@@ -5,6 +5,8 @@
 %Page reference: page v.9
 %(volume.page)
 
+%Proofed 2/13
+
 global = {
  \key a \locrian
  \cadenzaOn 
@@ -81,11 +83,13 @@ voiceLines = {
 
 s2*5/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" a2*3/2 a2*1/2
 
 
 s2*75/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" a2*3/2 a2*1/2
 
 

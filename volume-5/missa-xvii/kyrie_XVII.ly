@@ -5,6 +5,8 @@
 %Page reference: page v.91
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key e \dorian
  \cadenzaOn 
@@ -90,7 +92,8 @@ a2*6/2 g2*3/2 fis2 g4 \finalis
 d'4 ~ d'2 ~ d'4 ~ d'2*5/2 ~ d'2*3/2 e'2*3/2 ~ e'2 d'4 \finalis
 fis4 ~ fis2 ~ fis4 b2*5/2 a2*3/2 fis2*3/2 ~ fis2*3/2 \finalis
 d'4 ~ d'2 ~ d'4 cis'2*4/2 d'2*3/4 e'2*4/2 ~ e'2 d'4 \divisioMaior
-fis2*3/2 b2*4/2 fis2*3/4 g2*4/2 fis2*3/2 e2 ~ e2*5/2 a2*4/2 ~ a2*3/2 ~ a2 g4 \finalis
+fis2*3/2 b2*4/2 fis2*3/4 g2*4/2 fis2*3/2 \divisioMaior
+e2 ~ e2*5/2 a2*4/2 ~ a2*3/2 ~ a2 g4 \finalis
 }
 
 bassMusic = {
@@ -118,7 +121,8 @@ voiceLines = {
 
 s2*54/2
 \allowVoiceLineBreak
-\voiceLine "down" "down" fis4. fis2*1/2
+\offsetVoiceLineY
+\voiceLine "down" "down" fis2*3/4 fis2*1/2
 
 
 }

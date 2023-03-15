@@ -2,6 +2,8 @@
 \include "gregorian.ly"
 \include "noh2.ily"
 
+%Proofed 3/14
+
 global = {
   \key d \major
   \cadenzaOn
@@ -29,7 +31,7 @@ chantMusic = \relative c' {
 
   %2
   fis4 fis( e) d e fis a \forceBreak
-  b( cis \tieDown b)~ b( \once \teeny a) a4 \divisioMinima
+  b( cis \tieDown b)~ b( \once \tweak #'font-size #-4 a) a4 \divisioMinima
   d cis( b) a( fis) g( fis e) e( d) \divisioMaxima
 
   %3

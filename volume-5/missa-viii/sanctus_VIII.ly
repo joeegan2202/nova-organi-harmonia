@@ -5,6 +5,8 @@
 %Page reference: page v.50
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key f \major
  \cadenzaOn 
@@ -91,16 +93,19 @@ s2*20/2
 
 s2*45/4
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" f2*4/2 f2*1/2
 
 
 s2*16/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" f2*2/2 f2*1/2
 
 
 s2*18/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" f2*4/2 f2*1/2
 
 
@@ -111,10 +116,25 @@ s2*18/2
 
 s2*47/4
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" f2*4/2 f2*1/2
 
 
 }
+
+voiceLinesTwo = {
+\voiceLineStyle
+
+
+s2*43/4
+s2*50/4
+
+
+s2*20/2
+\allowVoiceLineBreak
+\voiceLine "down" "up" c'2*2/2 c'2*1/2
+}
+
 
 \score{
   <<
@@ -143,6 +163,9 @@ s2*47/4
         }
 	\new Voice {
         \voiceThree \global \voiceLines
+        }
+	\new Voice {
+        \voiceFour \global \voiceLinesTwo
         }
       >>
     >>

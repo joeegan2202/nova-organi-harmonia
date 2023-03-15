@@ -5,6 +5,8 @@
 %Page reference: page v.149
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key f \mixolydian
  \cadenzaOn 
@@ -59,7 +61,8 @@ bes2*3/2 a4 \divisioMinima
 r2*4/2 ees'2*3/2 d'4 ~ \divisioMinima
 d'4 ~ d'2 c'2*9/4 ~ c'2*4/2 bes2 a2 bes4 \divisioMaxima
 a2*3/2 bes2 ~ bes2*3/2 a4 ~ \divisioMinima
-a4 \shiftRight f2 ~ f2*4/2 bes2 ~ bes2 ~ bes2 a4 f2*3/2 a2*4/2 bes2*3/2 ~ bes4 a4 \divisioMaxima
+a4 \shiftRight f2 ~ f2*4/2 bes2 ~ bes2 ~ bes2 a4 \divisioMaxima
+f2*3/2 a2*4/2 bes2*3/2 ~ bes4 a4 \divisioMaxima
 a2*4/2 g2 a4 \divisioMinima
 g2*4/2 a2*3/2 ~ a4 \divisioMaior
 bes2 a4 g2 f2 ~ f2*3/2 g4 \divisioMaxima

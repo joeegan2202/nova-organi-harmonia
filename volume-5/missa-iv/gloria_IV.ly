@@ -5,6 +5,8 @@
 %Page reference: page v.24
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key fis \phrygian
  \cadenzaOn 
@@ -36,7 +38,7 @@ chantMusic = {
  e'4 ( a'4) a'4 ( \once \tweak #'font-size #-4 b' ) b'4 ( d''4) b'4 b'4 \forceBreak
  a'4 ( g'4) a'4 ( b'4) a'4 ( g'4) fis'4 \divisioMinima
  g'4 e'4 d'4 e'4 ( \once \tweak #'font-size #-4 fis' ) fis'4 fis'4 \finalis
- fis'4 ( \once \tweak #'font-size #-4 e' ) g'4 e'4 ( fis'4) fis'4 \finalis
+ fis'4 ( \once \tweak #'font-size #-4 e' ) g'4 e'4 ( \once \tweak #'font-size #-4 fis'4) fis'4 \finalis
  \forceBreak
  e'4 e'4 ( d'4) e'4 e'4 e'4 ( fis'4) fis'4 \finalis
  a'4 a'4 ( b'4) b'4 ( a'4) b'4 ( d''4) a'4 ( a'4) fis'4 \finalis
@@ -192,6 +194,7 @@ s2*55/4
 
 s2*297/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" d2*2/2 d2*1/2
 
 

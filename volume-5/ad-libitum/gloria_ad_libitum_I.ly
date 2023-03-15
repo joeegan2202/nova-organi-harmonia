@@ -5,6 +5,8 @@
 %Page reference: page v.139
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key ees \mixolydian
  \cadenzaOn 
@@ -191,13 +193,13 @@ s2*101/2
 
 s2*5/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" bes,2*3/2 bes,2*1/2
 
 
 s2*79/2
 \allowVoiceLineBreak
-\voiceLine "down" "down" f2*3/2 f2*1/2
-
+\voiceLine "down" "up" aes2*3/2 aes2*1/2
 
 s2*3/2
 \allowVoiceLineBreak
@@ -211,7 +213,7 @@ s2*4/2
 
 s2*35/2
 \allowVoiceLineBreak
-\voiceLine "down" "down" f2*3/2 f2*1/2
+\voiceLine "down" "up" aes2*3/2 aes2*1/2
 
 
 s2*55/2
@@ -223,6 +225,34 @@ s2*55/2
 %\voiceLine "down" "up" aes2*3/2 aes2*1/2
 
 }
+
+voiceLinesTwo = {
+\voiceLineStyle
+
+
+s2*103/2
+s2*9/2
+
+s2*79/2
+\allowVoiceLineBreak
+\offsetVoiceLineY
+\voiceLine "down" "down" f2*3/2 f2*1/2
+
+s2*7/2
+s2*6/2
+
+
+s2*35/2
+\allowVoiceLineBreak
+\offsetVoiceLineY
+\voiceLine "down" "down" f2*3/2 f2*1/2
+
+s2*59/2
+\allowVoiceLineBreak
+\voiceLine "down" "up" f2*3/2 f2*0
+
+}
+
 
 \score{
   <<
@@ -251,6 +281,9 @@ s2*55/2
         }
 	\new Voice {
         \voiceThree \global \voiceLines
+        }
+	\new Voice {
+        \voiceThree \global \voiceLinesTwo
         }
       >>
     >>

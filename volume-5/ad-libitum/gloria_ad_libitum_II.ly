@@ -5,6 +5,8 @@
 %Page reference: page v.141
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key g \dorian
  \cadenzaOn 

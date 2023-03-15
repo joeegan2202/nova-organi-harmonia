@@ -5,7 +5,7 @@
 %Page reference: page v.11
 %(volume.page)
 
-% Proofed 2/13/23
+% Proofed 2/13
 
 global = {
  \key e \phrygian

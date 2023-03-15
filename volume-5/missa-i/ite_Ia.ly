@@ -5,6 +5,8 @@
 %Page reference: page v.10
 %(volume.page)
 
+%Proofed 2/13
+
 global = {
  \key g \mixolydian
  \cadenzaOn 

@@ -5,6 +5,8 @@
 %Page reference: page v.29
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key g \mixolydian
  \cadenzaOn 
@@ -60,7 +62,7 @@ d'2*3/2 c'2*9/4 ~ c'2*3/2 ~ c'2 ~ c'2 b4 \finalis
 c'2 ~ c'2 ~ c'2*4/2 b2 ~ b2*3/4 a2 -\tweak Glissando.Y-offset #-0.8 \glissando d'4 c'4 \divisioMinima
 d'2*3/2 c'2*9/4 ~ c'2*5/2 ~ c'2 b4 \finalis
 e'2 ~ e'2 ~ e'2*4/2 ~ e'2 d'2*3/4 c'2*4/2 \divisioMinima
-d'2*3/2 e'2*3/2 -\tweak Glissando.Y-offset #-0.8 \glissando g'4. e'2*3/2 \glissando f'4 e'4 d'2 ~ d'4 \finalis
+d'2*3/2 e'2*3/2 -\tweak Glissando.Y-offset #-0.8 \glissando g'4. e'2*3/2 -\tweak Glissando.Y-offset #-0.8 \glissando f'4 e'4 d'2 ~ d'4 \finalis
 g'4 ~ g'2 ~ g'2*3/2 ~ g'4. e'2*3/2 d'2*5/2 ~ \divisioMinima
 d'2 ~ d'2 c'2*5/2 ~ c'2 b4 \finalis
 g'4 ~ g'2 ~ g'2*3/2 ~ g'4. e'2*3/2 -\tweak Glissando.Y-offset #-0.8 \glissando g'4 ~ g'4 f'4 e'4 d'4 \divisioMinima
@@ -123,21 +125,24 @@ voiceLines = {
 
 s2*26/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" d2*2/2 d2*1/2
 
 
 s2*167/4
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" d2*5/2 d2*1/2
 
 
 s2*8/2
 \allowVoiceLineBreak
-\voiceLine "down" "down" c'4. c'2*1/2
+\voiceLine "down" "down" c'2*3/4 c'2*1/2
 
 
 s2*73/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" d2*2/2 d2*1/2
 
 

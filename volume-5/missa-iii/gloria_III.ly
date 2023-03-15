@@ -5,6 +5,8 @@
 %Page reference: page v.19
 %(volume.page)
 
+% Proofed 3/11
+
 global = {
  \key g \mixolydian
  \cadenzaOn 
@@ -96,7 +98,7 @@ c'4 d'2 c'2*3/2 ~ \divisioMinima
 c'2 ~ c'2 b2 \finalis
 e'2*3/2 ~ e'2 ~ \divisioMinima
 e'4 ~ e'2 ~ e'2 \divisioMinima
-f'2*3/2 -\tweak Glissando.Y-offset #-0.8 \glissando g'4 a'4 f'4 \finalis
+f'2*3/2 -\tweak Glissando.Y-offset #-1.2 \glissando g'4 a'4 f'4 \finalis
 d'4 ~ d'2 ~ d'2 c'2*3/2 ~ c'2 ~ c'2 d'2 \divisioMinima
 c'2 ~ c'2 ~ c'2*3/2 ~ c'4 b4 \finalis
 d'4 ~ d'2 ~ d'2 c'2*3/2 f'2 ~ f'2 e'2 ~ \divisioMinima
@@ -185,11 +187,13 @@ voiceLines = {
 
 s2*112/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" a2*2/2 a2*1/2
 
 
 s2*57/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" d2*2/2 d2*1/2
 
 

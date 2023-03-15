@@ -5,6 +5,8 @@
 %Page reference: page v.137
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key e \dorian
  \cadenzaOn 
@@ -72,8 +74,10 @@ d'2 c'2*3/2 ~ c'2 b4 \finalis
 
 tenorMusic = {
 r2*4/2 d'2 \divisioMinima
-c'2*5/2 b2 a4 g2 fis2 g2 ~ \divisioMinima
-g2*3/2 a2 fis2 g4 b2 c'2 b2 \divisioMinima
+c'2*5/2 b2 a4 \finalis
+g2 fis2 g2 ~ \divisioMinima
+g2*3/2 a2 fis2 g4 \finalis
+b2 c'2 b2 \divisioMinima
 a2*3/2 ~ a2 fis2 g4 \finalis
 g2 a2*3/4 b2*3/2 a2*3/2 \divisioMinima
 g2 ~ g2*3/2 fis2 g4 \finalis

@@ -5,6 +5,8 @@
 %Page reference: page v.154
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key fis \phrygian
  \cadenzaOn 
@@ -160,7 +162,7 @@ d'2*3/2 ~ d'2*3/2 ~ d'2 c'2 ~ c'4 b4 \finalis
 }
 
 tenorMusic = {
-r2*15/2
+r2*15/2 \finalis
 r2*7/2 \divisioMinima
 e'2*3/2 c'2*3/2 b2 ~ \divisioMaior
 b4 d'2 c'2 d'2 b2 ~ \divisioMinima
@@ -286,8 +288,11 @@ s2*45/2
 \allowVoiceLineBreak
 \voiceLine "down" "up" b2*2/2 b2*1/2
 
+s2*24/2
+\allowVoiceLineBreak
+\voiceLine "down" "up" b2*2/2 b2*1/2
 
-s2*46/2
+s2*19/2
 \allowVoiceLineBreak
 \voiceLine "down" "down" b2*2/2 b2*1/2
 

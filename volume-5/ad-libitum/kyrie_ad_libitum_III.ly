@@ -5,6 +5,8 @@
 %Page reference: page v.127
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key g \minor
  \cadenzaOn 
@@ -95,12 +97,12 @@ a2*3/2 bes2*3/2 c'2 ~ c'4 bes4 \finalis
 bassMusic = {
 g4 ~ g2 ~ g2*7/4 d2*5/2 ~ \divisioMinima
 d2*5/2 g2 ~ g4 \finalis
-s2*4/2 f2*3/2 ees2 d2*3/2 ~ d2 bes,4 \finalis
+s2*4/2 f2*3/2 ees2 d2*3/2 ~ \shiftRight d2 bes,4 \finalis
 r2*23/4 \divisioMinima
 f2*5/2 g2 ~ g4 \finalis
 bes,2*3/2 c2 d2*3/2 ~ d2*3/2 ~ \divisioMinima
 d2*5/2 g2 ~ g4 \finalis
-r4 a2*3/2 ~ a2*3/2 g2*3/2 c'2*3/2 \finalis
+r4 a2*3/2 ~ a2*3/2 g2*3/2 \shiftRight c'2*3/2 \finalis
 g2*3/2 ~ g2 ~ g2*3/2 d2*3/2 ~ \divisioMinima
 d2*5/2 g2 ~ g4 \finalis
 r2 r2*6/2 \divisioMinima

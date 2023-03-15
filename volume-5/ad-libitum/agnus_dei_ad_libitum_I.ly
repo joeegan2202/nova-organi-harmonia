@@ -5,6 +5,8 @@
 %Page reference: page v.150
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key f \mixolydian
  \cadenzaOn 
@@ -13,31 +15,31 @@ global = {
 }
 
 chantText = \lyricmode {
-A -- _ gnus De -- _ i, 
-\set stanza = " * " qui _ tol -- lis pec -- cá -- ta mun -- di: 
-mi -- se -- ré -- re _ no -- _ bis. 
-A -- _ gnus De -- _ i, 
-\set stanza = " * " qui _ tol -- lis pec -- cá -- ta mun -- di: 
-mi -- se -- ré -- re _ no -- _ bis. 
 A -- _ gnus De -- i, 
 \set stanza = " * " qui _ tol -- lis pec -- cá -- ta mun -- di: 
-do -- na nó -- bis pa -- _ cem. }
+mi -- se -- ré -- re no -- bis. 
+A -- _ gnus De -- i, 
+\set stanza = " * " qui _ tol -- lis pec -- cá -- ta mun -- di: 
+mi -- se -- ré -- re no -- bis. 
+A -- _ gnus De -- i, 
+\set stanza = " * " qui _ tol -- lis pec -- cá -- ta mun -- di: 
+do -- na nó -- bis pa -- cem. }
 
 chantMusic = {
-\tieDown   f'4 ( f'4) a'4 ( bes'4 g'4 g'4) f'4 f'4 ( a'4 g'4) g'4 ( f'4) f'4 \divisioMinima
+\tieDown   f'4 ( f'4) a'4 ( bes'4 g'4 g'4) f'4 f'4 ( a'4 g'4) ~ g'4 ( f'4) f'4 \divisioMinima
  d'4 ( c'4 f'4)  g'4 ( a'4 )  a'4 ( bes'4 g'4 g'4 )\forceBreak
  f'4 f'4 bes'4 c''4 ( d''4) d''4 c''4 ( bes'4 a'4) \divisioMaior
- a'4 bes'4 c''4 ( a'4) bes'4 ( a'4) a'4 ( g'4 f'4) g'4 ( a'4 g'4) g'4 ( f'4) f'4 \finalis
+ a'4 bes'4 c''4 ( a'4) bes'4 ( a'4) ~ a'4 ( g'4 f'4) g'4 ( a'4 g'4) ~ g'4 ( f'4) f'4 \finalis
  \forceBreak
- f'4 ( f'4) a'4 ( bes'4 g'4 g'4) f'4 f'4 ( a'4 g'4) g'4 ( f'4) f'4 \divisioMinima
+ f'4 ( f'4) a'4 ( bes'4 g'4 g'4) f'4 f'4 ( a'4 g'4) ~ g'4 ( f'4) f'4 \divisioMinima
  d'4 ( c'4 f'4) g'4 ( a'4) a'4 ( bes'4 g'4 g'4) f'4 f'4 bes'4 c''4 ( d''4) \forceBreak
  d''4 c''4 ( bes'4 a'4) \divisioMaior
- a'4 bes'4 c''4 ( a'4) bes'4 ( a'4) a'4 ( g'4 f'4) g'4 ( a'4 g'4) g'4 ( f'4) f'4 \finalis
+ a'4 bes'4 c''4 ( a'4) bes'4 ( a'4) ~ a'4 ( g'4 f'4) g'4 ( a'4 g'4) ~ g'4 ( f'4) f'4 \finalis
  f'4 ( f'4) a'4 ( bes'4 g'4 g'4) f'4 \forceBreak
  f'4 ( a'4 g'4) ~ g'4 ( f'4) f'4 \divisioMinima
  d'4 ( c'4 f'4) g'4 ( a'4) a'4 ( bes'4 g'4 g'4) f'4 f'4 bes'4 c''4 ( d''4) d''4 c''4 ( bes'4 a'4) \divisioMaior
  \forceBreak
- a'4 bes'4 c''4 ( a'4) bes'4 ( a'4) ~ a'4 ( g'4 f'4) g'4 ( a'4 g'4) g'4 ( f'4) f'4 \finalis
+ a'4 bes'4 c''4 ( a'4) bes'4 ( a'4) ~ a'4 ( g'4 f'4) g'4 ( a'4 g'4) ~ g'4 ( f'4) f'4 \finalis
 
 }
 

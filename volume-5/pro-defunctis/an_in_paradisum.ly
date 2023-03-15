@@ -2,34 +2,13 @@
 \include "gregorian.ly"
 \include "noh2.ily"
 
+%Proofed 3/15
+
 global = {
   \cadenzaOn
   \override Glissando #'thickness = #2.0
   \set tieWaitForNote = ##t
 }
-
-%\header {
-%  title = \markup \center-column {"Agnus Dei I." \vspace #1 }
-%  tagline = ""
-%  composer = ""
-%}
-
-%\paper {
-%  #(include-special-characters)
-%  oddHeaderMarkup = \markup \fill-line {
-%    \line {}
-%    \center-column {
-%      \on-the-fly #first-page     " "
-%      \on-the-fly #not-first-page ""
-%    }
-%    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
-%  }
-%  evenHeaderMarkup = \markup \fill-line {
-%    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
-%    \center-column { "" }
-%    \line {}
-%  }
-%}
 
 chantText = \lyricmode {
 	In pa -- ra -- dí -- sum \set stanza = "*"
@@ -62,7 +41,7 @@ b'4
 \divisioMinima
 b'4 
 b'4 b'4 cis''4 b'4 
-a'4( a'4 b'4)
+a'4( a'4 \once \tweak #'font-size #-4 b'4)
 \bar "" \break
 
 b'4( fis'4) 
@@ -79,10 +58,10 @@ b'4( a'4 fis'4) a'4 a'4 gis'4
 gis'4 
 a'4 
 b'4( cis''4) a'4 fis'4 
-a'4 gis'4( e'4) 
+a'4 gis'4( \once \tweak #'font-size #-4 e'4) 
 fis'4 e'4 d'4 
 \divisioMaior
-d'4 fis'4( e'4) e'4( fis'4 \quil gis'4 a'4 gis'4 fis'4) 
+d'4 fis'4( \once \tweak #'font-size #-4 e'4) e'4( fis'4 \quil gis'4 a'4 gis'4 fis'4) 
 e'4 fis'4 fis'4( gis'4) 
 e'4 e'4 e'4 
 \finalis
@@ -156,7 +135,7 @@ a4~
 a2*6/4 
 \divisioMinima
 e2*4/4 
-fis2*4/4 
+\shiftRight fis2*4/4 
 a2*4/4~ 
 a4~ 
 a2*4/4 
@@ -215,7 +194,7 @@ cis2*4/4
 fis2*4/4~ 
 fis2*4/4 
 gis4 
-a2*4/4 
+\shiftRight a2*4/4 
 e2*4/4~ 
 e2*4/4~ 
 e2*4/4~ 

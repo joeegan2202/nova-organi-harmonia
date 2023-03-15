@@ -5,6 +5,8 @@
 %Page reference: page v.110
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key d \dorian
  \cadenzaOn 
@@ -135,7 +137,7 @@ e'2 d'2 c'2*3/2 ~ \divisioMaior
 c'4 ~ c'2 a2*3/2 ~ a4 \finalis
 a2 ~ a2*4/2 c'2 ~ c'2 d'2*3/2 c'4 ~ \divisioMaior
 c'4 ~ c'2*4/2 ~ c'2*3/2 a4 ~ \divisioMinima
-a2*4/2 <a g>2*3/2 <a f>4 \finalis
+a2*4/2 ~ <a ~ g>2*3/2 <a f>4 \finalis
 a'2*3/2 g'2 e'2*3/2 ~ e'2 ~ \divisioMinima
 e'4 d'2*3/2 a2*3/2 ~ a4 \finalis
 a2 c'2*3/2 ~ c'2 ~ c'4 \divisioMaior
@@ -255,16 +257,19 @@ voiceLines = {
 
 s2*107/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" a2*1/2 a2*1/2
 
 
 s2*51/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" a2*2/2 a2*1/2
 
 
 s2*54/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" a2*1/2 a2*0/2
 
 
@@ -275,6 +280,7 @@ s2*0/2
 
 s2*67/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" d2*2/2 d2*1/2
 
 
@@ -285,6 +291,7 @@ s2*69/2
 
 s2*11/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" a2*2/2 a2*1/2
 
 }

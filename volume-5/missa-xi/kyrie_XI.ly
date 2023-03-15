@@ -5,6 +5,8 @@
 %Page reference: page v.62
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key d \minor
  \cadenzaOn 
@@ -61,11 +63,24 @@ a2*3/2 ~ a2 ~ a2*3/4 ~ a2*3/4 ~ a2*3/2 ~ a2 ~ a4 d'2*3/2 ~ d'2*3/2 g2*3/2 a2 ~ a
 }
 
 tenorMusic = {
-d'2 ~ d'2 ~ d'2 \divisioMinima bes2*3/2 ~ bes2*3/2 a2*3/2 e2 f4 f2 e2 f2 ~ \divisioMinima f2*3/2 g2*3/2 ~ g2*3/2 ~ g2 f4 d'2*4/2 ~ d'2 ~ \divisioMinima d'2*3/2 bes2*3/2 ~ bes2*3/2 g2 f4 \finalis
-f2 g2*3/4 ~ g2*3/2 f2*3/2 \divisioMinima d2*3/2 ~ d2*3/2 f2*3/2 e2 f4 \finalis
-d'2 ~ d'2*3/4 e'2*3/2 f'2*3/2 \divisioMinima d'2*3/2 ~ d'2*3/2 bes2*3/2 \shiftRight a2 f4 \finalis
-f2 g2*3/4 ~ g2*3/2 f2*3/2 \divisioMinima d2*3/2 ~ d2*3/2 f2*3/2 e2 f4 d'2*4/2 ~ d'2 ~ \divisioMinima d'2*3/2 bes2*3/2 ~ bes2*3/2 g2 f4 f2*4/2 ~ f2 \divisioMinima d2*3/2 ~ d2*3/2 f2*3/2 e2 f4 \finalis
-f2*3/2 ~ f2 ~ f2*3/4 e2*3/4 d2*3/2 e2 f4 ~ \divisioMinima f2*3/2 ~ f2*3/2 d2*3/2 e2 f4 \finalis
+d'2 ~ d'2 ~ d'2 \divisioMinima
+bes2*3/2 ~ bes2*3/2 a2*3/2 e2 f4 \finalis
+f2 e2 f2 ~ \divisioMinima
+f2*3/2 g2*3/2 ~ g2*3/2 ~ g2 f4 \finalis
+d'2*4/2 ~ d'2 ~ \divisioMinima
+d'2*3/2 bes2*3/2 ~ bes2*3/2 g2 f4 \finalis
+f2 g2*3/4 ~ g2*3/2 f2*3/2 \divisioMinima
+d2*3/2 ~ d2*3/2 f2*3/2 e2 f4 \finalis
+d'2 ~ d'2*3/4 e'2*3/2 f'2*3/2 \divisioMinima
+d'2*3/2 ~ d'2*3/2 bes2*3/2 \shiftRight a2 f4 \finalis
+f2 g2*3/4 ~ g2*3/2 f2*3/2 \divisioMinima
+d2*3/2 ~ d2*3/2 f2*3/2 e2 f4 \finalis
+d'2*4/2 ~ d'2 ~ \divisioMinima
+d'2*3/2 bes2*3/2 ~ bes2*3/2 g2 f4 \finalis
+f2*4/2 ~ f2 \divisioMinima
+d2*3/2 ~ d2*3/2 f2*3/2 e2 f4 \finalis
+f2*3/2 ~ f2 ~ f2*3/4 e2*3/4 d2*3/2 e2 f4 ~ \divisioMinima
+f2*3/2 ~ f2*3/2 d2*3/2 e2 f4 \finalis
 }
 
 bassMusic = {

@@ -5,6 +5,8 @@
 %Page reference: page v.79
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key d \phrygian
  \cadenzaOn
@@ -29,7 +31,7 @@ Quó -- ni -- am tu so -- lus san -- ctus.
 Tu so -- lus Dó -- mi -- nus. 
 Tu so -- lus Al -- tís -- si -- mus, Je -- su Chri -- ste. 
 Cum San -- cto Spí -- ri -- tu, in gló -- ri -- a De -- i Pa -- tris. 
-A -- _ _ men. }
+A -- _ men. _ }
 
 chantMusic = {
 \tieDown   bes'4 ( bes'4) g'4 g'4 f'4 g'4 a'4 ( bes'4) g'4 g'4 ( f'4) f'4 ( g'4) \finalis
@@ -169,7 +171,7 @@ c2 bes,2 ~ bes,4 a,2 ~ a,4 \finalis d4 ~ d2*4/2 ~ d4 ~ d2*3/2 ~ \divisioMinima
 d2 ~ d2 ~ d4 \finalis
 bes,4 ~ bes,2 ~ bes,2 ~ bes,2*3/2 ~ bes,4 ~ \divisioMinima
 bes,4 ~ bes,2*4/2 a,4 ~ a,2 g,2 ~ g,4 \finalis
-bes2*3/2 g,2*3/2 ~ g,2*4/2 ~ g,2 \finalis
+bes,2*3/2 g,2*3/2 ~ g,2*4/2 ~ g,2 \finalis
 }
 
 voiceLines = {
@@ -178,6 +180,7 @@ voiceLines = {
 
 s2*176/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" f2*1/2 f2*1/2
 
 

@@ -5,6 +5,8 @@
 %Page reference: page v.152
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key e \phrygian
  \cadenzaOn 
@@ -68,7 +70,7 @@ chantMusic = {
  \forceBreak
  a'4 a'4 a'4 a'4 a'4 a'4 a'4 b'4 ( a'4) g'4 a'4 b'4 a'4 a'4 a'4 \divisioMinima
  \forceBreak
- a'4 g'4 ( a'4 g'4) a'4 ( b'4 a'4 g'4.) a'4 ( g'4 f'4 e'4) f'4 ( g'4) ~ g'4 ( g'4) ~ g'4 ( f'4 e'4 e'4) \finalis
+ a'4 g'4 ( a'4 g'4) a'4 ( b'4 a'4 g'4.) a'4 ( g'4 f'4 e'4) f'4 ( g'4) g'4 ( g'4) g'4 ( f'4 e'4 e'4) \finalis
 
 }
 
@@ -92,7 +94,7 @@ f'2*5/2 ~ f'2 ~ f'2 d'2 \finalis
 e'4 ~ e'2*3/2 d'2*3/2 c'2 ~ c'2 ~ c'2 b2 \finalis
 e'2*4/2 f'2 e'2 \finalis
 e'4 d'2 c'2*3/2 \finalis
-f'4 ~ f'2*3/2 ~ f'2 -\tweak Glissando.Y-offset #-0.8 \glissando g'4 ~ g'2 ~ g'4 \glissando a'4 b'4 a'4 g'4 ~ g'2*3/2 ~ g'2*3/2 f'2 \glissando a'4 g'4 \finalis
+f'4 ~ f'2*3/2 ~ f'2 -\tweak Glissando.Y-offset #-0.8 \glissando g'4 ~ g'2 ~ g'4 \glissando a'4 b'4 a'4 g'4 ~ g'2*3/2 ~ g'2*3/2 f'2 -\tweak Glissando.Y-offset #-0.8 \glissando a'4 g'4 \finalis
 f'4 ~ f'2 e'2 ~ e'2 ~ e'2 ~ e'2 ~ e'2 ~ e'2 ~ \divisioMinima
 e'4 ~ e'2*3/2 ~ e'2*9/4 d'2 c'2 ~ c'2 ~ c'2 b2 a2 \finalis
 }

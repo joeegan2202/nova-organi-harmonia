@@ -2,6 +2,8 @@
 \include "gregorian.ly"
 \include "noh2.ily"
 
+%Proofed 3/14
+
 global = {
   \key d \major
   \cadenzaOn
@@ -139,7 +141,7 @@ altoMusic = \relative c' {
   %2
   d2*3/2~ d2~ d~
   d2*1/2~ d2~ d2*3/2~ d2~
-  d~ d2*3/2 e2 \glissando fis4
+  d~ d2*3/2 e2 -\tweak Glissando.Y-offset #-0.8 \glissando fis4
   d2*1/2 g2*3/2( e4)~ e2*1/2~ e4
 
   %3

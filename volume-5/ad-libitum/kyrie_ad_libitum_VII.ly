@@ -5,6 +5,8 @@
 %Page reference: page v.132
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key e \dorian
  \cadenzaOn 
@@ -75,7 +77,8 @@ d'2 ~ d'2*3/2 ~ d'2*3/2 b2*3/2 a2*3/2 b2 \finalis
 
 tenorMusic = {
 g2*3/2 fis2*3/2 \shiftRight e2 ~ e2*3/2 a2*5/2 ~ a2*3/2 g4 \finalis
-e2*3/2 b,2*3/2 ~ b,2 cis2*3/2 d2*3/2 e2 b,2*3/2 ~ b,4 g2*3/2 ~ g2*3/2 ~ g2 ~ g2*3/2 a2*5/2 ~ a2*3/2 g4 \finalis
+e2*3/2 b,2*3/2 ~ b,2 cis2*3/2 d2*3/2 e2 b,2*3/2 ~ b,4 \finalis
+g2*3/2 ~ g2*3/2 ~ g2 ~ g2*3/2 a2*5/2 ~ a2*3/2 g4 \finalis
 fis4 g2*9/4 ~ g2*5/2 \divisioMinima
 a2 ~ a2*3/2 b2*3/2 \shiftRight a2*3/2 ~ a2*3/2 \shiftRight g2 \finalis
 b4 ~ b2*9/4 ~ b2 ~ b2*3/2 \divisioMinima
@@ -127,6 +130,18 @@ s2*101/2
 \allowVoiceLineBreak
 \voiceLine "down" "up" b2*3/2 b2*1/2
 
+}
+
+voiceLinesTwo = {
+\voiceLineStyle
+
+
+s2*263/4
+
+
+s2*104/2
+\allowVoiceLineBreak
+\voiceLine "down" "up" a2*3/2 a2*1/2
 
 }
 
@@ -157,6 +172,9 @@ s2*101/2
         }
 	\new Voice {
         \voiceThree \global \voiceLines
+        }
+	\new Voice {
+        \voiceThree \global \voiceLinesTwo
         }
       >>
     >>

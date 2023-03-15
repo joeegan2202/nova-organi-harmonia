@@ -2,6 +2,8 @@
 \include "gregorian.ly"
 \include "noh2.ily"
 
+%Proofed 3/14
+
 %Page reference: page v.58
 %(volume.page)
 
@@ -46,9 +48,9 @@ chantMusic = {
 }
 
 altoMusic = {
-e'2*4/2 ~ e'2*3/2 -\tweak Glissando.Y-offset #-0.8 \glissando fis'4 e'4 d'4 e'4 b2 ~ b4 \finalis
+e'2*4/2 ~ e'2*3/2 -\tweak Glissando.Y-offset #-1.2 \glissando fis'4 e'4 d'4 e'4 b2 ~ b4 \finalis
 b4 ~ b2*4/2 ~ b2*4/2 ~ b2 ~ b4 \finalis
-e'2*4/2 ~ e'2*3/2 -\tweak Glissando.Y-offset #-0.8 \glissando fis'4 e'4 d'4 e'4 b2 ~ b4 \finalis
+e'2*4/2 ~ e'2*3/2 -\tweak Glissando.Y-offset #-1.2 \glissando fis'4 e'4 d'4 e'4 b2 ~ b4 \finalis
 fis'4 ~ fis'2 ~ fis'2*3/2 ~ fis'2 ~ fis'4 \finalis
 d'2*3/2 ~ d'2*3/2 ~ d'2*4/2 b2 ~ b4 \finalis
 fis'4 ~ fis'2 ~ fis'2*3/2 ~ fis'2 ~ fis'4 \finalis

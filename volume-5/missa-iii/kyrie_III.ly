@@ -5,6 +5,8 @@
 %Page reference: page v.17
 %(volume.page)
 
+% Proofed 3/11
+
 global = {
  \key g \phrygian
  \cadenzaOn 
@@ -16,9 +18,9 @@ Ký -- ri -- e,
 \set stanza = " * " _ _ _ e -- lé -- i -- son. 
 Ký -- ri -- e _ _ _ e -- lé -- i -- son. 
 Ký -- ri -- e _ _ _ e -- lé -- i -- son. 
-Chri -- _ ste, _ _ e -- lé -- i -- son. 
+Chri -- _ ste, _ _ _ e -- lé -- i -- son. 
 Chri -- ste, _ _ _ _ e -- lé -- i -- son. 
-Chri -- _ ste, _ _ e -- lé -- i -- son. 
+Chri -- _ ste, _ _ _ e -- lé -- i -- son. 
 Ký -- ri -- e, _ _ _ _ _ e -- lé -- i -- son. 
 Ký -- ri -- e, _ _ _ _ _ e -- lé -- i -- son. 
 Ký -- ri -- e, _ _ _ 
@@ -38,14 +40,14 @@ chantMusic = {
  g'4 ( bes'4 c''4 bes'4 aes'4 g'4.) bes'4 ( g'4) aes'4 ( g'4 f'4 ees'4) f'4 aes'4 f'4 g'4 \finalis
  \forceBreak
  g'4 ( f'4 ees'4) f'4 ( g'4) g'4 ( aes'4) ~ aes'4 ( g'4) \divisioMinima
- g'4 ( aes'4 bes'4 c''4 c''4) ~ c''4 ( bes'4 aes'4 f'4) g'4 ( f'4 ees'4) f'4 aes'4 f'4 g'4 \finalis
+ g'4 ( aes'4 bes'4 c''4 c''4) c''4 ( bes'4 aes'4 f'4) g'4 ( f'4 ees'4) f'4 aes'4 f'4 g'4 \finalis
  \forceBreak
  g'4 ( aes'4) g'4. f'4 ( g'4 aes'4 bes'4) ~ bes'4 ( g'4) \divisioMinima
  g'4 ( bes'4) c''4 ( f'4) g'4 ( bes'4 aes'4 f'4 ees'4) f'4 aes'4 f'4 g'4 \finalis
  \forceBreak
  g'4 ( f'4 ees'4) f'4 ( g'4)
  g'4 ( aes'4) ~ aes'4 ( g'4) \divisioMinima
- g'4 ( aes'4 bes'4 c''4 c''4) ~ c''4 ( bes'4 aes'4 f'4) g'4 ( f'4 ees'4) f'4 aes'4 f'4 g'4 \finalis
+ g'4 ( aes'4 bes'4 c''4 c''4) c''4 ( bes'4 aes'4 f'4) g'4 ( f'4 ees'4) f'4 aes'4 f'4 g'4 \finalis
   f'4 ( c''4 des''4) c''4 \forceBreak
  c''4. bes'4 ( aes'4 bes'4) c''4 ( bes'4 aes'4 g'4) \divisioMinima
  g'4 ( aes'4) bes'4 ( g'4) aes'4 ( g'4 f'4 ees'4) f'4 aes'4 f'4 g'4 \finalis
@@ -74,7 +76,7 @@ bes2*3/2 ~ bes2*3/2 ees'2*3/2 \divisioMinima
 c'2*3/2 ~ c'2 ~ c'2*4/2 ~ c'2*4/2 ees'2*3/2 \finalis
 ees'2 ~ ees'2*3/4 ~ ees'2*3/2 ~ ees'2*3/2 \divisioMinima
 c'2 ~ c'2 ~ c'2 ~ c'2*4/2 ~ c'2*3/2 \finalis
-bes2*3/2 ~ bes2*3/2 g'2*3/2 \divisioMinima
+bes2*3/2 ~ bes2*3/2 ees'2*3/2 \divisioMinima
 c'2*3/2 ~ c'2 ~ c'2*4/2 ~ c'2*4/2 ees'2*3/2 f'2*4/2 ~ f'2*3/4 ~ f'2*3/2 ees'2 ~ ees'2 ~ \divisioMinima
 ees'2*4/2 c'2 ~ c'2*3/2 ees'2*3/2 \finalis
 c'4 ~ c'2 ~ c'2*3/4 ~ c'2*3/2 bes2*3/2 \divisioMinima
@@ -97,11 +99,14 @@ ees2*3/2 ~ ees2 f2*4/2 aes2*4/2 bes2*3/2 \finalis
 c'2 ~ c'2*3/4 ~ c'2*3/2 bes2*3/2 ~ \divisioMinima
 bes2 aes2 g2 f2*4/2 ees2*3/2 \finalis
 ees2*3/2 ~ ees2*3/2 ~ ees2*3/2 ~ \divisioMinima
-ees2*3/2 ~ ees2 f2*4/2 aes2*4/2 bes2*3/2 aes2*4/2 ~ aes2*3/4 ~ aes2*3/2 ~ aes2 c'2 \divisioMinima
+ees2*3/2 ~ ees2 f2*4/2 aes2*4/2 bes2*3/2 \finalis
+aes2*4/2 ~ aes2*3/4 ~ aes2*3/2 ~ aes2 c'2 \divisioMinima
 bes2*4/2 ~ bes2 aes2*3/2 c'2*3/2 \finalis
 f4 ~ f2 ees2*3/4 ~ ees2*3/2 ~ ees2*3/2 \divisioMinima
-g2*4/2 \shiftRight f2 aes2*3/2 ees2*3/2 aes2*4/2 ~ aes2*3/4 ~ aes2*3/2 ~ aes2 bes2 ~ \divisioMinima
-bes2 c'2 bes2*3/2 c'2 aes2*3/2 ~ aes2*3/2 ~ aes2 bes2 \divisioMinima
+g2*4/2 \shiftRight f2 aes2*3/2 ees2*3/2 \finalis
+aes2*4/2 ~ aes2*3/4 ~ aes2*3/2 ~ aes2 bes2 ~ \divisioMinima
+bes2 c'2 bes2*3/2 \divisioMaior
+c'2 aes2*3/2 ~ aes2*3/2 ~ aes2 bes2 \divisioMinima
 c'2 ~ c'2 ~ c'2*3/2 \divisioMaior
 g2 f2 aes2 ees2 ~ \divisioMinima
 ees2 f2*3/2 c2*3/2 d2 ees4 \finalis
@@ -135,6 +140,7 @@ voiceLines = {
 
 s2*419/4
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" aes2*2/2 aes2*1/2
 
 

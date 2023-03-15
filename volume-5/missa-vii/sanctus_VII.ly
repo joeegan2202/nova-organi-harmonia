@@ -100,6 +100,7 @@ voiceLines = {
 
 s2*5/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" a2*2/2 a2*1/2
 
 

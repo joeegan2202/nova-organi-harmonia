@@ -2,8 +2,13 @@
 \include "gregorian.ly"
 \include "noh2.ily"
 
+% For some reason, the NOH puts this together with the Agnus Dei.
+% I'm not sure why, and I've separated it.
+
 %Page reference: page v.90
 %(volume.page)
+
+% Proofed 3/14
 
 global = {
  \key e \phrygian

@@ -5,6 +5,8 @@
 %Page reference: page v.23
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key b \minor
  \cadenzaOn 
@@ -144,6 +146,7 @@ s2*11/2
 
 s2*31/2
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" b,2*2/2 b,2*1/2
 
 

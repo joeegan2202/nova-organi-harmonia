@@ -5,6 +5,8 @@
 %Page reference: page v.124
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key e \dorian
  \cadenzaOn 
@@ -79,7 +81,7 @@ c'2*6/2 b2 ~ b2*3/4 d'2*5/4 ~ d'2*4/2 -\tweak Glissando.Y-offset #-0.8 \glissand
 b2*3/2 ~ b4 c'2 d'2*5/2 ~ d'2*3/4 c'2*4/2 b2*3/2 a2 b2 e'2*7/4 ~ e'2*3/2 ~ e'4 d'4 e'4 e'4 ~ \divisioMinima
 e'2*3/2 d'2*3/2 b2*4/2 \divisioMinima
 d'2*3/2 ~ d'2*3/2 c'2 b2 \divisioMinima
-d'2*9/4 ~ d'2 ~ d'2*4/2 -\tweak Glissando.Y-offset #-0.8 \glissando e'4 fis'4 d'4 b4 b2*3/2 b4 \finalis
+d'2*9/4 ~ d'2 ~ d'2*4/2 -\tweak Glissando.Y-offset #-0.8 \glissando e'4 fis'4 d'4 b4 ~ b2*3/2 b4 \finalis
 }
 
 tenorMusic = {
@@ -106,7 +108,7 @@ a2*9/4 ~ a2 g2*4/2 ~ g2 fis2 g2*3/2 ~ g4 \finalis
 }
 
 bassMusic = {
-r2*5/2 d'2*3/4 cis'2*4/2 b2 g2*7/4 a2*4/2 e2*4/2 ~ e2 ~ e4 \finalis
+r2*5/2 d'2*3/4 c'2*4/2 b2 g2*7/4 a2*4/2 e2*4/2 ~ e2 ~ e4 \finalis
 r2 fis2*3/2 e2*3/2 b,2*5/4 ~ b,2*4/2 \divisioMinima
 e2*4/2 ~ e2*3/2 ~ e4 e2*5/2 a2*3/4 ~ a2*4/2 e2 ~ e2*7/4 ~ e2*4/2 \shiftRight a2 g2 fis2 e4 \finalis
 e2*3/2 ~ e2*4/2 ~ e2*5/4 b,2*3/2 ~ b,2*3/2 \divisioMinima
@@ -154,6 +156,7 @@ s2*11/4
 
 s2*131/4
 \allowVoiceLineBreak
+\offsetVoiceLineY
 \voiceLine "down" "down" fis2*2/2 fis2*1/2
 
 

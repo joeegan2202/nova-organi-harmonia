@@ -5,6 +5,8 @@
 %Page reference: page v.95
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key ees \lydian
  \cadenzaOn 
@@ -54,8 +56,8 @@ g2*3/2 aes2*3/2 g4 \divisioMinima
 ees'2 ~ ees'2*3/2 d'4 ees'2 c'2 ~ c'2 d'2 ~ \divisioMaior
 d'2 c'4 bes2 aes2*3/2 g4 \finalis
 g2*3/2 aes2*3/2 g4 \divisioMinima
-g2 ~ g2*4/2 ~ g2 ~ g2 ~ g2 f4 -\tweak Glissando.Y-offset #-0.8 \glissando \change Staff = "up" bes4 \change Staff = "down" \divisioMaior
-ees2 f4 aes2 ~ aes2*3/2 g4 \finalis
+g2 ~ g2*4/2 ~ g2 ~ g2 ~ g2 f4 -\tweak Glissando.Y-offset #-0.8 \glissando \voiceTwo \change Staff = "up" bes4 \change Staff = "down" \divisioMaior
+\voiceOne ees2 f4 aes2 ~ aes2*3/2 g4 \finalis
 bes2*3/2 ~ bes2*3/2 ~ bes4 \divisioMinima
 ees'2 ~ ees'2*3/2 d'4 ees'2 c'2 ~ c'2 d'2 \divisioMaior
 c'2 bes4 aes2 ~ aes2*3/2 g4 \finalis

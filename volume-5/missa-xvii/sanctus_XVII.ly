@@ -5,6 +5,8 @@
 %Page reference: page v.94
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key ees \major
  \cadenzaOn 
@@ -13,27 +15,27 @@ global = {
 
 chantText = \lyricmode {
 San -- ctus, 
-\set stanza = " * " San -- _ ctus, San -- _ ctus Dó -- mi -- nus De -- us Sá -- ba -- oth. 
+\set stanza = " * " San -- _ ctus, San -- ctus Dó -- mi -- nus De -- us Sá -- ba -- oth. 
 Ple -- ni sunt cœ -- li et ter -- ra gló -- ri -- a tu -- a. 
-Ho -- sán -- na _ in ex -- cél -- sis. 
+Ho -- sán -- na in ex -- cél -- sis. 
 Be -- ne -- dí -- ctus qui ve -- nit in nó -- mi -- ne Dó -- mi -- ni. 
-Ho -- sán -- na _ in ex -- cél -- sis. }
+Ho -- sán -- na in ex -- cél -- sis. }
 
 chantMusic = {
 \tieDown   bes'4 ( bes'4 g'4) ~ g'4 ( \once \tweak #'font-size #-4 f' ) ees'4 \divisioMinima
  ees'4 ( g'4) bes'4 ( bes'4 c''4) bes'4 \divisioMinima
- bes'4 ( bes'4 g'4) g'4 ( \once \tweak #'font-size #-4 f' ) ees'4 \divisioMinima
+ bes'4 ( bes'4 g'4) ~ g'4 ( \once \tweak #'font-size #-4 f' ) ees'4 \divisioMinima
  \forceBreak
  g'4 ees'4 g'4 bes'4 ( bes'4 c''4) bes'4 bes'4 ( \quil c'' d''4 ees''4 c''4 bes'4) c''4 ( bes'4) bes'4 \divisioMaxima
- bes'4  a'4  g'4 ( a'4 bes'4) \forceBreak
-  bes'4 ( a'4 f'4) g'4 f'4 ( g'4) ees'4 ( f'4 ees'4) ees'4 \divisioMinima
+ bes'4  aes'4  g'4 ( aes'4 bes'4) \forceBreak
+  bes'4 ( aes'4 f'4) g'4 f'4 ( g'4) ees'4 ( f'4 ees'4) ees'4 \divisioMinima
  ees'4 g'4 ( f'4) f'4 ( bes'4) bes'4 ( c''4 bes'4) bes'4 \divisioMaxima
  bes'4 ( \quil c'' d''4 ees''4 c''4 bes'4) c''4 ( \once \tweak #'font-size #-4 bes' ) \forceBreak
-  g'4 ( a'4 bes'4) bes'4 ( a'4 f'4) g'4 f'4 ( g'4) ees'4 ( f'4 ees'4) ees'4 \divisioMaxima
+  g'4 ( aes'4 bes'4) ~ bes'4 ( aes'4 f'4) g'4 f'4 ( g'4) ees'4 ( f'4 ees'4) ees'4 \divisioMaxima
  ees'4 g'4 ( f'4) f'4 ( bes'4) bes'4 bes'4 bes'4 ( c''4) bes'4 \divisioMinima
  ees'4 g'4 ( f'4) \forceBreak
  f'4 ( bes'4) bes'4 bes'4 ( c''4) bes'4 bes'4 \divisioMaxima
- bes'4 ( \quil c'' d''4 ees''4 c''4 bes'4) c''4 ( \once \tweak #'font-size #-4 bes' )  g'4 ( a'4 bes'4) bes'4 ( a'4 f'4) g'4 f'4 ( g'4) ees'4 ( f'4 ees'4) ees'4 \finalis
+ bes'4 ( \quil c'' d''4 ees''4 c''4 bes'4) c''4 ( \once \tweak #'font-size #-4 bes' )  g'4 ( aes'4 bes'4) ~ bes'4 ( aes'4 f'4) g'4 f'4 ( g'4) ees'4 ( f'4 ees'4) ees'4 \finalis
 
 }
 

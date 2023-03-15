@@ -2,39 +2,18 @@
 \include "gregorian.ly"
 \include "noh2.ily"
 
+%Proofed 3/14
+
 global = {
   \cadenzaOn
   \override Glissando #'thickness = #2.0
   \set tieWaitForNote = ##t
 }
 
-%\header {
-%  title = \markup \center-column {"Agnus Dei I." \vspace #1 }
-%  tagline = ""
-%  composer = ""
-%}
-
-%\paper {
-%  #(include-special-characters)
-%  oddHeaderMarkup = \markup \fill-line {
-%    \line {}
-%    \center-column {
-%      \on-the-fly #first-page     " "
-%      \on-the-fly #not-first-page ""
-%    }
-%    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
-%  }
-%  evenHeaderMarkup = \markup \fill-line {
-%    \line { \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string }
-%    \center-column { "" }
-%    \line {}
-%  }
-%}
-
 chantText = \lyricmode {
 	Dó -- mi -- ne Je -- su Chri -- ste, \set stanza = "*"
  Rex _ gló -- _ _ ri -- ae, li -- bé -- ra á -- ni -- mas ó -- mni -- um fi -- dé -- li -- um de -- func -- tó -- rum de poe -- nis in -- fér -- ni, et de pro -- fún -- do la -- cu: lí -- be -- ra e -- as de o -- re le -- ó -- nis, ne ab -- sór -- be -- at e -- as tár -- ta -- rus, ne ca -- dant in ob -- scú -- rum: sed sí -- gni -- fer sanc -- tus Mí -- cha -- el re -- prae -- sén -- tet e -- as in lu -- cem san -- _ ctam: \set stanza = "*"
- Quam o -- lim A -- bra -- hae pro -- mi -- sí -- sti, et sé _ _ _
+ Quam o -- lim A -- bra -- hae pro -- mi -- sí -- sti, et sé -- _ _ _
  _ mi -- ni e -- _ jus. \set stanza = "℣."
  Hó -- sti -- as et pre -- ces ti -- bi Dó -- mi -- ne lau -- dis of -- fé -- ri -- mus: tu sú -- sci -- pe pro a -- ni -- má -- bus il -- lis, qua -- rum hó -- di -- e me -- mó -- ri -- am fá -- ci -- mus: fac e -- as, Dó -- mi -- ne, de mor -- te tran -- sí -- re ad vi -- tam. \set stanza = "*"
  Quam o -- lim. 
@@ -45,17 +24,17 @@ chantMusic = {
 	\key f \major
 g'4 f'4( g'4) g'4 
 g'4 g'4( f'4) 
-g'4 g'4( bes'4 g'4 g'4 f'4) 
+g'4 g'4( bes'4 g'4) ~ g'4( f'4) 
 \divisioMinima
 bes'4. a'4( bes'4 c''4) 
-a'4( g'4 bes'4.) a'4( bes'4 g'4) a'4( g'4) f'4( g'4) g'4( bes'4 g'4 g'4 f'4) 
+a'4( g'4 bes'4.) a'4( bes'4 g'4) a'4( g'4) f'4( g'4) g'4( bes'4 g'4) ~ g'4( f'4) 
 \bar "" \break
 
 \divisioMaior
 a'4 f'4( g'4) g'4 
 g'4( a'4) g'4 g'4 
 \divisioMinima
-g'4( a'4) g'4 g'4 
+g'4( \once \tweak #'font-size #-4 a'4) g'4 g'4 
 a'4 a'4( g'4 bes'4) g'4( a'4 f'4) f'4 
 f'4( g'4 bes'4) a'4( bes'4) g'4( a'4 g'4) g'4 
 \bar "" \break
@@ -85,41 +64,41 @@ a'4( bes'4 g'4) f'4( g'4) g'4
 
 \divisioMaior
 g'4 
-g'4 f'4( d'4) 
+g'4 f'4( \once \tweak #'font-size #-4 d'4) 
 f'4 
 g'4( a'4) a'4( g'4 \quil a'4 bes'4 g'4) g'4 
 \divisioMaxima
 g'4( a'4 \quil bes'4 c''4) 
-bes'4( a'4) g'4( a'4) a'4 
-a'4( g'4) g'4( \quil a'4 bes'4 a'4) 
+bes'4( \once \tweak #'font-size #-4 a'4) g'4( a'4) a'4 
+a'4( \once \tweak #'font-size #-4 g'4) g'4( \quil a'4 bes'4 a'4) 
 \bar "" \break
 
 g'4( a'4 g'4) f'4( g'4) g'4 
 \divisioMaior
-g'4 g'4 bes'4( a'4) bes'4( c''4) 
+g'4 g'4 bes'4( \once \tweak #'font-size #-4 a'4) bes'4( c''4) 
 c''4( c''4 bes'4 g'4 f'4) g'4( a'4) 
 \divisioMinima
-f'4( a'4) 
-a'4( g'4 \quil a'4 bes'4) a'4( g'4) 
+f'4( \once \tweak #'font-size #-4 a'4) 
+a'4( g'4 \quil a'4 bes'4) a'4( \once \tweak #'font-size #-4 g'4) 
 \bar "" \break
 
-f'4( a'4) bes'4( g'4) g'4 
+f'4( a'4) bes'4( \once \tweak #'font-size #-4 g'4) g'4 
 \divisioMaxima
 g'4 
-g'4 f'4( d'4) 
+g'4 f'4( \once \tweak #'font-size #-4 d'4) 
 f'4 g'4( a'4) a'4( g'4) 
 bes'4 bes'4( a'4) g'4( a'4) g'4( g'4 f'4) 
 \divisioMaior
 bes'4( c''4) 
-a'4( g'4.) bes'4( c''4 bes'4 g'4)~ g'4( f'4) 
+a'4( g'4) bes'4( c''4 bes'4 g'4)~ g'4( f'4.) 
 \bar "" \break
 g'4( bes'4 a'4) bes'4( c''4 a'4)
 \divisioMinima
 g'4( bes'4 a'4) g'4( a'4 f'4) f'4( d'4) 
-f'4( \quil g'4 a'4) bes'4( g'4) g'4 
+f'4( \quil g'4 a'4) bes'4( \once \tweak #'font-size #-4 g'4) g'4 
 \finalis
 f'4 g'4( bes'4) bes'4( a'4) 
-g'4( f'4) 
+g'4( \once \tweak #'font-size #-4 f'4) 
 g'4( bes'4) bes'4( bes'4 a'4) 
 \bar "" \break
 
@@ -127,7 +106,7 @@ g'4( bes'4) bes'4( bes'4 a'4)
 f'4 g'4( bes'4) 
 bes'4 g'4( a'4 g'4 f'4) f'4 
 \divisioMinima
-a'4( g'4) a'4( bes'4) 
+a'4( \once \tweak #'font-size #-4 g'4) a'4( bes'4) 
 a'4( g'4) f'4 f'4( g'4) g'4 
 \divisioMaxima
 g'4( a'4 \quil bes'4 c''4) 
@@ -153,7 +132,7 @@ f'4 f'4( g'4) g'4
 \divisioMinima
 bes'4 
 a'4( g'4 g'4) f'4 
-a'4( bes'4 c''4) c''4( c''4 bes'4) a'4( g'4) 
+a'4( bes'4 \once \tweak #'font-size #-4 c''4) c''4( c''4 bes'4) a'4( g'4) 
 \bar "" \break
 
 a'4( bes'4 a'4) 
@@ -169,16 +148,16 @@ altoMusic = {
 d'4 
 c'2*4/4 
 d'4~ 
-d'2*10/4 
-f'4.~ 
+d'2*4/4~
+d'2*6/4
+f'2*3/4~ 
 f'2*6/4 
 d'2*7/4~ 
 d'2*10/4~ 
 d'2*4/4~ 
 d'2*4/4 
 c'2*6/4 
-d'2*6/4~ 
-d'4~ 
+d'2*8/4~ 
 d'2*8/4~ 
 d'2*10/4~ 
 d'2*6/4~ 
@@ -242,9 +221,9 @@ ees'2*4/4~
 ees'2*4/4 
 d'2*6/4~ 
 d'2*4/4~ 
-d'2*5/4~ 
+d'2*4/4~ 
 d'2*6/4 
-c'2*6/4 
+c'2*7/4 
 d'2*6/4 
 f'2*6/4~ 
 f'2*6/4 
@@ -313,23 +292,23 @@ d'4
 c'2*6/4 
 bes4 
 a2*6/4 
-g2*4/4 
+\shiftRight g2*4/4 
 a2*6/4 
 \divisioMinima
-bes4. 
+bes2*3/4 
 d'2*6/4~ 
 d'2*7/4 
 c'2*10/4 
 a2*4/4 
 bes2*4/4 
-a2*6/4~ 
+\shiftRight a2*6/4~ 
 \divisioMaior
 a4 
 c'2*6/4~ 
 c'2*8/4 
 \divisioMinima
 bes2*10/4~ 
-bes2*6/4~ 
+\shiftRight bes2*6/4~ 
 bes2*8/4~ 
 bes2*10/4 
 c'2*6/4 
@@ -337,7 +316,7 @@ bes4
 \divisioMaior
 s4 
 c'2*8/4 
-bes2
+\shiftRight bes2
 c'2*4/4 
 bes4 
 \divisioMinima
@@ -365,14 +344,14 @@ bes4~
 bes4~ 
 bes4 
 a2*4/4 
-d4~ 
+\shiftRight d4~ 
 d2*4/4~ 
 d2*10/4~ 
 d4 
 \divisioMaxima
 g2*8/4 
 f2*4/4 
-e2*4/4 
+e!2*4/4 
 f4~ 
 f2*4/4 
 g2*8/4 
@@ -391,11 +370,11 @@ c'2*4/4~
 c'2*8/4 
 bes2*4/4 
 a2*4/4 
-g2*4/4 
+\shiftRight g2*4/4 
 bes4 
 \divisioMaxima
 d4~ 
-d2*6/4~ 
+\shiftRight d2*6/4~ 
 d4~ 
 d2*4/4 
 g2*6/4~ 
@@ -404,15 +383,15 @@ bes2*4/4
 a2*6/4 
 \divisioMaior
 s2*4/4 
-c'2*5/4 
+c'2*4/4 
 bes2*6/4 
-a2*6/4 
-\divisioMinima
-g2*6/4 
+a2*7/4 
+\shiftRight g2*6/4 
 f2*6/4 
+\divisioMinima
 bes2*6/4 
 a2*6/4 
-d2*4/4~ 
+\shiftRight d2*4/4~ 
 d2*6/4~ 
 d2*4/4~ 
 d4 
@@ -422,14 +401,14 @@ ees'2*4/4
 d'2*4/4~ 
 d'2*4/4~ 
 d'2*4/4~ 
-d'2*6/4 
-c'4 
+\shiftRight d'2*6/4 
 \divisioMinima
+c'4 
 bes2*4/4~ 
 bes4 
 c'2*4/4 
 bes2*4/4 
-a4 
+\shiftRight a4 
 \divisioMinima
 d'2*4/4 
 c'2*4/4~ 
@@ -457,7 +436,7 @@ c'4
 \divisioMinima
 bes4 
 a2*6/4 
-g2*4/4 
+\shiftRight g2*4/4 
 a2*4/4~ 
 a2*4/4~ 
 a4 
@@ -485,7 +464,7 @@ bassMusic = {
 g2*8/4~ 
 g2*4/4 
 d2*6/4~ 
-d4.~ 
+d2*3/4~ 
 d2*6/4 
 g2*7/4~ 
 g2*10/4~ 
@@ -557,9 +536,9 @@ c2*4/4~
 c2*4/4 
 d2*6/4 
 g2*4/4~ 
-g2*5/4~ 
+g2*4/4~ 
 g2*6/4~ 
-g2*6/4~ 
+g2*7/4~ 
 g2*6/4 
 d2*6/4~ 
 d2*6/4~ 
@@ -603,8 +582,7 @@ g2*4/4
 d2*4/4~ 
 d2*4/4~ 
 d4 
-g,2*10/4 
-s4 
+g,2*12/4~
 g,2*6/4~ 
 g,4 
 bes,2*8/4 

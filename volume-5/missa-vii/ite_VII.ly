@@ -5,6 +5,8 @@
 %Page reference: page v.46
 %(volume.page)
 
+%Proofed 3/14
+
 global = {
  \key f \mixolydian
  \cadenzaOn 
@@ -18,8 +20,8 @@ De -- o, _ _ _ _ _ grá -- ti -- as. }
 
 chantMusic = {
 \tieDown   bes'4 a'4 ( g'4 f'4) ~ f'4 ( ees'4 g'4) \divisioMinima
- bes'4 ( a'4 f'4) g'4 ( f'4) ~ f'4 ( ees'4 g'4) ~ g'4 ( c'4) \divisioMinima
- c'4 ( d'4 ees'4 \quil f' g'4 f'4 ees'4 d'4 c'4) \divisioMinima
+ bes'4 ( a'4 \once \tweak #'font-size #-4 f'4) g'4 ( f'4) ~ f'4 ( ees'4 g'4) ~ g'4 ( c'4) \divisioMinima
+ c'4 ( d'4 ees'4 \quil f' g'4)( f'4 ees'4 d'4 c'4) \divisioMinima
  c'4 ( d'4 ees'4 \quil f' g'4) ~ g'4 ( f'4) g'4 ( ees'4) g'4 g'4 f'4 \finalis
 
 }
