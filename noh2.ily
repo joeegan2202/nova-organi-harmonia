@@ -1,52 +1,44 @@
 \version "2.22.0"
 
-%divisioMinima = {
-%  \once \override BreathingSign  #'stencil = #ly:breathing-sign::divisio-minima
-%
-%  % Workaround: add padding.  Correct fix would be spacing engine handle this.
-%  \once \override BreathingSign.minimum-X-extent = #'(-1.0 . 0.0)
-%  \once \override BreathingSign.minimum-Y-extent = #'(-2.5 . 2.5)
-%  %\once \override \barAlways = ##t
-%
-%  \breathe \bar ""
-%}
-%divisioMaior = {
-%  \once \override BreathingSign  #'stencil = #ly:breathing-sign::divisio-maior
-%  \once \override BreathingSign  #'Y-offset = #0
-%
-%  % Workaround: add padding.  Correct fix would be spacing engine handle this.
-%  \once \override BreathingSign.minimum-X-extent = #'(-1.0 . 0.0)
-%  \once \override BreathingSign.minimum-Y-extent = #'(-2.5 . 2.5)
-%  %\once \override \barAlways = ##t
-%
-%  \breathe \bar ""
-%}
-%divisioMaxima = {
-%  \once \override BreathingSign  #'stencil = #ly:breathing-sign::divisio-maxima
-%  \once \override BreathingSign  #'Y-offset = #0
-%%
-%%  % Workaround: add padding.  Correct fix would be spacing engine handle this.
-%  \once \override BreathingSign.minimum-X-extent = #'(-1.0 . 0.0)
-%  \once \override BreathingSign.minimum-Y-extent = #'(-2.5 . 2.5)
-%%  %\once \override \barAlways = ##t
-%%
-%%  \breathe \bar ""
-%%  \breathe \bar "|"
-%\bar "|"
-%}
-%
-%finalis = {
-%  \once \override BreathingSign  #'stencil = #ly:breathing-sign::finalis
-%  \once \override BreathingSign  #'Y-offset = #0
-%%
-%%  % Workaround: add padding.  Correct fix would be spacing engine handle this.
-%  \once \override BreathingSign.minimum-X-extent = #'(-1.0 . 0.0)
-%  \once \override BreathingSign.minimum-Y-extent = #'(-2.5 . 2.5)
-%%  \once \override BreathingSign  #'extra-spacing-height = #'(-0.5 . 0.5)
-%%
-%%  \breathe
-%  \bar "||"
-%}
+divisioMinima = {
+  \once \override BreathingSign.stencil = #ly:breathing-sign::divisio-minima
+
+  % Workaround: add padding.  Correct fix would be spacing engine handle this.
+  \once \override BreathingSign.minimum-X-extent = #'(-1.0 . 0.0)
+  \once \override BreathingSign.minimum-Y-extent = #'(-0.5 . 0.5)
+
+  \breathe
+}
+divisioMaior = {
+  \once \override BreathingSign.stencil = #ly:breathing-sign::divisio-maior
+  \once \override BreathingSign.Y-offset = #0
+
+  % Workaround: add padding.  Correct fix would be spacing engine handle this.
+  \once \override BreathingSign.minimum-X-extent = #'(-1.0 . 0.0)
+  \once \override BreathingSign.minimum-Y-extent = #'(-2.5 . 2.5)
+
+  \breathe
+}
+divisioMaxima = {
+  \once \override BreathingSign.stencil = #ly:breathing-sign::divisio-maxima
+  \once \override BreathingSign.Y-offset = #0
+
+  % Workaround: add padding.  Correct fix would be spacing engine handle this.
+  \once \override BreathingSign.minimum-X-extent = #'(-1.0 . 0.0)
+  \once \override BreathingSign.minimum-Y-extent = #'(-2.5 . 2.5)
+
+  \breathe
+}
+finalis = {
+  \once \override BreathingSign.stencil = #ly:breathing-sign::finalis
+  \once \override BreathingSign.Y-offset = #0
+
+  % Workaround: add padding.  Correct fix would be spacing engine handle this.
+  \once \override BreathingSign.minimum-X-extent = #'(-1.0 . 0.0)
+  \once \override BreathingSign.minimum-Y-extent = #'(-2.5 . 2.5)
+
+  \breathe
+}
 
 %
 % Voice leading lines are drawn as dotted glissandi
@@ -112,7 +104,9 @@ glisDown = { \once \override Glissando #'Y-offset = #-0.8 }
             (set! columns (cons grob columns)))
          ((lyric-syllable-interface engraver grob source-engraver)
             (set! lyrics-space (cons (cdr (ly:grob-property grob 'X-extent)) lyrics-space))
-            (ly:grob-set-property! grob 'X-extent '(0 . 0))))
+            (ly:grob-set-property! grob 'X-extent '(0 . 1)))
+         ((lyric-hyphen-interface engraver grob source-engraver)
+            (ly:grob-set-property! grob 'minimum-distance (if (> (car lyrics-space) 2) (+ 2 (car lyrics-space)) 0))))
        ((process-acknowledged engraver)
         (if columns (for-each
             (lambda (column)
@@ -197,7 +191,7 @@ quil  = {\once\override NoteHead #'stencil = #ly:text-interface::print \once\ove
   \context {
     \Lyrics
     \consists #Slur_spacing_engraver
-    \with { alignAboveContext = "up" }
+    %\with { alignAboveContext = "up" }
     \override LyricText #'font-size = #-1
     \override LyricSpace.minimum-distance = #1
     %\override LyricText.X-extent = #'(0 . 0)
@@ -215,10 +209,10 @@ quil  = {\once\override NoteHead #'stencil = #ly:text-interface::print \once\ove
 \paper {
     tagline = ##f
     print-page-number = ##f
-    top-margin = 0.625\in
-    bottom-margin = 0.625\in
-    left-margin = 0.625\in
-    right-margin = 0.625\in
+    top-margin = 0.5\in
+    bottom-margin = 0.5\in
+    left-margin = 0.5\in
+    right-margin = 0.5\in
     system-system-spacing =
       #'((basic-distance . 14)
          (minimum-distance . 14)

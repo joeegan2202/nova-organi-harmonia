@@ -28,15 +28,18 @@ Ký -- ri -- e _ _
 
 chantMusic = {
 \tieDown   f'4 ( g'4 bes'4) g'4 g'4 ( bes'4) ~ bes'4 ( a'4 f'4)  g'4 ( f'4 ees'4) f'4 f'4 d'4 \finalis
- f'4 ( g'4 bes'4) g'4 g'4 ( bes'4) ~ bes'4 ( a'4 f'4)  \forceBreak
+ f'4 ( g'4 bes'4) g'4 g'4 ( bes'4) ~ bes'4 ( a'4 f'4)
  g'4 ( f'4 ees'4) f'4 f'4 d'4 \finalis
+ \forceBreak
  f'4 ( g'4 bes'4) g'4 g'4 ( bes'4) ~ bes'4 ( a'4 f'4)  g'4 ( f'4 ees'4) f'4 f'4 d'4 \finalis
- bes'4 ( c''4 bes'4) \forceBreak
- a'4 ( g'4 bes'4.) g'4 ( bes'4 a'4) f'4 ( ees'4 g'4) \divisioMinima
- g'4 ( a'4 bes'4 a'4 g'4 f'4) d'4 ees'4 f'4 \finalis
- bes'4 ( c''4 bes'4) a'4 ( g'4 bes'4.) g'4 ( bes'4 a'4) f'4 ( ees'4 g'4) \divisioMinima
+ bes'4 ( c''4 bes'4) a'4 ( g'4 bes'4.)
+ g'4 ( bes'4 a'4) f'4 ( ees'4 g'4) \divisioMinima
  \forceBreak
  g'4 ( a'4 bes'4 a'4 g'4 f'4) d'4 ees'4 f'4 \finalis
+ bes'4 ( c''4 bes'4) a'4 ( g'4 bes'4.) g'4 ( bes'4 a'4) f'4 ( ees'4 g'4) \divisioMinima
+ g'4 ( a'4 bes'4 a'4 g'4 f'4)
+ \forceBreak
+ d'4 ees'4 f'4 \finalis
  bes'4 ( c''4 bes'4) a'4 ( g'4 bes'4.) g'4 ( bes'4 a'4) f'4 ( ees'4 g'4) \divisioMinima
  g'4 ( a'4 bes'4 a'4 g'4 f'4) d'4 ees'4 f'4 \finalis
  \forceBreak

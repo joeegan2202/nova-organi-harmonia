@@ -24,15 +24,18 @@ Ho -- sán -- na in ex -- cél -- sis. }
 chantMusic = {
 \tieDown   a'4 g'4 ( a'4 g'4 f'4) \divisioMinima
  f'4 ( g' a'4) g'4 ( a'4 g'4 f'4) \divisioMinima
- f'4 a'4 c''4 bes'4 ( c''4) c''4 \forceBreak
- c''4 c''4 ( bes'4) c''4 ( d''4) c''4 ( bes'4 a'4) a'4 \divisioMaxima
+ \once\override NoteHead.Y-extent=#'(5 . 0) f'4 a'4 c''4 bes'4 ( c''4) c''4 c''4 c''4 ( bes'4) c''4 ( d''4)
+ \forceBreak
+ c''4 ( bes'4 a'4) a'4 \divisioMaxima
  g'4 ( d''4 ees''4) d''4 d''4 c''4 ( c''4 bes'4) c''4 c''4 ( d''4 c''4) a'4 a'4 \divisioMinima
  \forceBreak
- a'4 ( \quil bes' c''4 bes'4 a'4) g'4 g'4 ( a'4) g'4 ( f'4) f'4 \divisioMaxima
+ a'4 ( \quil bes' c''4 bes'4 a'4) g'4 g'4 ( a'4)
+ g'4 ( f'4) f'4 \divisioMaxima
  f'4 f'4 ( \once \tweak #'font-size #-4 c'' ) c''4 ( c''4 bes'4) c''4 c''4 ( d''4 c''4) a'4 a'4 \divisioMaxima
  \forceBreak
  g'4 ( d''4) d''4 ( c''4) d''4 ( ees''4) d''4 d''4 c''4 ( bes'4) c''4 \divisioMinima
- c''4 c''4 ( c''4 bes'4) c''4 c''4 ( d''4 c''4) bes'4 ( a'4) g'4 ( a'4) a'4 \divisioMaxima
+ c''4 c''4 ( c''4 bes'4) c''4
+ c''4 ( d''4 c''4) bes'4 ( a'4) g'4 ( a'4) a'4 \divisioMaxima
  \forceBreak
  a'4 ( \quil bes' c''4 bes'4 a'4) g'4 ( a'4) g'4 ( f'4) f'4 ( c''4) c''4 ( bes'4) c''4 ( d''4 c''4 c''4) a'4 \finalis
 

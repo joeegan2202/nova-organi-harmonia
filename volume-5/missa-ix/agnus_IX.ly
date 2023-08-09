@@ -23,7 +23,7 @@ chantText = \lyricmode {
   A -- gnus De -- _ i,
   \set stanza = "*"
   qui tol -- lis pec -- cá -- ta mun -- di:
-  do -- na -- no -- bis pa -- cem.
+  do -- na no -- bis pa -- cem.
 }
 
 chantMusic = \relative c' {
