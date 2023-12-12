@@ -44,10 +44,10 @@ finalis = {
 % Voice leading lines are drawn as dotted glissandi
 %
 voiceLineStyle = {
-  \override Glissando #'style = #'dotted-line
-  \override Glissando #'thickness = #2.0
-  \override NoteColumn #'force-hshift = #0
-  \override NoteHead #'transparent = ##t
+  \override Glissando.style = #'dotted-line
+  \override Glissando.thickness = #2.0
+  \override NoteColumn.force-hshift = #0
+  \override NoteHead.transparent = ##t
 }
 
 voiceLine =
@@ -73,10 +73,12 @@ halfBar = { \divisioMaior }
 singleBar = { \divisioMaxima }
 doubleBar = { \finalis }
 forceBreak  = { \bar "" \break }
-shiftRight  = { \once \override NoteColumn #'force-hshift = #0.9 }
-shiftRightB = { \once \override NoteColumn #'force-hshift = #1.6 }
-glisDown = { \once \override Glissando #'Y-offset = #-0.8 }
+shiftRight  = { \once \override NoteColumn.force-hshift = #0.9 }
+shiftRightB = { \once \override NoteColumn.force-hshift = #1.6 }
+glisDown = { \once \override Glissando.Y-offset = #-0.8 }
 
+#(ly:set-option 'compile-scheme-code)
+#(debug-enable 'backtrace)
 % Engraver built to automatically space slurred note groups:
 % still very work in progress.
 %
@@ -87,9 +89,52 @@ glisDown = { \once \override Glissando #'Y-offset = #-0.8 }
 %
 % Relies on the "\consists" inside of the layout block and manually setting \new Voice = "chant" for the voice controlling slurs
 #(define lyrics-space '())
+%#(define (Slur_spacing_engraver context)
+%   (let ((slur-on #f)
+%         (slur #f)
+%         (tie #f)
+%         (columns '()))
+%     (make-engraver
+%       (listeners
+%         ((slur-event engraver event)
+%            (if slur-on (set! slur #t))
+%            (if (not slur-on) (set! slur-on #t) (set! slur-on #f)))
+%         ((tie-event engraver event)
+%            (set! tie event)))
+%       (acknowledgers
+%         ((note-head-interface engraver grob source-engraver)
+%            (set! columns (cons grob columns)))
+%         ((lyric-syllable-interface engraver grob source-engraver)
+%            (set! lyrics-space (cons (cdr (ly:grob-property grob 'X-extent)) lyrics-space))
+%            (ly:grob-set-property! grob 'X-extent '(0 . 1.35)))
+%         ((lyric-hyphen-interface engraver grob source-engraver)
+%            (ly:grob-set-property! grob 'minimum-distance (if (> (car lyrics-space) 2) (+ 2 (car lyrics-space)) 0))))
+%       ((process-acknowledged engraver)
+%        (if columns (for-each
+%	  (lambda (column)
+%              (let ((text-space (if (null? lyrics-space) 2 (+ 1 (car lyrics-space)))))
+%              (define space (* (if (null? (ly:grob-object column 'dot)) 1 1.5) (+ (if slur-on 1 text-space) (if slur (if tie -1 1) 0))))
+%              (if (equal? (ly:context-id context) "chant")
+%                        (ly:grob-set-property! (ly:grob-parent column 1) 'X-extent
+%                        (cons space space))
+%              )
+%              (if (and (not slur-on) (null? lyrics-space)) (set! lyrics-space (cdr lyrics-space)))
+%              )
+%            )
+%           columns
+%          )
+%        )
+%       )
+%       ((stop-translation-timestep engraver)
+%          (set! slur #f)
+%          (set! tie #f)
+%          (set! columns '())))))
+#(set-object-property! 'space-subtracted 'backend-type? boolean?)
+#(set-object-property! 'already-spaced 'backend-type? boolean?)
 #(define (Slur_spacing_engraver context)
    (let ((slur-on #f)
          (slur #f)
+         (in-word #f)
          (tie #f)
          (columns '()))
      (make-engraver
@@ -101,22 +146,29 @@ glisDown = { \once \override Glissando #'Y-offset = #-0.8 }
             (set! tie event)))
        (acknowledgers
          ((note-head-interface engraver grob source-engraver)
-            (set! columns (cons grob columns)))
+            (if (equal? (ly:context-id context) "chant") (set! columns (cons grob columns))))
          ((lyric-syllable-interface engraver grob source-engraver)
             (set! lyrics-space (cons (cdr (ly:grob-property grob 'X-extent)) lyrics-space))
             (ly:grob-set-property! grob 'X-extent '(0 . 1)))
          ((lyric-hyphen-interface engraver grob source-engraver)
-            (ly:grob-set-property! grob 'minimum-distance (if (> (car lyrics-space) 2) (+ 2 (car lyrics-space)) 0))))
+            (ly:grob-set-property! grob 'extra-offset (cons (- (/ (car lyrics-space) 2) .4) 0))
+            ))
        ((process-acknowledged engraver)
         (if columns (for-each
             (lambda (column)
-              (let ((text-space (if (null? lyrics-space) 2 (+ 1 (car lyrics-space)))))
-              (define space (* (if (null? (ly:grob-object column 'dot)) 1 1.5) (+ (if slur-on 1 text-space) (if slur (if tie -1 1) 0))))
-              (if (equal? (ly:context-id context) "chant")
+              (let ((text-space (if (pair? lyrics-space) (+ 1 (car lyrics-space)) 2)))
+              (define space (* (if (null? (ly:grob-object column 'dot)) 1 1.5) (+ (if slur-on 1.5 (max 2.5 text-space)) (if slur (if tie -1 1) 0))))
+              (define minimum-space (if (and slur tie) (+ space 2) (if slur-on space (+ space 5))))
+              (if (and (equal? (ly:context-id context) "chant") (null? (ly:grob-property (ly:grob-parent column 1) 'space-subtracted)))
+                  (set! lyrics-space (if (pair? lyrics-space) (cons (- (car lyrics-space) space) (if (pair? lyrics-space) (cdr lyrics-space) '())))))
+              (if (and (equal? (ly:context-id context) "chant") (null? (ly:grob-property (ly:grob-parent column 1) 'space-subtracted)))
+                  (ly:grob-set-property! (ly:grob-parent column 1) 'space-subtracted '#t))
+              (if (and (equal? (ly:context-id context) "chant") (null? (ly:grob-property (ly:grob-parent column 1) 'already-spaced)))
                         (ly:grob-set-property! (ly:grob-parent column 1) 'X-extent
-                        (cons space space))
-              )
-              (if (and (not slur-on) (null? lyrics-space)) (set! lyrics-space (cdr lyrics-space)))
+                        (cons space minimum-space)))
+              (if (and (equal? (ly:context-id context) "chant") (null? (ly:grob-property (ly:grob-parent column 1) 'already-spaced)))
+                        (ly:grob-set-property! (ly:grob-parent column 1) 'already-spaced '#t))
+              (if (and (not slur-on) (not (null? lyrics-space))) (set! lyrics-space (if (pair? lyrics-space) (cdr lyrics-space) '())))
               )
             )
            columns
@@ -146,13 +198,13 @@ sb = {\once\override NoteColumn.X-extent = #'(2 . 2)}
 sc = {\once\override NoteColumn.X-extent = #'(3 . 3)}
 sd = {\once\override NoteColumn.X-extent = #'(4 . 4)}
 se = {\once\override NoteColumn.X-extent = #'(5 . 5)}
-quil  = {\once\override NoteHead #'stencil = #ly:text-interface::print \once\override NoteHead.text = \markup{\fontsize #1 \musicglyph "scripts.prall"}}
+quil  = {\once\override NoteHead.stencil = #ly:text-interface::print \once\override NoteHead.text = \markup{\fontsize #1 \musicglyph "scripts.prall"}}
 
 % Layout similar to all scores
 \layout {
   % Set basic staff size
   #(layout-set-staff-size 18)
-  ragged-last = ##f
+  ragged-right = ##t
     indent = #10
   \context {
     \Staff
@@ -160,6 +212,7 @@ quil  = {\once\override NoteHead #'stencil = #ly:text-interface::print \once\ove
     \override Slur.direction = #UP
     \hide Stem
     \accidentalStyle forget
+    \override PaperColumn.allow-loose-spacing = ##f
   }
   \context {
     \GrandStaff
@@ -178,6 +231,8 @@ quil  = {\once\override NoteHead #'stencil = #ly:text-interface::print \once\ove
     \override Stem.length = #0
     %\override NoteColumn.X-extent = #'(0.8 . 0.8)
     \override Rest.transparent = ##t
+
+    \remove Forbid_line_break_engraver
   }
   \context {
     \Score
@@ -192,7 +247,7 @@ quil  = {\once\override NoteHead #'stencil = #ly:text-interface::print \once\ove
     \Lyrics
     \consists #Slur_spacing_engraver
     %\with { alignAboveContext = "up" }
-    \override LyricText #'font-size = #-1
+    \override LyricText.font-size = #-1
     \override LyricSpace.minimum-distance = #1
     %\override LyricText.X-extent = #'(0 . 0)
     \override LyricText.layer = #5

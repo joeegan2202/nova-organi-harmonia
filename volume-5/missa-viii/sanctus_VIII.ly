@@ -15,7 +15,7 @@ global = {
 
 chantText = \lyricmode {
 San -- _ _ ctus, 
-\set stanza = " * " San -- ctus, San -- _ _ ctus 
+\set stanza = " * " San -- ctus, San -- _ ctus 
 Dó -- _ mi -- nus De -- us Sá -- _ _ _ ba -- oth. 
 Ple -- ni sunt cœ -- li et ter -- ra gló -- ri -- a tu -- a. 
 Ho -- sán -- na in ex -- cél -- _ sis. 
@@ -25,7 +25,7 @@ Ho -- sán -- na in ex -- cél -- _ _ sis. }
 chantMusic = {
 \tieDown   f'4 ( g'4) a'4 ( f'4) g'4 ( g'4 \once \tweak #'font-size #-4 f' ) f'4 \divisioMinima
  f'4 ( \once \tweak #'font-size #-4 e' ) d'4 ( c'4) \divisioMinima
- f'4 ( g'4 a'4) c''4 ( a'4) ~ a'4 ( g'4 f'4) g'4 f'4 \divisioMaior
+ f'4 ( g'4 a'4) c''4 ( a'4) ~ a'4 ( g'4 f'4) g'4( f'4) \divisioMaior
   f'4 ( a'4) c''4 ( bes'4 c''4) \forceBreak
  bes'4 ( a'4) a'4 c''4  bes'4 ( a'4) g'4 ( f'4) g'4 ( a'4 f'4) ~ f'4 ( d'4 c'4.) f'4 ( g'4 a'4) c''4 ( a'4) ~ a'4 ( g'4 f'4) g'4 ( f'4) f'4 \divisioMaxima
  \forceBreak

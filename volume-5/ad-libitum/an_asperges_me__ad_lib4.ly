@@ -21,7 +21,7 @@ la -- vá -- bis me, et su -- per ni -- vem de -- al -- bá -- bor.
 Mi -- se -- ré -- re me -- i De -- us, 
 \set stanza = " * " 
 se -- cún -- dum ma -- gnam mi -- se -- ri -- cór -- di -- am tu -- am. 
-Gló -- ri -- _ a Pa -- tri, et Fí -- li -- o, et Spi -- rí -- tu -- i San -- cto. 
+Gló -- ri -- a Pa -- tri, et Fí -- li -- o, et Spi -- rí -- tu -- i San -- cto. 
 \set stanza = " * " 
 Sic -- ut e -- rat in prin -- cí -- pi -- o, et nunc, et sem -- per, 
 et in sǽ -- cu -- la sæ -- cu -- ló -- rum. A -- men. }
@@ -34,14 +34,13 @@ chantMusic = {
  a'4  b'4 ( c''4) b'4 a'4 a'4 ( \once \tweak #'font-size #-4 g' ) a'4 ( b'4) a'4 ( \once \tweak #'font-size #-4 g'4 ) fis'4 fis'4 \finalis
  \forceBreak
  b'4 a'4 ( b'4) b'4 b'4 a'4 b'4 cis''4 b'4 \divisioMaxima
- b'4 b'4 b'4 b'4 b'4 b'4 b'4 b'4 \forceBreak
- a'4 b'4 cis''4 ( b'4) a'4 ( g'4) fis'4 \finalis
- b'4 a'4 b'4 b'4 b'4 b'4 b'4 b'4 b'4 b'4 \divisioMinima
- b'4 b'4 b'4 \forceBreak
- a'4 b'4 cis''4 b'4 \divisioMaxima
+ b'4 b'4 b'4 b'4 b'4 b'4 b'4 b'4
+ a'4 b'4 cis''4 ( b'4) \forceBreak a'4 ( g'4) fis'4 \finalis
+ b'4 a'4 ( b'4) b'4 b'4 b'4 b'4 b'4 b'4 b'4 \divisioMinima
+ b'4 b'4 b'4
+ a'4 b'4 cis''4 b'4 \divisioMaxima \forceBreak
  b'4 a'4 ( b'4) b'4 b'4 b'4 b'4 b'4 b'4 b'4 b'4 a'4 b'4 cis''4 b'4 \divisioMaxima
- \forceBreak
- b'4 b'4 b'4 b'4 b'4 b'4 a'4 b'4 cis''4 ( b'4) a'4 ( g'4) fis'4 \finalis
+ b'4 b'4 b'4 b'4 b'4 \forceBreak b'4 a'4 b'4 cis''4 ( b'4) a'4 ( g'4) fis'4 \finalis
 
 }
 
@@ -128,6 +127,7 @@ voiceLines = {
     }
   >>
   \layout{
+    ragged-last = ##t
   }
   
 }
