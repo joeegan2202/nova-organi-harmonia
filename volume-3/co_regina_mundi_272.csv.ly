@@ -3,7 +3,7 @@
 \include "noh2.ily"
 
 
-%Page reference: page iii.456
+%Page reference: page iii.272
 %(volume.page)
 
 global = {
@@ -90,6 +90,7 @@ voiceLines = {
 
 \score{
   <<
+    \new Lyrics
     \new GrandStaff <<
       \set GrandStaff.autoBeaming = ##f
       \set GrandStaff.instrumentName = \markup \center-column {
@@ -118,7 +119,7 @@ voiceLines = {
         }
       >>
     >>
-    \new Lyrics \lyricsto chant {
+    \context Lyrics \lyricsto chant {
       \chantText
     }
   >>
